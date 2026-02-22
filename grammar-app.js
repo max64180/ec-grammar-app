@@ -862,6 +862,7 @@ function renderQuestion() {
                 <div class="question-number ${numberClass}">${idx + 1}</div>
                 ${statusIcon ? `<div class="question-status">${statusIcon}</div>` : ''}
                 <div class="question-text">
+                    ${question.topic ? `<span style="display:inline-block;background:#e8f4fd;color:#2980b9;border:1px solid #aed6f1;border-radius:12px;padding:2px 10px;font-size:0.78em;font-weight:600;margin-bottom:8px;letter-spacing:0.3px;">${question.topic}</span><br>` : ''}
                     ${exercise.type === 'cloze-test' ? `<strong>Spazio (${question.blank_number}):</strong> Scegli l'opzione corretta` : question.text}
                 </div>
                 <div class="question-input-section">
@@ -903,6 +904,7 @@ function renderQuestion() {
             // Special rendering for key word transformation
             html += `
                 <div style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin: 10px 0;">
+                    ${question.topic ? `<div style="margin-bottom:10px;"><span style="display:inline-block;background:#e8f4fd;color:#2980b9;border:1px solid #aed6f1;border-radius:12px;padding:2px 10px;font-size:0.78em;font-weight:600;letter-spacing:0.3px;">${question.topic}</span></div>` : ''}
                     <div style="margin-bottom: 10px;">
                         <strong>Prima frase:</strong><br>
                         <span style="color: #555;">${question.first_sentence}</span>
@@ -1411,7 +1413,10 @@ function renderReviewQuestion() {
     document.getElementById('exerciseScore').textContent = '0 punti';
     
     let questionHTML = `<div class="question-container">
-        <div class="question-text">${question.text}</div>`;
+        <div class="question-text">
+            ${question.topic ? `<span style="display:inline-block;background:#e8f4fd;color:#2980b9;border:1px solid #aed6f1;border-radius:12px;padding:2px 10px;font-size:0.78em;font-weight:600;margin-bottom:8px;letter-spacing:0.3px;">${question.topic}</span><br>` : ''}
+            ${question.text}
+        </div>`;
     
     if (exercise.type === 'fill-blank' || exercise.type === 'translation') {
         questionHTML += `

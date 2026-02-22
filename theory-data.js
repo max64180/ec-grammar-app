@@ -446,5 +446,113 @@ const theoryData = {
                 note: "WHOSE crea un legame di possesso tra due elementi della frase, evitando ripetizioni e rendendo il discorso più fluido ed elegante."
             }
         ]
+    },
+    "all-mixed": {
+        title: "ALL - Mixed Practice",
+        subtitle: "Ripasso rapido di tutti gli argomenti: ogni flashcard ti ricorda la regola chiave, le parole spia e la trappola più comune",
+        sections: [
+            {
+                title: "Present Perfect vs Past Simple",
+                color: "#e74c3c",
+                content: "Usa il Present Perfect (have/has + past participle) per esperienze senza un tempo preciso, azioni con effetto sul presente o eventi recenti. Usa il Past Simple per azioni avvenute in un momento definito e concluso nel passato.",
+                examples: [
+                    {
+                        text: "I have visited Japan. / I visited Japan in 2019.",
+                        explanation: "Present Perfect = esperienza di vita (nessun tempo). Past Simple = momento preciso."
+                    },
+                    {
+                        text: "She has just finished the report. / She finished the report at 5 pm.",
+                        explanation: "just + Present Perfect per azioni appena compiute. Past Simple con orario preciso."
+                    }
+                ],
+                note: "⚠️ Trappola comune: 'yesterday', 'last week', 'in 2020', 'ago' → sempre Past Simple. 'already', 'just', 'yet', 'ever', 'never', 'since', 'for' (con effetto presente) → Present Perfect.",
+                keywords: "already, just, yet, ever, never, since, for, recently, so far, this week"
+            },
+            {
+                title: "Modal Verbs",
+                color: "#8e44ad",
+                content: "I modali esprimono: obbligo (must/have to), divieto (mustn't), mancanza di obbligo (don't have to), consiglio (should), possibilità (can/could/might), deduzione (must/can't). Dopo un modale segue sempre l'infinito senza 'to'.",
+                examples: [
+                    {
+                        text: "You must wear a seatbelt. / You don't have to wear a tie.",
+                        explanation: "must = obbligo. don't have to = non è necessario (ma puoi farlo)."
+                    },
+                    {
+                        text: "She must be tired. / He can't be at home — I just saw him.",
+                        explanation: "must = deduzione positiva. can't = deduzione negativa (impossibilità)."
+                    }
+                ],
+                note: "⚠️ Trappola comune: 'mustn't' ≠ 'don't have to'. Mustn't = è proibito. Don't have to = non è necessario. Non confonderli!",
+                keywords: "must, mustn't, have to, don't have to, should, shouldn't, can, could, might"
+            },
+            {
+                title: "Future Forms",
+                color: "#27ae60",
+                content: "Quattro modi principali per parlare del futuro: will (previsioni spontanee, decisioni al momento), going to (piani già decisi, previsioni con prove evidenti), Present Continuous (appuntamenti/arrangiamenti futuri), Present Simple (orari e programmi fissi).",
+                examples: [
+                    {
+                        text: "I'll call you later. / I'm going to call the doctor — I've been feeling ill.",
+                        explanation: "will = decisione spontanea. going to = decisione già presa con motivo."
+                    },
+                    {
+                        text: "The train leaves at 8:15. / We're meeting them at 7.",
+                        explanation: "Present Simple per orari fissi. Present Continuous per arrangiamenti personali."
+                    }
+                ],
+                note: "⚠️ Trappola comune: NON usare 'will' per piani già decisi in precedenza (usa going to). NON usare going to per orari di treni/aerei (usa Present Simple).",
+                keywords: "will, going to, arranged, scheduled, timetable, tomorrow, next week, soon"
+            },
+            {
+                title: "Conditionals",
+                color: "#e67e22",
+                content: "Zero Conditional (if + Present, Present): verità universali. First Conditional (if + Present, will): situazioni reali/probabili nel futuro. Second Conditional (if + Past Simple, would): situazioni ipotetiche o irreali nel presente/futuro.",
+                examples: [
+                    {
+                        text: "If you heat water to 100°C, it boils.",
+                        explanation: "Zero Conditional: fatto scientifico sempre vero."
+                    },
+                    {
+                        text: "If I had more time, I would learn the guitar.",
+                        explanation: "Second Conditional: situazione ipotetica (non ho tempo in realtà)."
+                    }
+                ],
+                note: "⚠️ Trappola comune: nel Second Conditional, dopo 'if' si usa 'were' per tutti i soggetti ('If I were you...'). Non usare 'would' nella if-clause.",
+                keywords: "if, unless, would, could, might, were, provided that, as long as"
+            },
+            {
+                title: "Relative Clauses",
+                color: "#2980b9",
+                content: "Defining relative clauses (senza virgole): identificano esattamente la persona/cosa. Non-defining (con virgole): aggiungono informazioni extra. Pronomi: who (persone), which (cose), that (persone/cose in defining), whose (possesso), where (luoghi), when (tempo).",
+                examples: [
+                    {
+                        text: "The woman who called you is my sister. (defining)",
+                        explanation: "Senza virgole: identifica quale donna. 'That' può sostituire 'who'."
+                    },
+                    {
+                        text: "My sister, who lives in Rome, is a doctor. (non-defining)",
+                        explanation: "Con virgole: aggiunge info extra. 'That' NON può sostituire 'who' qui."
+                    }
+                ],
+                note: "⚠️ Trappola comune: nelle non-defining clauses NON si usa 'that'. Il pronome relativo NON può essere omesso nelle non-defining clauses.",
+                keywords: "who, which, that, whose, where, when, whom, virgole"
+            },
+            {
+                title: "Past Perfect",
+                color: "#16a085",
+                content: "Past Perfect Simple (had + past participle): azione completata prima di un altro momento nel passato. Past Perfect Continuous (had been + -ing): azione in corso fino a un momento nel passato, con enfasi sulla durata. Con verbi di stato usa sempre il Simple.",
+                examples: [
+                    {
+                        text: "By the time she arrived, he had already left.",
+                        explanation: "Past Perfect Simple: la partenza è avvenuta prima dell'arrivo."
+                    },
+                    {
+                        text: "She was exhausted because she had been running for two hours.",
+                        explanation: "Past Perfect Continuous: azione in corso che giustifica uno stato presente (stanchezza)."
+                    }
+                ],
+                note: "⚠️ Trappola comune: i verbi di stato (know, want, own, understand, like...) non vanno mai al Continuous. 'She had known him for years' ✓ — 'She had been knowing him' ✗.",
+                keywords: "had, already, just, never, before, after, by the time, when, since, for, because"
+            }
+        ]
     }
 };
