@@ -4893,6 +4893,1017 @@ const grammarData = {
             }
         ]
     },
+    "vocabulary-word-formation": {
+        "title": "Vocabulary & Word Formation",
+        "description": "Lessico, collocations, phrasal verbs e trasformazioni di parola",
+        "exercises": [
+            {
+                "type": "fill-blank",
+                "difficulty": 3,
+                "questions": [
+                    {
+                        "text": "The city is trying to reduce air ___ by limiting traffic.",
+                        "answer": "pollution",
+                        "explanation": "Collocation comune: air pollution."
+                    },
+                    {
+                        "text": "He was very ___ after hearing the good news. (EXCITE)",
+                        "answer": "excited",
+                        "explanation": "Participial adjective per persone: excited."
+                    },
+                    {
+                        "text": "This jacket is too ___; I can't afford it. (EXPENSE)",
+                        "answer": "expensive",
+                        "explanation": "Da noun a adjective: expense -> expensive."
+                    },
+                    {
+                        "text": "Please ___ out the form before the interview.",
+                        "answer": "fill",
+                        "alternatives": ["fill in"],
+                        "explanation": "Phrasal verb: fill out/fill in a form."
+                    },
+                    {
+                        "text": "We need a more ___ solution to this problem. (CREATE)",
+                        "answer": "creative",
+                        "explanation": "Word formation: create -> creative."
+                    },
+                    {
+                        "text": "If you don't understand, ___ up the word in a dictionary.",
+                        "answer": "look",
+                        "alternatives": ["look up"],
+                        "explanation": "Phrasal verb: look up a word."
+                    },
+                    {
+                        "text": "The manager gave us some useful ___. (ADVISE)",
+                        "answer": "advice",
+                        "explanation": "Noun corretto: advice (uncountable)."
+                    },
+                    {
+                        "text": "She is very ___ and always helps her classmates. (CARE)",
+                        "answer": "caring",
+                        "alternatives": ["careful"],
+                        "explanation": "Caring descrive una persona premurosa."
+                    },
+                    {
+                        "text": "I can't come tonight because I have to ___ after my little brother.",
+                        "answer": "look",
+                        "alternatives": ["look after"],
+                        "explanation": "Phrasal verb: look after = prendersi cura di."
+                    },
+                    {
+                        "text": "There was a serious ___ in prices last year. (INCREASE)",
+                        "answer": "increase",
+                        "explanation": "Noun invariato: an increase in prices."
+                    },
+                    {
+                        "text": "He's very ___ at explaining difficult ideas. (SKILL)",
+                        "answer": "skilled",
+                        "explanation": "Word formation: skill -> skilled."
+                    },
+                    {
+                        "text": "The opposite of 'legal' is ___.",
+                        "answer": "illegal",
+                        "explanation": "Prefix negativo: il-."
+                    }
+                ]
+            },
+            {
+                "type": "multiple-choice",
+                "difficulty": 3,
+                "questions": [
+                    {
+                        "text": "Choose the correct collocation:",
+                        "options": [
+                            "do a mistake",
+                            "make a mistake",
+                            "put a mistake",
+                            "take a mistake"
+                        ],
+                        "answer": 1,
+                        "explanation": "Collocation corretta: make a mistake."
+                    },
+                    {
+                        "text": "Which word completes the sentence? 'I'm looking ___ my keys.'",
+                        "options": [
+                            "after",
+                            "for",
+                            "up",
+                            "at"
+                        ],
+                        "answer": 1,
+                        "explanation": "Look for = cercare."
+                    },
+                    {
+                        "text": "Choose the correct word: 'This exam was very ___.'",
+                        "options": [
+                            "stress",
+                            "stressed",
+                            "stressful",
+                            "stressing"
+                        ],
+                        "answer": 2,
+                        "explanation": "Stressful descrive una situazione."
+                    },
+                    {
+                        "text": "Which is the opposite of 'possible'?",
+                        "options": [
+                            "impossible",
+                            "inpossible",
+                            "unpossible",
+                            "dispossible"
+                        ],
+                        "answer": 0,
+                        "explanation": "Prefix corretto: im-."
+                    },
+                    {
+                        "text": "Choose the correct phrasal verb: 'Please ___ your coat; it's warm in here.'",
+                        "options": [
+                            "put on",
+                            "take off",
+                            "turn off",
+                            "set up"
+                        ],
+                        "answer": 1,
+                        "explanation": "Take off = togliersi (giacca/cappotto)."
+                    },
+                    {
+                        "text": "Choose the correct noun from 'decide':",
+                        "options": [
+                            "decisive",
+                            "decision",
+                            "deciding",
+                            "decider"
+                        ],
+                        "answer": 1,
+                        "explanation": "Noun corretto: decision."
+                    },
+                    {
+                        "text": "Which sentence is correct?",
+                        "options": [
+                            "She gave me a very useful advice.",
+                            "She gave me very useful advices.",
+                            "She gave me some very useful advice.",
+                            "She gave me a useful advises."
+                        ],
+                        "answer": 2,
+                        "explanation": "Advice e uncountable."
+                    },
+                    {
+                        "text": "Choose the correct adjective: 'He is ___ for this job.'",
+                        "options": [
+                            "suit",
+                            "suitable",
+                            "suitably",
+                            "suiting"
+                        ],
+                        "answer": 1,
+                        "explanation": "Word formation: suit -> suitable."
+                    },
+                    {
+                        "text": "Which word fits best? 'The film was so ___ that I fell asleep.'",
+                        "options": [
+                            "boring",
+                            "bored",
+                            "bore",
+                            "boredly"
+                        ],
+                        "answer": 0,
+                        "explanation": "Boring descrive la cosa; bored la persona."
+                    },
+                    {
+                        "text": "Choose the correct collocation:",
+                        "options": [
+                            "heavy rain",
+                            "strong rain",
+                            "big rain",
+                            "hard rain"
+                        ],
+                        "answer": 0,
+                        "explanation": "Collocation naturale: heavy rain."
+                    },
+                    {
+                        "text": "Choose the correct form: 'We need to find a ___ to this issue.'",
+                        "options": [
+                            "solve",
+                            "solution",
+                            "solving",
+                            "solved"
+                        ],
+                        "answer": 1,
+                        "explanation": "Noun corretto: solution."
+                    },
+                    {
+                        "text": "Which phrase means 'rinviare'?",
+                        "options": [
+                            "put off",
+                            "put out",
+                            "put up",
+                            "put in"
+                        ],
+                        "answer": 0,
+                        "explanation": "Put off = rimandare."
+                    }
+                ]
+            },
+            {
+                "type": "translation",
+                "difficulty": 3,
+                "questions": [
+                    {
+                        "text": "Questa decisione e molto importante per il nostro futuro.",
+                        "answer": "This decision is very important for our future",
+                        "alternatives": [],
+                        "explanation": "Uso di decision (noun) e important (adjective)."
+                    },
+                    {
+                        "text": "Dovresti compilare questo modulo prima della riunione.",
+                        "answer": "You should fill in this form before the meeting",
+                        "alternatives": [
+                            "You should fill out this form before the meeting"
+                        ],
+                        "explanation": "Phrasal verb: fill in/fill out a form."
+                    },
+                    {
+                        "text": "La situazione economica sta peggiorando.",
+                        "answer": "The economic situation is getting worse",
+                        "alternatives": [],
+                        "explanation": "Lessico: economic situation, get worse."
+                    },
+                    {
+                        "text": "Mi sono davvero divertito alla festa.",
+                        "answer": "I really enjoyed myself at the party",
+                        "alternatives": [
+                            "I really had fun at the party"
+                        ],
+                        "explanation": "Espressioni naturali per 'divertirsi'."
+                    },
+                    {
+                        "text": "Lui e disoccupato da sei mesi.",
+                        "answer": "He has been unemployed for six months",
+                        "alternatives": [],
+                        "explanation": "Word family: employ -> unemployed."
+                    },
+                    {
+                        "text": "Non riesco a sopportare questo rumore.",
+                        "answer": "I can't put up with this noise",
+                        "alternatives": [
+                            "I can't stand this noise"
+                        ],
+                        "explanation": "Phrasal verb: put up with."
+                    },
+                    {
+                        "text": "Hanno lanciato un nuovo prodotto il mese scorso.",
+                        "answer": "They launched a new product last month",
+                        "alternatives": [],
+                        "explanation": "Lessico aziendale: launch a product."
+                    },
+                    {
+                        "text": "Dobbiamo ridurre lo spreco di plastica.",
+                        "answer": "We need to reduce plastic waste",
+                        "alternatives": [],
+                        "explanation": "Collocation: reduce waste."
+                    }
+                ]
+            },
+            {
+                "type": "cloze-test",
+                "difficulty": 4,
+                "context": "Green Campus Project\\n\\nOur school has started a new environmental project. The main (1) ......... is to reduce waste and improve recycling habits. Last week, students were asked to (2) ......... in a short survey about their daily routines. The results were (3) ......... because many students said they wanted to help but didn't know where to start.\\n\\nSo the teachers decided to (4) ......... up small teams and assign clear tasks. One team will (5) ......... after the school garden, while another will focus on paper (6) ......... . A third group is planning a social media campaign to (7) ......... awareness.\\n\\nThe head teacher said that real change is possible only if everyone takes (8) ......... for their actions. She also warned students not to (9) ......... off small problems, because even small daily habits matter.\\n\\nIf the project succeeds, the school hopes to become a model for other institutions in the (10) ......... .",
+                "questions": [
+                    {
+                        "blank_number": 1,
+                        "options": [
+                            "A) decision",
+                            "B) solution",
+                            "C) aim",
+                            "D) advice"
+                        ],
+                        "answer": 2,
+                        "explanation": "Aim = obiettivo."
+                    },
+                    {
+                        "blank_number": 2,
+                        "options": [
+                            "A) fill",
+                            "B) make",
+                            "C) look",
+                            "D) take"
+                        ],
+                        "answer": 0,
+                        "explanation": "Fill in a survey."
+                    },
+                    {
+                        "blank_number": 3,
+                        "options": [
+                            "A) surprising",
+                            "B) surprised",
+                            "C) surprise",
+                            "D) surprisingly"
+                        ],
+                        "answer": 0,
+                        "explanation": "Surprising descrive i risultati."
+                    },
+                    {
+                        "blank_number": 4,
+                        "options": [
+                            "A) get",
+                            "B) set",
+                            "C) put",
+                            "D) turn"
+                        ],
+                        "answer": 1,
+                        "explanation": "Set up teams = organizzare/istituire."
+                    },
+                    {
+                        "blank_number": 5,
+                        "options": [
+                            "A) look",
+                            "B) watch",
+                            "C) keep",
+                            "D) take"
+                        ],
+                        "answer": 0,
+                        "explanation": "Look after = prendersi cura di."
+                    },
+                    {
+                        "blank_number": 6,
+                        "options": [
+                            "A) recycle",
+                            "B) recycled",
+                            "C) recycling",
+                            "D) recycler"
+                        ],
+                        "answer": 2,
+                        "explanation": "Noun/gerund usato come nome di attivita: recycling."
+                    },
+                    {
+                        "blank_number": 7,
+                        "options": [
+                            "A) rise",
+                            "B) raise",
+                            "C) grow",
+                            "D) lift"
+                        ],
+                        "answer": 1,
+                        "explanation": "Collocation: raise awareness."
+                    },
+                    {
+                        "blank_number": 8,
+                        "options": [
+                            "A) responsible",
+                            "B) responsibly",
+                            "C) responsibility",
+                            "D) respond"
+                        ],
+                        "answer": 2,
+                        "explanation": "Take responsibility for."
+                    },
+                    {
+                        "blank_number": 9,
+                        "options": [
+                            "A) put",
+                            "B) take",
+                            "C) look",
+                            "D) keep"
+                        ],
+                        "answer": 0,
+                        "explanation": "Put off = rimandare."
+                    },
+                    {
+                        "blank_number": 10,
+                        "options": [
+                            "A) neighbor",
+                            "B) neighborhood",
+                            "C) near",
+                            "D) nearly"
+                        ],
+                        "answer": 1,
+                        "explanation": "In the neighborhood = nella zona."
+                    }
+                ]
+            },
+            {
+                "type": "key-word-transformation",
+                "difficulty": 5,
+                "questions": [
+                    {
+                        "first_sentence": "It's not necessary to buy a new laptop now.",
+                        "keyword": "HAVE",
+                        "second_sentence_start": "You don't",
+                        "second_sentence_end": "a new laptop now.",
+                        "answer": "have to buy",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Not necessary -> don't have to."
+                    },
+                    {
+                        "first_sentence": "I advise you to revise every day.",
+                        "keyword": "SHOULD",
+                        "second_sentence_start": "You",
+                        "second_sentence_end": "every day.",
+                        "answer": "should revise",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 2,
+                        "explanation": "Advice -> should + base form."
+                    },
+                    {
+                        "first_sentence": "This jacket is too expensive for me.",
+                        "keyword": "ENOUGH",
+                        "second_sentence_start": "This jacket isn't",
+                        "second_sentence_end": "for me.",
+                        "answer": "cheap enough",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 2,
+                        "explanation": "Too expensive -> not cheap enough."
+                    },
+                    {
+                        "first_sentence": "I don't tolerate rude behaviour.",
+                        "keyword": "PUT",
+                        "second_sentence_start": "I don't",
+                        "second_sentence_end": "rude behaviour.",
+                        "answer": "put up with",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Phrasal verb equivalente: put up with."
+                    },
+                    {
+                        "first_sentence": "She recovered quickly after the operation.",
+                        "keyword": "MADE",
+                        "second_sentence_start": "She",
+                        "second_sentence_end": "after the operation.",
+                        "answer": "made a quick recovery",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "recover -> make a recovery."
+                    },
+                    {
+                        "first_sentence": "This medicine can reduce pain.",
+                        "keyword": "REDUCTION",
+                        "second_sentence_start": "This medicine can cause",
+                        "second_sentence_end": ".",
+                        "answer": "a reduction in pain",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "reduce -> reduction."
+                    },
+                    {
+                        "first_sentence": "He started his own business last year.",
+                        "keyword": "SET",
+                        "second_sentence_start": "He",
+                        "second_sentence_end": "last year.",
+                        "answer": "set up his own business",
+                        "alternatives": [],
+                        "min_words": 5,
+                        "max_words": 5,
+                        "explanation": "Phrasal verb: set up a business."
+                    },
+                    {
+                        "first_sentence": "Her explanation was very clear.",
+                        "keyword": "EXPLAINED",
+                        "second_sentence_start": "She",
+                        "second_sentence_end": ".",
+                        "answer": "explained it very clearly",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Word class shift: clear -> clearly."
+                    }
+                ]
+            }
+        ]
+    },
+    "exam-drills": {
+        "title": "Use of English - Exam Drills",
+        "description": "Simulazioni miste grammar + vocabulary + transformations (senza timer)",
+        "exercises": [
+            {
+                "type": "fill-blank",
+                "difficulty": 4,
+                "questions": [
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "I ___ (not finish) my homework yet.",
+                        "answer": "haven't finished",
+                        "explanation": "Present Perfect negativa con yet."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "He isn't at home. He ___ (be) at the gym.",
+                        "answer": "might be",
+                        "explanation": "Deduzione possibile: might be."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The final exam ___ (hold) in the main hall every June.",
+                        "answer": "is held",
+                        "explanation": "Present Simple passive."
+                    },
+                    {
+                        "topic": "Word Formation",
+                        "text": "The teacher praised her ___ (CREATE).",
+                        "answer": "creativity",
+                        "explanation": "Create -> creativity."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If I ___ (know) the answer, I would tell you.",
+                        "answer": "knew",
+                        "explanation": "Second Conditional."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "The boy ___ won the race is my cousin.",
+                        "answer": "who",
+                        "explanation": "Who per persone."
+                    },
+                    {
+                        "topic": "Vocabulary",
+                        "text": "Please ___ up this word in the dictionary.",
+                        "answer": "look",
+                        "alternatives": ["look up"],
+                        "explanation": "Phrasal verb: look up."
+                    },
+                    {
+                        "topic": "Past Perfect",
+                        "text": "By the time we arrived, the film ___ (already/start).",
+                        "answer": "had already started",
+                        "explanation": "Past Perfect per evento anteriore."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "The train ___ (leave) at 8:15 tomorrow.",
+                        "answer": "leaves",
+                        "explanation": "Present Simple per orari."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The suspects ___ (question) right now.",
+                        "answer": "are being questioned",
+                        "explanation": "Present Continuous passive."
+                    },
+                    {
+                        "topic": "Word Formation",
+                        "text": "He answered all the questions very ___ (CONFIDENT).",
+                        "answer": "confidently",
+                        "explanation": "Adverb da adjective: confidently."
+                    },
+                    {
+                        "topic": "Vocabulary",
+                        "text": "I can't ___ up with this noise anymore.",
+                        "answer": "put",
+                        "alternatives": ["put up"],
+                        "explanation": "Put up with = tollerare."
+                    }
+                ]
+            },
+            {
+                "type": "multiple-choice",
+                "difficulty": 4,
+                "questions": [
+                    {
+                        "topic": "Vocabulary",
+                        "text": "Choose the correct collocation:",
+                        "options": [
+                            "do progress",
+                            "make progress",
+                            "take progress",
+                            "have progress"
+                        ],
+                        "answer": 1,
+                        "explanation": "Collocation corretta: make progress."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The package ___ tomorrow morning.",
+                        "options": [
+                            "will deliver",
+                            "will be delivered",
+                            "is delivering",
+                            "has delivered"
+                        ],
+                        "answer": 1,
+                        "explanation": "Future passive."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "She got full marks. She ___ have studied very hard.",
+                        "options": [
+                            "can't",
+                            "must",
+                            "might",
+                            "should"
+                        ],
+                        "answer": 1,
+                        "explanation": "Must have + participio per deduzione forte sul passato."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "I ___ him two days ago.",
+                        "options": [
+                            "have seen",
+                            "saw",
+                            "have saw",
+                            "see"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Simple con tempo concluso."
+                    },
+                    {
+                        "topic": "Word Formation",
+                        "text": "Choose the correct noun from 'inform':",
+                        "options": [
+                            "informative",
+                            "information",
+                            "informing",
+                            "informer"
+                        ],
+                        "answer": 1,
+                        "explanation": "Noun corretto: information."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If you heat water to 100C, it ___.",
+                        "options": [
+                            "boiled",
+                            "boils",
+                            "will boil",
+                            "would boil"
+                        ],
+                        "answer": 1,
+                        "explanation": "Zero Conditional."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "The woman ___ lives next door is a doctor.",
+                        "options": [
+                            "which",
+                            "whose",
+                            "who",
+                            "where"
+                        ],
+                        "answer": 2,
+                        "explanation": "Who per persone."
+                    },
+                    {
+                        "topic": "Vocabulary",
+                        "text": "Choose the correct phrasal verb: 'Can you ___ the lights?'",
+                        "options": [
+                            "turn off",
+                            "take off",
+                            "put off",
+                            "get off"
+                        ],
+                        "answer": 0,
+                        "explanation": "Turn off the lights."
+                    },
+                    {
+                        "topic": "Past Perfect",
+                        "text": "When we got there, they ___ dinner.",
+                        "options": [
+                            "finished",
+                            "have finished",
+                            "had finished",
+                            "were finishing"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect per evento precedente."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "Look at those clouds! It ___ rain.",
+                        "options": [
+                            "will",
+                            "is going to",
+                            "is",
+                            "would"
+                        ],
+                        "answer": 1,
+                        "explanation": "Going to con evidenza presente."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The room ___ when I arrived.",
+                        "options": [
+                            "was being cleaned",
+                            "was cleaning",
+                            "cleaned",
+                            "is cleaned"
+                        ],
+                        "answer": 0,
+                        "explanation": "Past Continuous passive."
+                    },
+                    {
+                        "topic": "Word Formation",
+                        "text": "Which adjective is correct? 'This chair is very ___.'",
+                        "options": [
+                            "comfort",
+                            "comfortable",
+                            "comfortably",
+                            "discomfort"
+                        ],
+                        "answer": 1,
+                        "explanation": "Word formation: comfort -> comfortable."
+                    }
+                ]
+            },
+            {
+                "type": "translation",
+                "difficulty": 4,
+                "questions": [
+                    {
+                        "topic": "Vocabulary",
+                        "text": "Dobbiamo prendere una decisione rapidamente.",
+                        "answer": "We need to make a decision quickly",
+                        "alternatives": [],
+                        "explanation": "Collocation: make a decision."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "Le email sono state inviate stamattina.",
+                        "answer": "The emails were sent this morning",
+                        "alternatives": [],
+                        "explanation": "Past Simple passive."
+                    },
+                    {
+                        "topic": "Word Formation",
+                        "text": "La sua spiegazione e stata molto convincente.",
+                        "answer": "His explanation was very convincing",
+                        "alternatives": [
+                            "Her explanation was very convincing"
+                        ],
+                        "explanation": "Use of convincing come aggettivo."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "Potrebbero aver preso il treno sbagliato.",
+                        "answer": "They might have taken the wrong train",
+                        "alternatives": [],
+                        "explanation": "Might have + participio passato."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "Se studiassi di piu, otterresti risultati migliori.",
+                        "answer": "If you studied more, you would get better results",
+                        "alternatives": [],
+                        "explanation": "Second Conditional."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "La ragazza che mi hai presentato ieri e simpaticissima.",
+                        "answer": "The girl who you introduced to me yesterday is very nice",
+                        "alternatives": [
+                            "The girl you introduced to me yesterday is very nice"
+                        ],
+                        "explanation": "Defining relative clause con who."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "Non l'ho ancora chiamato.",
+                        "answer": "I haven't called him yet",
+                        "alternatives": [],
+                        "explanation": "Present Perfect negativa con yet."
+                    },
+                    {
+                        "topic": "Vocabulary",
+                        "text": "Non sopporto questa situazione.",
+                        "answer": "I can't put up with this situation",
+                        "alternatives": [
+                            "I can't stand this situation"
+                        ],
+                        "explanation": "Phrasal verb lessicale ad alta frequenza."
+                    }
+                ]
+            },
+            {
+                "type": "cloze-test",
+                "difficulty": 4,
+                "context": "Exam Week\\n\\nOur school is preparing for exam week. Students are feeling a bit stressed, but teachers are trying to (1) ......... their confidence. Yesterday, a new revision plan (2) ......... to all classes. It includes grammar practice, vocabulary review and short speaking tasks.\\n\\nOne teacher suggested that students should (3) ......... up a study group so they can help each other. Another advised them not to (4) ......... off difficult topics until the last day.\\n\\nBy the end of this week, every class will (5) ......... a full Use of English drill. The results (6) ......... carefully so teachers can identify weak areas. If students (7) ......... regularly, they usually improve quickly.\\n\\nMany students say they still confuse some structures. For example, they are not sure when to use Present Perfect and when to use Past Simple. They also make mistakes in word (8) ........., especially when they have to turn verbs into nouns or adjectives.\\n\\nThe head teacher is optimistic. She says that if everyone works consistently, better scores (9) ......... in the final tests. She also reminds students that small progress should not be (10) ......... .",
+                "questions": [
+                    {
+                        "blank_number": 1,
+                        "options": [
+                            "A) raise",
+                            "B) rise",
+                            "C) grow",
+                            "D) lift"
+                        ],
+                        "answer": 0,
+                        "explanation": "Raise confidence."
+                    },
+                    {
+                        "blank_number": 2,
+                        "options": [
+                            "A) sent",
+                            "B) was sent",
+                            "C) has sent",
+                            "D) was sending"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Simple passive."
+                    },
+                    {
+                        "blank_number": 3,
+                        "options": [
+                            "A) set",
+                            "B) put",
+                            "C) turn",
+                            "D) bring"
+                        ],
+                        "answer": 0,
+                        "explanation": "Set up a study group."
+                    },
+                    {
+                        "blank_number": 4,
+                        "options": [
+                            "A) put",
+                            "B) look",
+                            "C) take",
+                            "D) call"
+                        ],
+                        "answer": 0,
+                        "explanation": "Put off difficult topics."
+                    },
+                    {
+                        "blank_number": 5,
+                        "options": [
+                            "A) complete",
+                            "B) completed",
+                            "C) completing",
+                            "D) completes"
+                        ],
+                        "answer": 0,
+                        "explanation": "Will + base verb."
+                    },
+                    {
+                        "blank_number": 6,
+                        "options": [
+                            "A) will analyze",
+                            "B) will be analyzed",
+                            "C) are analyzed",
+                            "D) analyzed"
+                        ],
+                        "answer": 1,
+                        "explanation": "Future passive."
+                    },
+                    {
+                        "blank_number": 7,
+                        "options": [
+                            "A) revise",
+                            "B) revised",
+                            "C) will revise",
+                            "D) would revise"
+                        ],
+                        "answer": 0,
+                        "explanation": "First Conditional: if + Present Simple."
+                    },
+                    {
+                        "blank_number": 8,
+                        "options": [
+                            "A) form",
+                            "B) formation",
+                            "C) formal",
+                            "D) formative"
+                        ],
+                        "answer": 1,
+                        "explanation": "Word formation (noun)."
+                    },
+                    {
+                        "blank_number": 9,
+                        "options": [
+                            "A) achieved",
+                            "B) will be achieved",
+                            "C) have achieved",
+                            "D) are achieving"
+                        ],
+                        "answer": 1,
+                        "explanation": "Future passive nel main clause."
+                    },
+                    {
+                        "blank_number": 10,
+                        "options": [
+                            "A) underestimate",
+                            "B) underestimated",
+                            "C) underestimating",
+                            "D) underestimation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Passive con should not be omitted ellitticamente: should not be underestimated."
+                    }
+                ]
+            },
+            {
+                "type": "key-word-transformation",
+                "difficulty": 5,
+                "questions": [
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "It's impossible that he forgot the date.",
+                        "keyword": "CAN'T",
+                        "second_sentence_start": "He",
+                        "second_sentence_end": "the date.",
+                        "answer": "can't have forgotten",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Deduzione negativa al passato."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "Someone has already announced the winners.",
+                        "keyword": "BEEN",
+                        "second_sentence_start": "The winners",
+                        "second_sentence_end": ".",
+                        "answer": "have already been announced",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Present Perfect passive."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "I started learning English three years ago.",
+                        "keyword": "FOR",
+                        "second_sentence_start": "I have",
+                        "second_sentence_end": "three years.",
+                        "answer": "been learning English for",
+                        "alternatives": [
+                            "learnt English for",
+                            "learned English for"
+                        ],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Durata con Present Perfect Continuous."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "I advise you to check your answers carefully.",
+                        "keyword": "SHOULD",
+                        "second_sentence_start": "You",
+                        "second_sentence_end": "carefully.",
+                        "answer": "should check your answers",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Advice -> should."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "This room is too small for thirty students.",
+                        "keyword": "ENOUGH",
+                        "second_sentence_start": "This room isn't",
+                        "second_sentence_end": "thirty students.",
+                        "answer": "big enough for",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Too ... -> not ... enough."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "The last time I saw her was in May.",
+                        "keyword": "SINCE",
+                        "second_sentence_start": "I",
+                        "second_sentence_end": "May.",
+                        "answer": "haven't seen her since",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Last time ... -> haven't ... since."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "If you don't hurry, you'll miss the bus.",
+                        "keyword": "UNLESS",
+                        "second_sentence_start": "You'll miss the bus",
+                        "second_sentence_end": ".",
+                        "answer": "unless you hurry",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "If ... not -> unless."
+                    },
+                    {
+                        "topic": "Exam transformation",
+                        "first_sentence": "People believe that the exam will be difficult.",
+                        "keyword": "THOUGHT",
+                        "second_sentence_start": "The exam",
+                        "second_sentence_end": "difficult.",
+                        "answer": "is thought to be",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Passive reporting structure."
+                    }
+                ]
+            }
+        ]
+    },
     "all-mixed": {
           "title": "ALL - Mixed Practice",
           "description": "Esercizi misti su tutti gli argomenti: Present Perfect, Modals, Future, Conditionals, Relative Clauses, Past Perfect, Passive Voice",

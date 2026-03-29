@@ -317,6 +317,137 @@ const theoryData = {
             }
         ]
     },
+    "vocabulary-word-formation": {
+        title: "Vocabulary & Word Formation",
+        subtitle: "Come scegliere la parola giusta e trasformarla correttamente",
+        sections: [
+            {
+                title: "Collocations: parole che vanno insieme",
+                color: "#667eea",
+                content: "In inglese non basta conoscere una parola: bisogna conoscere le combinazioni naturali.",
+                examples: [
+                    {
+                        text: "make a decision / make progress / do homework",
+                        explanation: "Combinazioni ad alta frequenza negli esami"
+                    },
+                    {
+                        text: "heavy rain / strong coffee / high quality",
+                        explanation: "Agggettivo + sostantivo tipici"
+                    }
+                ]
+            },
+            {
+                title: "Word Families",
+                color: "#28a745",
+                content: "Molte prove chiedono di trasformare una base word nella forma corretta.",
+                subsections: [
+                    {
+                        subtitle: "Noun, verb, adjective, adverb",
+                        content: "Guarda la funzione grammaticale nello spazio vuoto prima di scegliere la forma.",
+                        examples: [
+                            {
+                                text: "decide -> decision | successful -> successfully",
+                                explanation: "Controlla articolo, preposizione e posizione nella frase"
+                            },
+                            {
+                                text: "create -> creative -> creativity",
+                                explanation: "La stessa radice puo generare forme diverse"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Prefixes & Suffixes",
+                color: "#17a2b8",
+                content: "I prefissi e suffissi aiutano a cambiare significato e categoria.",
+                examples: [
+                    {
+                        text: "possible -> impossible | legal -> illegal",
+                        explanation: "Prefissi negativi frequenti"
+                    },
+                    {
+                        text: "care -> careful -> carefully",
+                        explanation: "Suffixes per adjective/adverb"
+                    }
+                ]
+            },
+            {
+                title: "Phrasal Verbs utili per gli esami",
+                color: "#ffc107",
+                content: "Molte frasi lessicali usano phrasal verbs ad alta frequenza.",
+                examples: [
+                    {
+                        text: "look up (a word), fill in/out (a form), put off (postpone)",
+                        explanation: "Ricorrenti nei compiti Use of English"
+                    },
+                    {
+                        text: "put up with (tolerate), look after (take care of)",
+                        explanation: "Spesso testati in trasformazioni"
+                    }
+                ]
+            }
+        ]
+    },
+    "exam-drills": {
+        title: "Use of English - Exam Drills",
+        subtitle: "Allenamento misto grammar + vocabulary in stile verifica",
+        sections: [
+            {
+                title: "Struttura del Drill",
+                color: "#dc3545",
+                content: "Ogni drill combina gap-fill, multiple choice, traduzione, cloze e key word transformation.",
+                examples: [
+                    {
+                        text: "Grammar + Vocabulary + Word Formation nello stesso set",
+                        explanation: "Allenamento realistico per compiti in classe"
+                    }
+                ]
+            },
+            {
+                title: "Strategia operativa",
+                color: "#6f42c1",
+                content: "Lavora in due passaggi: prima completezza, poi accuratezza.",
+                subsections: [
+                    {
+                        subtitle: "Passaggio 1: completa tutto",
+                        content: "Non bloccarti su un singolo item: segna e vai avanti.",
+                        examples: [
+                            {
+                                text: "Prima lettura veloce del testo, poi ritorno sui dubbi",
+                                explanation: "Riduce errori da gestione del tempo"
+                            }
+                        ]
+                    },
+                    {
+                        subtitle: "Passaggio 2: controlla in modo mirato",
+                        content: "Rivedi accordo soggetto-verbo, tempi verbali, collocations e spelling.",
+                        examples: [
+                            {
+                                text: "Controlla especially: have/has, -ed/-ing, preposizioni",
+                                explanation: "Errori tipici da verifica"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Come leggere il risultato",
+                color: "#20c997",
+                content: "Il punteggio cresce con la difficolta dell'esercizio: usa gli errori per guidare il ripasso.",
+                examples: [
+                    {
+                        text: "Se sbagli molte transformation: ripassa strutture equivalenti",
+                        explanation: "Focus su parafrasi e key words"
+                    },
+                    {
+                        text: "Se sbagli lessico: ripassa famiglie di parole e collocations",
+                        explanation: "Costruisci liste mirate per tema"
+                    }
+                ]
+            }
+        ]
+    },
     "future": {
         title: "The Future System: Il futuro multiplo",
         subtitle: "In inglese il futuro esprime l'atteggiamento di chi parla verso l'evento",
