@@ -5463,6 +5463,72 @@ const grammarData = {
                 ]
             },
             {
+                "type": "fill-blank",
+                "difficulty": 4,
+                "questions": [
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "The exam was quite ___, but fair. (CHALLENGE)",
+                        "answer": "challenging",
+                        "explanation": "Verb -> adjective: challenge -> challenging."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "I was surprised by her ___ in class. (SILENT)",
+                        "answer": "silence",
+                        "explanation": "Adjective -> noun: silent -> silence."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "We need to act more ___ if we want better results. (EFFICIENT)",
+                        "answer": "efficiently",
+                        "explanation": "Adjective -> adverb: efficient -> efficiently."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "There is a high level of ___ in this area. (EMPLOY)",
+                        "answer": "unemployment",
+                        "explanation": "Word family con prefisso negativo: unemployment."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "Her explanation was clear and very ___. (HELP)",
+                        "answer": "helpful",
+                        "explanation": "Noun/verb -> adjective: helpful."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "This room is too ___ to work in; open a window. (COMFORT)",
+                        "answer": "uncomfortable",
+                        "explanation": "Prefix negativo + adjective: uncomfortable."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "The new law will affect many international ___. (BUSY)",
+                        "answer": "businesses",
+                        "explanation": "Busy -> business -> businesses."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "He answered the question with great ___. (CONFIDENT)",
+                        "answer": "confidence",
+                        "explanation": "Adjective -> noun: confidence."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "The report contains useful statistical ___. (INFORM)",
+                        "answer": "information",
+                        "explanation": "Inform -> information (uncountable noun)."
+                    },
+                    {
+                        "topic": "Word Formation - Exam Style",
+                        "text": "Their decision was completely ___. (LOGIC)",
+                        "answer": "illogical",
+                        "explanation": "Prefix negativo + adjective: illogical."
+                    }
+                ]
+            },
+            {
                 "type": "multiple-choice",
                 "difficulty": 4,
                 "questions": [
@@ -5899,6 +5965,112 @@ const grammarData = {
                         "min_words": 4,
                         "max_words": 4,
                         "explanation": "Passive reporting structure."
+                    }
+                ]
+            },
+            {
+                "type": "key-word-transformation",
+                "difficulty": 5,
+                "questions": [
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "It's possible that she missed the bus.",
+                        "keyword": "MIGHT",
+                        "second_sentence_start": "She",
+                        "second_sentence_end": "the bus.",
+                        "answer": "might have missed",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Deduzione/possibilita sul passato."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "It wasn't necessary for us to take a taxi.",
+                        "keyword": "HAVE",
+                        "second_sentence_start": "We",
+                        "second_sentence_end": "a taxi.",
+                        "answer": "didn't have to take",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Not necessary -> didn't have to."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "Someone is repairing our roof at the moment.",
+                        "keyword": "BEING",
+                        "second_sentence_start": "Our roof",
+                        "second_sentence_end": "at the moment.",
+                        "answer": "is being repaired",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Present Continuous passive."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "The last time I went to Paris was in 2019.",
+                        "keyword": "SINCE",
+                        "second_sentence_start": "I",
+                        "second_sentence_end": "2019.",
+                        "answer": "haven't been to Paris since",
+                        "alternatives": [
+                            "have not been to Paris since"
+                        ],
+                        "min_words": 5,
+                        "max_words": 5,
+                        "explanation": "Last time -> haven't ... since."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "It's forbidden to use a dictionary in this test.",
+                        "keyword": "MUSTN'T",
+                        "second_sentence_start": "You",
+                        "second_sentence_end": "a dictionary in this test.",
+                        "answer": "mustn't use",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 2,
+                        "explanation": "Forbidden -> mustn't."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "If you don't leave now, you'll be late.",
+                        "keyword": "UNLESS",
+                        "second_sentence_start": "You'll be late",
+                        "second_sentence_end": "now.",
+                        "answer": "unless you leave",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "If ... not -> unless."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "People say this restaurant is excellent.",
+                        "keyword": "SAID",
+                        "second_sentence_start": "This restaurant",
+                        "second_sentence_end": "excellent.",
+                        "answer": "is said to be",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Reporting passive: is said to be."
+                    },
+                    {
+                        "topic": "Exam Transformation 2-5",
+                        "first_sentence": "She started working here two years ago.",
+                        "keyword": "FOR",
+                        "second_sentence_start": "She has",
+                        "second_sentence_end": "two years.",
+                        "answer": "worked here for",
+                        "alternatives": [
+                            "been working here for"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Durata con Present Perfect."
                     }
                 ]
             }
