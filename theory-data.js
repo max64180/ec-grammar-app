@@ -55,8 +55,8 @@ const theoryData = {
         ]
     },
     "modals": {
-        title: "Modal Verbs: Obligation & Prohibition",
-        subtitle: "Must, Have to, Mustn't e Don't have to",
+        title: "Modal Verbs: Obligation, Prohibition & Deduction",
+        subtitle: "Must, Have to, Mustn't, Don't have to + Must/Might/Can't for deduction",
         sections: [
             {
                 title: "Must vs Have to: Entrambi indicano 'dovere'",
@@ -125,6 +125,193 @@ const theoryData = {
                                 explanation: "Posso dormire, ma se voglio svegliarmi presto posso"
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                title: "Modals of Deduction: Fare ipotesi logiche",
+                color: "#17a2b8",
+                content: "Usiamo questi modali per dedurre cosa è probabile, possibile o impossibile.",
+                subsections: [
+                    {
+                        subtitle: "Presente: must / might / can't + base form",
+                        content: "Parliamo di deduzioni sulla situazione attuale.",
+                        examples: [
+                            {
+                                text: "She isn't in the office. She might be at lunch.",
+                                explanation: "Possibilità, non certezza."
+                            },
+                            {
+                                text: "The lights are on. They must be home.",
+                                explanation: "Deduzione forte basata su un indizio."
+                            },
+                            {
+                                text: "He can't be 16. He has a university degree.",
+                                explanation: "Deduzione negativa: lo riteniamo impossibile."
+                            }
+                        ]
+                    },
+                    {
+                        subtitle: "Passato: must / might / can't have + past participle",
+                        content: "Facciamo deduzioni su eventi già avvenuti.",
+                        examples: [
+                            {
+                                text: "The streets are wet. It must have rained.",
+                                explanation: "Deduzione forte su un fatto passato."
+                            },
+                            {
+                                text: "She might have forgotten the meeting.",
+                                explanation: "Ipotesi possibile su un evento passato."
+                            },
+                            {
+                                text: "They can't have left already. It's too early.",
+                                explanation: "Evento passato giudicato impossibile."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "passive": {
+        title: "Passive Voice",
+        subtitle: "Dalla base (present/past simple) agli altri tempi e modi",
+        sections: [
+            {
+                title: "Forma Base: struttura della passiva",
+                color: "#667eea",
+                content: "La forma passiva si costruisce con il verbo be coniugato + participio passato del verbo principale (+ by + agente, se necessario).",
+                why: "Spostiamo il focus dall'agente all'azione o al risultato.",
+                examples: [
+                    {
+                        text: "Active: Jane makes a cake.",
+                        explanation: "Soggetto attivo = Jane"
+                    },
+                    {
+                        text: "Passive: A cake is made by Jane.",
+                        explanation: "Soggetto passivo = A cake (ciò che conta è il risultato)"
+                    }
+                ]
+            },
+            {
+                title: "Present & Past Simple: le forme più usate",
+                color: "#28a745",
+                content: "Present Simple passive: am/is/are + past participle. Past Simple passive: was/were + past participle.",
+                subsections: [
+                    {
+                        subtitle: "Affermativa, negativa, interrogativa",
+                        content: "Negativa: be + not + participio. Interrogativa: metti be davanti al soggetto.",
+                        examples: [
+                            {
+                                text: "These cars are made in Japan.",
+                                explanation: "Present Simple passive"
+                            },
+                            {
+                                text: "This car wasn't stolen yesterday.",
+                                explanation: "Negativa al Past Simple passive"
+                            },
+                            {
+                                text: "Who was the telephone invented by?",
+                                explanation: "Interrogativa con preposizione finale"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Altri Tempi E Modi",
+                color: "#17a2b8",
+                content: "La passiva esiste anche in tempi composti, con modali, infiniti e forme in -ing.",
+                subsections: [
+                    {
+                        subtitle: "Mappa rapida",
+                        content: "Ricorda: mantieni il tempo della frase attiva e cambia la struttura interna in forma passiva.",
+                        examples: [
+                            {
+                                text: "is making -> is being made | was making -> was being made",
+                                explanation: "Continuous passive"
+                            },
+                            {
+                                text: "has made -> has been made | had made -> had been made",
+                                explanation: "Perfect passive"
+                            },
+                            {
+                                text: "will make -> will be made | is going to make -> is going to be made",
+                                explanation: "Future passive"
+                            },
+                            {
+                                text: "to make -> to be made | to have made -> to have been made",
+                                explanation: "Infinitive passive"
+                            },
+                            {
+                                text: "making -> being made | having made -> having been made",
+                                explanation: "Gerund passive"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Particolarita Importanti",
+                color: "#ffc107",
+                content: "Alcuni verbi richiedono attenzione speciale quando passano alla forma passiva.",
+                subsections: [
+                    {
+                        subtitle: "Verbi con preposizione",
+                        content: "La preposizione resta nella frase passiva (look after, listen to, speak of...).",
+                        examples: [
+                            {
+                                text: "They looked after the child. -> The child was looked after.",
+                                explanation: "Non eliminare 'after'"
+                            }
+                        ]
+                    },
+                    {
+                        subtitle: "Verbi con doppio complemento",
+                        content: "Con give, tell, offer, send... sono possibili due passive; la piu comune e quella personale.",
+                        examples: [
+                            {
+                                text: "I gave Mary the news. -> Mary was given the news.",
+                                explanation: "Forma personale (piu naturale)"
+                            },
+                            {
+                                text: "The news was given to Mary.",
+                                explanation: "Forma alternativa corretta"
+                            }
+                        ]
+                    },
+                    {
+                        subtitle: "Get-passive colloquiale",
+                        content: "Nel parlato si usa spesso get al posto di be per eventi inattesi o subiti.",
+                        examples: [
+                            {
+                                text: "My camera got stolen at the station.",
+                                explanation: "Tono piu colloquiale"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Quando Usiamo La Passiva",
+                color: "#dc3545",
+                content: "La passiva e utile quando l'agente e sconosciuto, ovvio o poco importante.",
+                examples: [
+                    {
+                        text: "My car was stolen yesterday.",
+                        explanation: "Agente sconosciuto"
+                    },
+                    {
+                        text: "The house was robbed.",
+                        explanation: "Agente non importante"
+                    },
+                    {
+                        text: "Then the biscuits are packed into containers.",
+                        explanation: "Descrizione di processi/procedure"
+                    },
+                    {
+                        text: "Parking is not allowed in this road.",
+                        explanation: "Cartelli, avvisi, regole impersonali"
                     }
                 ]
             }

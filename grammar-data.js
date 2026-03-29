@@ -696,8 +696,8 @@ const grammarData = {
         ]
     },
     "modals": {
-        "title": "Modal Verbs: Obligation & Prohibition",
-        "description": "Must, Have to, Mustn't e Don't have to",
+        "title": "Modal Verbs: Obligation, Prohibition & Deduction",
+        "description": "Must, Have to, Mustn't, Don't have to + Must/Might/Can't for deduction",
         "exercises": [
             {
                 "type": "fill-blank",
@@ -739,9 +739,9 @@ const grammarData = {
                         "explanation": "Do you have to per chiedere di un obbligo esterno (è richiesto dall'azienda?)."
                     },
                     {
-                        "text": "I ___ get up early tomorrow. It's Sunday!",
-                        "answer": "don't have to",
-                        "explanation": "Don't have to perché non c'è obbligo (ma posso svegliarmi presto se voglio)."
+                        "text": "Look at those wet streets. It ___ have rained last night.",
+                        "answer": "must",
+                        "explanation": "Must have + participio passato per una deduzione molto probabile basata su un'evidenza presente (strade bagnate)."
                     },
                     {
                         "text": "Students ___ use their phones during the exam.",
@@ -749,14 +749,14 @@ const grammarData = {
                         "explanation": "Mustn't per una proibizione assoluta (regola d'esame)."
                     },
                     {
-                        "text": "I really ___ study more for the test.",
-                        "answer": "must",
-                        "explanation": "Must per un obbligo sentito personalmente (so che è necessario)."
+                        "text": "I'm not sure where Sara is. She ___ be at home, or maybe at the gym.",
+                        "answer": "might",
+                        "explanation": "Might + verbo base per possibilità/incertezza nella deduzione."
                     },
                     {
-                        "text": "You ___ buy tickets in advance. We can get them at the door.",
-                        "answer": "don't have to",
-                        "explanation": "Don't have to perché non è necessario (anche se possiamo farlo)."
+                        "text": "He says he finished the marathon in one hour without training. That ___ be true.",
+                        "answer": "can't",
+                        "explanation": "Can't + verbo base per deduzione negativa: lo riteniamo impossibile/non credibile."
                     },
                     {
                         "text": "We ___ be late for the meeting. The boss is strict.",
@@ -779,9 +779,9 @@ const grammarData = {
                         "explanation": "Have to per obbligo esterno (richiesta del manager)."
                     },
                     {
-                        "text": "You ___ shout. I can hear you perfectly.",
-                        "answer": "don't have to",
-                        "explanation": "Don't have to perché non è necessario gridare."
+                        "text": "They left five minutes ago; they ___ have arrived already.",
+                        "answer": "can't",
+                        "explanation": "Can't have + participio passato per deduzione al passato: è praticamente impossibile che siano già arrivati."
                     },
                     {
                         "text": "Children ___ play with matches.",
@@ -799,9 +799,9 @@ const grammarData = {
                         "explanation": "Must per un promemoria personale importante."
                     },
                     {
-                        "text": "You ___ wear formal clothes. It's a casual event.",
-                        "answer": "don't have to",
-                        "explanation": "Don't have to perché non c'è obbligo di vestirsi formalmente."
+                        "text": "The lights are off and no one is answering. They ___ have gone out.",
+                        "answer": "must",
+                        "explanation": "Must have + participio passato per deduzione forte su un evento passato."
                     }
                 ]
             },
@@ -931,59 +931,59 @@ const grammarData = {
                         "explanation": "Do we have to per chiedere se c'è un obbligo/necessità."
                     },
                     {
-                        "text": "I ___ stop eating sugar. The doctor said so.",
+                        "text": "Anna isn't answering her phone. She ___ be in a meeting.",
                         "options": [
-                            "don't have to",
-                            "have to",
-                            "mustn't",
-                            "must"
+                            "must",
+                            "might",
+                            "can't",
+                            "don't have to"
                         ],
                         "answer": 1,
-                        "explanation": "Have to per obbligo esterno (ordine del dottore)."
+                        "explanation": "Might be per esprimere possibilità quando non siamo certi."
                     },
                     {
-                        "text": "You ___ pay now. You can pay later.",
+                        "text": "The door is open and the lights are on. Someone ___ be at home.",
                         "options": [
                             "must",
-                            "don't have to",
-                            "have to",
+                            "might",
+                            "can't",
                             "mustn't"
+                        ],
+                        "answer": 0,
+                        "explanation": "Must be per deduzione forte basata su indizi evidenti."
+                    },
+                    {
+                        "text": "He got 2 out of 100 in the exam. He ___ have studied much.",
+                        "options": [
+                            "must",
+                            "might",
+                            "can't",
+                            "mustn't"
+                        ],
+                        "answer": 2,
+                        "explanation": "Can't have + participio passato per deduzione negativa su un evento passato."
+                    },
+                    {
+                        "text": "They arrived exactly on time after leaving very early. Traffic ___ have been terrible.",
+                        "options": [
+                            "must",
+                            "might",
+                            "can't",
+                            "don't have to"
+                        ],
+                        "answer": 2,
+                        "explanation": "Can't have been per deduzione negativa: i fatti non supportano quell'ipotesi."
+                    },
+                    {
+                        "text": "I can't find my keys. I ___ have left them in the car.",
+                        "options": [
+                            "must",
+                            "might",
+                            "can't",
+                            "don't have to"
                         ],
                         "answer": 1,
-                        "explanation": "Don't have to perché non è necessario pagare subito."
-                    },
-                    {
-                        "text": "Employees ___ be at work by 9 AM.",
-                        "options": [
-                            "have to",
-                            "must",
-                            "don't have to",
-                            "mustn't"
-                        ],
-                        "answer": 0,
-                        "explanation": "Have to / must per obbligo lavorativo (regola aziendale)."
-                    },
-                    {
-                        "text": "You ___ drive so fast. It's dangerous.",
-                        "options": [
-                            "mustn't",
-                            "don't have to",
-                            "must",
-                            "have to"
-                        ],
-                        "answer": 0,
-                        "explanation": "Mustn't perché guidare troppo veloce è pericoloso (proibizione)."
-                    },
-                    {
-                        "text": "I ___ go to the gym, but I want to stay fit.",
-                        "options": [
-                            "don't have to",
-                            "must",
-                            "have to",
-                            "mustn't"
-                        ],
-                        "answer": 0,
-                        "explanation": "Don't have to perché non è obbligatorio, ma scelgo di farlo."
+                        "explanation": "Might have + participio passato per ipotesi possibile su un'azione passata."
                     },
                     {
                         "text": "You ___ use a dictionary in the test.",
@@ -4219,11 +4219,683 @@ const grammarData = {
                 ]
             }
         ]
-    }
-    ,
+    },
+    "passive": {
+        "title": "Passive Voice",
+        "description": "Present/Past Simple e altri tempi, usi e trasformazioni",
+        "exercises": [
+            {
+                "type": "fill-blank",
+                "difficulty": 3,
+                "questions": [
+                    {
+                        "text": "English ___ (speak) in many countries.",
+                        "answer": "is spoken",
+                        "explanation": "Present Simple passive: am/is/are + past participle."
+                    },
+                    {
+                        "text": "The window ___ (break) during the storm last night.",
+                        "answer": "was broken",
+                        "explanation": "Past Simple passive: was/were + past participle."
+                    },
+                    {
+                        "text": "My car ___ (repair) at the moment.",
+                        "answer": "is being repaired",
+                        "explanation": "Present Continuous passive: am/is/are being + past participle."
+                    },
+                    {
+                        "text": "The road ___ (close) when we arrived.",
+                        "answer": "was being closed",
+                        "explanation": "Past Continuous passive: was/were being + past participle."
+                    },
+                    {
+                        "text": "The emails ___ already ___ (send) before 9 a.m.",
+                        "answer": "had already been sent",
+                        "explanation": "Past Perfect passive: had been + past participle."
+                    },
+                    {
+                        "text": "A new hospital ___ (build) here next year.",
+                        "answer": "will be built",
+                        "explanation": "Future Simple passive: will be + past participle."
+                    },
+                    {
+                        "text": "The project ___ (finish) by Friday.",
+                        "answer": "will be finished",
+                        "explanation": "Future Simple passive per azione futura subita dal soggetto."
+                    },
+                    {
+                        "text": "The final decision ___ (announce) tomorrow morning.",
+                        "answer": "is going to be announced",
+                        "explanation": "Future with going to passive: am/is/are going to be + past participle."
+                    },
+                    {
+                        "text": "The package ___ (deliver) by noon, according to the app.",
+                        "answer": "should be delivered",
+                        "explanation": "Modal passive: modal + be + past participle."
+                    },
+                    {
+                        "text": "The office might ___ (close) earlier today.",
+                        "answer": "be closed",
+                        "explanation": "Con i modali: might be + past participle."
+                    },
+                    {
+                        "text": "The suspect may ___ (arrest) tonight.",
+                        "answer": "be arrested",
+                        "explanation": "May passive: may be + past participle."
+                    },
+                    {
+                        "text": "The files seem ___ (delete) by mistake.",
+                        "answer": "to have been deleted",
+                        "explanation": "Perfect infinitive passive: to have been + past participle."
+                    },
+                    {
+                        "text": "I hate ___ (interrupt) while I'm speaking.",
+                        "answer": "being interrupted",
+                        "explanation": "Gerund passive: being + past participle."
+                    },
+                    {
+                        "text": "She apologized for ___ (invite) too late.",
+                        "answer": "having been invited",
+                        "explanation": "Perfect gerund passive: having been + past participle."
+                    },
+                    {
+                        "text": "___ this painting ___ (paint) by Picasso?",
+                        "answer": "Was this painting painted",
+                        "explanation": "Domanda al Past Simple passive: Was + soggetto + past participle."
+                    },
+                    {
+                        "text": "The museum ___ (visit) by thousands of tourists every summer.",
+                        "answer": "is visited",
+                        "explanation": "Present Simple passive per fatti abituali."
+                    },
+                    {
+                        "text": "Our flight ___ (cancel), so we took a train instead.",
+                        "answer": "was cancelled",
+                        "explanation": "Past Simple passive per evento concluso nel passato."
+                    },
+                    {
+                        "text": "These shirts ___ (make) in Italy.",
+                        "answer": "are made",
+                        "explanation": "Present Simple passive con verbo irregolare (made)."
+                    },
+                    {
+                        "text": "The patient ___ (look after) very well in that clinic.",
+                        "answer": "is looked after",
+                        "explanation": "I verbi con preposizione mantengono la preposizione anche al passivo."
+                    },
+                    {
+                        "text": "He ___ (give) a second chance by the manager.",
+                        "answer": "was given",
+                        "explanation": "Passive personale con verbo a doppio complemento: He was given..."
+                    }
+                ]
+            },
+            {
+                "type": "multiple-choice",
+                "difficulty": 3,
+                "questions": [
+                    {
+                        "text": "Choose the correct passive form: 'They make cars in Japan.'",
+                        "options": [
+                            "Cars are made in Japan.",
+                            "Cars is made in Japan.",
+                            "Cars are make in Japan.",
+                            "Cars made in Japan."
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Simple passive corretto: are made."
+                    },
+                    {
+                        "text": "Which sentence is in the Past Simple passive?",
+                        "options": [
+                            "The room is cleaned every day.",
+                            "The room was cleaned yesterday.",
+                            "The room has cleaned.",
+                            "The room was cleaning."
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Simple passive: was/were + past participle."
+                    },
+                    {
+                        "text": "Active: 'Someone stole my bike.' Choose the best passive.",
+                        "options": [
+                            "My bike was stolen.",
+                            "My bike is stolen yesterday.",
+                            "My bike stolen.",
+                            "My bike was stole."
+                        ],
+                        "answer": 0,
+                        "explanation": "L'agente è sconosciuto/non importante: My bike was stolen."
+                    },
+                    {
+                        "text": "Which is correct?",
+                        "options": [
+                            "The dinner is being cook now.",
+                            "The dinner is being cooked now.",
+                            "The dinner being cooked now.",
+                            "The dinner is cooked now by."
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Continuous passive: is being cooked."
+                    },
+                    {
+                        "text": "Choose the correct question form:",
+                        "options": [
+                            "Was invented the telephone by Bell?",
+                            "Who was the telephone invented by?",
+                            "Who the telephone was invented by?",
+                            "Was the telephone invented who by?"
+                        ],
+                        "answer": 1,
+                        "explanation": "Nella forma interrogativa il verbo be va prima del soggetto."
+                    },
+                    {
+                        "text": "Complete: 'The report ___ tomorrow.'",
+                        "options": [
+                            "will finished",
+                            "will be finished",
+                            "is be finished",
+                            "will been finished"
+                        ],
+                        "answer": 1,
+                        "explanation": "Future passive: will be + participio."
+                    },
+                    {
+                        "text": "Choose the best passive with a modal:",
+                        "options": [
+                            "The form must fill in.",
+                            "The form must be filled in.",
+                            "The form must been filled in.",
+                            "The form must filled in."
+                        ],
+                        "answer": 1,
+                        "explanation": "Modal passive: must be + past participle."
+                    },
+                    {
+                        "text": "Which sentence is correct?",
+                        "options": [
+                            "She was given the information.",
+                            "She was gave the information.",
+                            "She given was the information.",
+                            "She was giving the information."
+                        ],
+                        "answer": 0,
+                        "explanation": "Passive personale corretto con verbo 'give'."
+                    },
+                    {
+                        "text": "Choose the passive equivalent: 'People speak Spanish in Argentina.'",
+                        "options": [
+                            "Spanish is spoken in Argentina.",
+                            "Spanish speaks in Argentina.",
+                            "Spanish spoken in Argentina.",
+                            "Spanish was spoken in Argentina every day."
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Simple passive: is spoken."
+                    },
+                    {
+                        "text": "Which is NOT correct?",
+                        "options": [
+                            "The children were looked after by their grandparents.",
+                            "The children were looked after.",
+                            "The children were looked by their grandparents.",
+                            "The children are looked after at night."
+                        ],
+                        "answer": 2,
+                        "explanation": "Con 'look after' la preposizione 'after' non si elimina."
+                    },
+                    {
+                        "text": "Choose the correct perfect passive:",
+                        "options": [
+                            "The emails have sent.",
+                            "The emails have been sent.",
+                            "The emails has been sented.",
+                            "The emails have being sent."
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Perfect passive: have/has been + past participle."
+                    },
+                    {
+                        "text": "Choose the best option: 'I remember ___ to that concert as a child.'",
+                        "options": [
+                            "being taken",
+                            "to be taken",
+                            "been taken",
+                            "having take"
+                        ],
+                        "answer": 0,
+                        "explanation": "Dopo 'remember' qui serve il gerundio passivo: being taken."
+                    },
+                    {
+                        "text": "Which sentence uses the colloquial get-passive?",
+                        "options": [
+                            "My phone was stolen.",
+                            "My phone got stolen.",
+                            "My phone stolen.",
+                            "My phone got stole."
+                        ],
+                        "answer": 1,
+                        "explanation": "Get-passive è comune nel parlato per eventi inattesi."
+                    },
+                    {
+                        "text": "Choose the correct negative passive:",
+                        "options": [
+                            "The bill wasn't paid on time.",
+                            "The bill didn't paid on time.",
+                            "The bill not was paid on time.",
+                            "The bill wasn't pay on time."
+                        ],
+                        "answer": 0,
+                        "explanation": "Negativa passive: be + not + past participle."
+                    },
+                    {
+                        "text": "Complete: 'The stadium ___ by 2028.'",
+                        "options": [
+                            "is going to build",
+                            "is going to be built",
+                            "will be build",
+                            "is building"
+                        ],
+                        "answer": 1,
+                        "explanation": "Going to passive: is going to be built."
+                    },
+                    {
+                        "text": "Which is correct?",
+                        "options": [
+                            "A lot of damage was being caused by the fire.",
+                            "A lot of damage were being caused by the fire.",
+                            "A lot of damage was being cause by the fire.",
+                            "A lot of damage being caused by the fire."
+                        ],
+                        "answer": 0,
+                        "explanation": "Past Continuous passive corretto con soggetto non numerabile."
+                    },
+                    {
+                        "text": "Choose the passive infinitive:",
+                        "options": [
+                            "to be inform",
+                            "to being informed",
+                            "to be informed",
+                            "to informed"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present infinitive passive: to be + past participle."
+                    },
+                    {
+                        "text": "Choose the perfect infinitive passive:",
+                        "options": [
+                            "to have been invited",
+                            "to has been invited",
+                            "to have invited",
+                            "to being invited"
+                        ],
+                        "answer": 0,
+                        "explanation": "Perfect infinitive passive: to have been + past participle."
+                    },
+                    {
+                        "text": "Which sentence focuses on the action/result, not the doer?",
+                        "options": [
+                            "Someone has broken the printer.",
+                            "The printer has been broken.",
+                            "They broke the printer yesterday.",
+                            "Who broke the printer?"
+                        ],
+                        "answer": 1,
+                        "explanation": "La forma passiva mette in primo piano il risultato."
+                    },
+                    {
+                        "text": "Choose the correct form with two objects:",
+                        "options": [
+                            "The students were given homework.",
+                            "The students were gave homework.",
+                            "The students gave homework.",
+                            "The students were given to homework."
+                        ],
+                        "answer": 0,
+                        "explanation": "Passive personale corretto: The students were given..."
+                    }
+                ]
+            },
+            {
+                "type": "translation",
+                "difficulty": 3,
+                "questions": [
+                    {
+                        "text": "Questa macchina è prodotta in Germania.",
+                        "answer": "This car is made in Germany",
+                        "alternatives": [
+                            "This car is produced in Germany"
+                        ],
+                        "explanation": "Present Simple passive: is made/is produced."
+                    },
+                    {
+                        "text": "La finestra è stata rotta ieri sera.",
+                        "answer": "The window was broken last night",
+                        "alternatives": [],
+                        "explanation": "Past Simple passive: was broken."
+                    },
+                    {
+                        "text": "La cena si sta preparando adesso.",
+                        "answer": "Dinner is being prepared now",
+                        "alternatives": [
+                            "The dinner is being prepared now"
+                        ],
+                        "explanation": "Present Continuous passive."
+                    },
+                    {
+                        "text": "Il ponte sarà completato entro giugno.",
+                        "answer": "The bridge will be completed by June",
+                        "alternatives": [
+                            "The bridge will be finished by June"
+                        ],
+                        "explanation": "Future passive con will."
+                    },
+                    {
+                        "text": "Il progetto sarà presentato domani.",
+                        "answer": "The project is going to be presented tomorrow",
+                        "alternatives": [],
+                        "explanation": "Going to passive."
+                    },
+                    {
+                        "text": "La paziente è seguita da un team esperto.",
+                        "answer": "The patient is looked after by an expert team",
+                        "alternatives": [
+                            "The patient is cared for by an expert team"
+                        ],
+                        "explanation": "I verbi con preposizione mantengono la preposizione al passivo."
+                    },
+                    {
+                        "text": "Mi è stata data una seconda possibilità.",
+                        "answer": "I was given a second chance",
+                        "alternatives": [],
+                        "explanation": "Passive personale con 'give'."
+                    },
+                    {
+                        "text": "Il telefono potrebbe essere stato lasciato in ufficio.",
+                        "answer": "The phone might have been left in the office",
+                        "alternatives": [
+                            "The telephone might have been left in the office"
+                        ],
+                        "explanation": "Modal perfect passive: might have been + past participle."
+                    },
+                    {
+                        "text": "Odio essere interrotto durante le riunioni.",
+                        "answer": "I hate being interrupted during meetings",
+                        "alternatives": [],
+                        "explanation": "Gerund passive: being interrupted."
+                    },
+                    {
+                        "text": "La mia borsa è stata rubata alla stazione.",
+                        "answer": "My bag got stolen at the station",
+                        "alternatives": [
+                            "My bag was stolen at the station"
+                        ],
+                        "explanation": "Get-passive colloquiale; be-passive resta corretto."
+                    }
+                ]
+            },
+            {
+                "type": "cloze-test",
+                "difficulty": 4,
+                "context": "City Museum Update\\n\\nOur city museum is currently under renovation. Every year, thousands of visitors (1) ......... to this building, so safety is very important. Right now, the main hall (2) ......... and several old paintings (3) ......... by specialists.\\n\\nLast month, one gallery (4) ......... for structural reasons, and all events (5) ......... to another area. According to the project manager, the new lighting system (6) ......... by the end of May.\\n\\nThe opening ceremony (7) ......... next month, and invitations (8) ......... to local schools. One student told us she was happy (9) ......... to the ceremony.\\n\\nVisitors are reminded that historical objects must not (10) ......... without permission. In addition, all participants should (11) ......... before entering the restoration room.\\n\\nFinally, the museum director said that many mistakes could (12) ......... if rules are followed carefully.",
+                "questions": [
+                    {
+                        "blank_number": 1,
+                        "options": [
+                            "A) are attracted",
+                            "B) attracted",
+                            "C) attract",
+                            "D) were attracted"
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Simple passive: are attracted."
+                    },
+                    {
+                        "blank_number": 2,
+                        "options": [
+                            "A) is repainting",
+                            "B) is being repainted",
+                            "C) repaints",
+                            "D) has repainted"
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Continuous passive: is being repainted."
+                    },
+                    {
+                        "blank_number": 3,
+                        "options": [
+                            "A) are restoring",
+                            "B) restored",
+                            "C) are being restored",
+                            "D) have restoring"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Continuous passive plural: are being restored."
+                    },
+                    {
+                        "blank_number": 4,
+                        "options": [
+                            "A) closed",
+                            "B) was closed",
+                            "C) has closed",
+                            "D) was closing"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Simple passive: was closed."
+                    },
+                    {
+                        "blank_number": 5,
+                        "options": [
+                            "A) moved",
+                            "B) were moved",
+                            "C) are moved",
+                            "D) moving"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Simple passive plural: were moved."
+                    },
+                    {
+                        "blank_number": 6,
+                        "options": [
+                            "A) will complete",
+                            "B) will be completed",
+                            "C) will have complete",
+                            "D) is completing"
+                        ],
+                        "answer": 1,
+                        "explanation": "Future passive: will be completed."
+                    },
+                    {
+                        "blank_number": 7,
+                        "options": [
+                            "A) is going to hold",
+                            "B) is going to be held",
+                            "C) will holding",
+                            "D) has held"
+                        ],
+                        "answer": 1,
+                        "explanation": "Going to passive: is going to be held."
+                    },
+                    {
+                        "blank_number": 8,
+                        "options": [
+                            "A) have already sent",
+                            "B) have already been sent",
+                            "C) are already send",
+                            "D) has already been sent"
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Perfect passive plural: have been sent."
+                    },
+                    {
+                        "blank_number": 9,
+                        "options": [
+                            "A) to invite",
+                            "B) to be invited",
+                            "C) being invite",
+                            "D) to invited"
+                        ],
+                        "answer": 1,
+                        "explanation": "Passive infinitive: to be invited."
+                    },
+                    {
+                        "blank_number": 10,
+                        "options": [
+                            "A) touching",
+                            "B) be touched",
+                            "C) to touch",
+                            "D) touched"
+                        ],
+                        "answer": 1,
+                        "explanation": "Dopo must not: base verb. In passive: be touched."
+                    },
+                    {
+                        "blank_number": 11,
+                        "options": [
+                            "A) be instructed",
+                            "B) instruct",
+                            "C) be instruction",
+                            "D) being instructed"
+                        ],
+                        "answer": 0,
+                        "explanation": "Dopo should: should be instructed (passive con modale)."
+                    },
+                    {
+                        "blank_number": 12,
+                        "options": [
+                            "A) avoided",
+                            "B) avoid",
+                            "C) be avoided",
+                            "D) be avoiding"
+                        ],
+                        "answer": 2,
+                        "explanation": "Modal passive: could be avoided."
+                    }
+                ]
+            },
+            {
+                "type": "key-word-transformation",
+                "difficulty": 5,
+                "questions": [
+                    {
+                        "first_sentence": "People speak Portuguese in Brazil.",
+                        "keyword": "SPOKEN",
+                        "second_sentence_start": "Portuguese",
+                        "second_sentence_end": "in Brazil.",
+                        "answer": "is spoken",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 3,
+                        "explanation": "Trasformazione in Present Simple passive."
+                    },
+                    {
+                        "first_sentence": "Someone stole my wallet yesterday.",
+                        "keyword": "WAS",
+                        "second_sentence_start": "My wallet",
+                        "second_sentence_end": "yesterday.",
+                        "answer": "was stolen",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 3,
+                        "explanation": "Past Simple passive con agente omesso."
+                    },
+                    {
+                        "first_sentence": "They are painting the kitchen right now.",
+                        "keyword": "BEING",
+                        "second_sentence_start": "The kitchen",
+                        "second_sentence_end": "right now.",
+                        "answer": "is being painted",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Present Continuous passive: is being painted."
+                    },
+                    {
+                        "first_sentence": "The committee will announce the results tomorrow.",
+                        "keyword": "BE",
+                        "second_sentence_start": "The results",
+                        "second_sentence_end": "tomorrow.",
+                        "answer": "will be announced",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Future passive: will be announced."
+                    },
+                    {
+                        "first_sentence": "The company has already sent the contracts.",
+                        "keyword": "BEEN",
+                        "second_sentence_start": "The contracts",
+                        "second_sentence_end": "already.",
+                        "answer": "have already been sent",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "Present Perfect passive: have been sent."
+                    },
+                    {
+                        "first_sentence": "Someone should check these files.",
+                        "keyword": "BE",
+                        "second_sentence_start": "These files",
+                        "second_sentence_end": ".",
+                        "answer": "should be checked",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Modal passive con should."
+                    },
+                    {
+                        "first_sentence": "People looked after the child very well.",
+                        "keyword": "LOOKED",
+                        "second_sentence_start": "The child",
+                        "second_sentence_end": "very well.",
+                        "answer": "was looked after",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Con i verbi preposizionali, la preposizione resta."
+                    },
+                    {
+                        "first_sentence": "Someone gave Maria a promotion.",
+                        "keyword": "GIVEN",
+                        "second_sentence_start": "Maria",
+                        "second_sentence_end": ".",
+                        "answer": "was given a promotion",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "Passive personale con doppio complemento."
+                    },
+                    {
+                        "first_sentence": "I hate it when people interrupt me.",
+                        "keyword": "BEING",
+                        "second_sentence_start": "I hate",
+                        "second_sentence_end": ".",
+                        "answer": "being interrupted",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 3,
+                        "explanation": "Gerundio passivo: being interrupted."
+                    },
+                    {
+                        "first_sentence": "It is possible that someone left the keys in the office.",
+                        "keyword": "HAVE",
+                        "second_sentence_start": "The keys",
+                        "second_sentence_end": "in the office.",
+                        "answer": "might have been left",
+                        "alternatives": [
+                            "may have been left"
+                        ],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "Modal perfect passive: might/may have been left."
+                    }
+                ]
+            }
+        ]
+    },
     "all-mixed": {
           "title": "ALL - Mixed Practice",
-          "description": "Esercizi misti su tutti gli argomenti: Present Perfect, Modals, Future, Conditionals, Relative Clauses, Past Perfect",
+          "description": "Esercizi misti su tutti gli argomenti: Present Perfect, Modals, Future, Conditionals, Relative Clauses, Past Perfect, Passive Voice",
           "exercises": [
                     {
                               "type": "fill-blank",
@@ -4236,7 +4908,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'never' per un'esperienza di vita. L'avverbio 'never' si inserisce tra have e il participio."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "You ___ (not / park) here — it's a bus stop.",
                                                   "answer": "mustn't",
                                                   "explanation": "Mustn't esprime un divieto assoluto: è proibito parcheggiare qui."
@@ -4272,7 +4944,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'already' per un'azione appena completata con effetto sul presente."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "She looks pale. She ___ (be) ill — let's call the doctor.",
                                                   "answer": "must be",
                                                   "explanation": "Must per deduzione logica positiva basata sull'evidenza (il pallore)."
@@ -4308,7 +4980,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'since' per una situazione che è iniziata nel passato e continua nel presente."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "You ___ (not / wear) a tie at the office — it's very informal here.",
                                                   "answer": "don't have to",
                                                   "explanation": "Don't have to = non è necessario (non è un divieto, solo non è obbligatorio)."
@@ -4344,10 +5016,10 @@ const grammarData = {
                                                   "explanation": "Present Perfect interrogativa con 'ever'. Forma: Have + soggetto + ever + past participle."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "text": "He ___ (speak) five languages — that's impressive!",
-                                                  "answer": "can speak",
-                                                  "explanation": "Can per abilità: la capacità di parlare cinque lingue."
+                                                  "topic": "Passive Voice",
+                                                  "text": "Five languages ___ (speak) in this company.",
+                                                  "answer": "are spoken",
+                                                  "explanation": "Present Simple passive: am/is/are + past participle."
                                         },
                                         {
                                                   "topic": "The Future System",
@@ -4368,22 +5040,22 @@ const grammarData = {
                                                   "explanation": "Past Perfect con superlativo + ever per descrivere la migliore esperienza fino a quel momento."
                                         },
                                         {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "The museum ___ (not / open) yet — come back at ten.",
-                                                  "answer": "hasn't opened",
-                                                  "explanation": "Present Perfect negativa con 'yet' per qualcosa che non è ancora avvenuto."
+                                                  "topic": "Passive Voice",
+                                                  "text": "The old bridge ___ (repair) at the moment, so the road is closed.",
+                                                  "answer": "is being repaired",
+                                                  "explanation": "Present Continuous passive: am/is/are being + past participle."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "text": "You ___ (take) an umbrella — it might rain later.",
-                                                  "answer": "should take",
-                                                  "explanation": "Should per consiglio: è una buona idea portare l'ombrello per precauzione."
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                                                  "text": "He isn't in the office and his car is gone. He ___ (be) at home.",
+                                                  "answer": "might be",
+                                                  "explanation": "Might be per deduzione possibile (ipotesi plausibile ma non certa)."
                                         },
                                         {
-                                                  "topic": "The Future System",
-                                                  "text": "If you don't hurry, you ___ (miss) the last train.",
-                                                  "answer": "will miss",
-                                                  "explanation": "Will nel main clause del First Conditional per una conseguenza futura probabile."
+                                                  "topic": "Passive Voice",
+                                                  "text": "The results ___ (announce) tomorrow morning.",
+                                                  "answer": "will be announced",
+                                                  "explanation": "Future passive: will be + past participle."
                                         },
                                         {
                                                   "topic": "Past Perfect Simple & Continuous",
@@ -4398,16 +5070,16 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'so far' per azioni completate fino ad ora, con possibilità che continuino."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "That ___ (be) the postman — I heard the letterbox.",
                                                   "answer": "must be",
                                                   "explanation": "Must per deduzione logica basata su un'evidenza (il rumore della cassetta delle lettere)."
                                         },
                                         {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "She told me she ___ (already / hear) the news from a colleague.",
-                                                  "answer": "had already heard",
-                                                  "explanation": "Past Perfect nel discorso indiretto: 'told' al passato → il secondo verbo va al Past Perfect."
+                                                  "topic": "Passive Voice",
+                                                  "text": "By the time we arrived, all the tickets ___ (sell).",
+                                                  "answer": "had been sold",
+                                                  "explanation": "Past Perfect passive: had been + past participle."
                                         }
                               ]
                     },
@@ -4428,7 +5100,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'for' per un'azione iniziata nel passato che continua nel presente."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "You ___ smoke in here — it's a hospital.",
                                                   "options": [
                                                             "don't have to",
@@ -4500,7 +5172,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect per un evento passato con effetto rilevante nel presente (non riesco a trovarlo ora)."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "He's not answering the phone. He ___ be in a meeting.",
                                                   "options": [
                                                             "must",
@@ -4572,7 +5244,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect interrogativa con 'ever' per esperienze di vita. 'Been to' = essere andati e tornati."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "Students ___ bring a dictionary — there will be one at each desk.",
                                                   "options": [
                                                             "mustn't",
@@ -4632,40 +5304,40 @@ const grammarData = {
                                                   "explanation": "Past Perfect nel discorso indiretto: 'said' al passato → Present Perfect si trasforma in Past Perfect."
                                         },
                                         {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "The team ___ three matches so far this season.",
+                                                  "topic": "Passive Voice",
+                                                  "text": "The new stadium ___ yet, so matches are played elsewhere.",
                                                   "options": [
-                                                            "wins",
-                                                            "won",
-                                                            "has won",
-                                                            "have won"
+                                                            "hasn't completed",
+                                                            "hasn't been completed",
+                                                            "wasn't completed",
+                                                            "isn't completing"
                                                   ],
-                                                  "answer": 2,
-                                                  "explanation": "Has won (terza persona singolare) con 'so far' indica il totale di vittorie dall'inizio della stagione."
+                                                  "answer": 1,
+                                                  "explanation": "Present Perfect passive: has not been + past participle."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "text": "I ___ swim when I was five, but now I'm an excellent swimmer.",
+                                                  "topic": "Passive Voice",
+                                                  "text": "Choose the correct sentence:",
                                                   "options": [
-                                                            "couldn't",
-                                                            "mustn't",
-                                                            "shouldn't",
-                                                            "didn't have to"
+                                                            "A new bridge is being built near the station.",
+                                                            "A new bridge is building near the station.",
+                                                            "A new bridge being built near the station.",
+                                                            "A new bridge is builted near the station."
                                                   ],
                                                   "answer": 0,
-                                                  "explanation": "Couldn't è il passato di 'can't': indica la mancanza di abilità nel passato."
+                                                  "explanation": "Present Continuous passive corretto: is being built."
                                         },
                                         {
-                                                  "topic": "The Future System",
-                                                  "text": "I'm afraid I can't join you for lunch — I ___ a client at that time.",
+                                                  "topic": "Passive Voice",
+                                                  "text": "The invitations ___ before Friday.",
                                                   "options": [
-                                                            "will meet",
-                                                            "meet",
-                                                            "am meeting",
-                                                            "am going to meet"
+                                                            "will send",
+                                                            "will be sent",
+                                                            "are sending",
+                                                            "will been sent"
                                                   ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Continuous per un appuntamento già fissato in agenda per il futuro."
+                                                  "answer": 1,
+                                                  "explanation": "Future passive: will be + past participle."
                                         },
                                         {
                                                   "topic": "Conditionals",
@@ -4716,16 +5388,16 @@ const grammarData = {
                                                   "explanation": "Present Perfect: azioni ripetute in un periodo ancora non concluso, con 'yet' nella seconda frase."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "text": "You look tired. You ___ take a break.",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                                                  "text": "He got 1 out of 100. He ___ have studied much.",
                                                   "options": [
                                                             "must",
-                                                            "should",
-                                                            "can",
-                                                            "would"
+                                                            "might",
+                                                            "can't",
+                                                            "should"
                                                   ],
-                                                  "answer": 1,
-                                                  "explanation": "Should per dare un consiglio gentile. Must sarebbe troppo forte (obbligo assoluto)."
+                                                  "answer": 2,
+                                                  "explanation": "Can't have + participio passato per deduzione negativa su un evento passato."
                                         },
                                         {
                                                   "topic": "The Future System",
@@ -4752,19 +5424,19 @@ const grammarData = {
                                                   "explanation": "Past Perfect Continuous con 'for': durata dell'attesa (40 minuti) prima dell'arrivo del taxi."
                                         },
                                         {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "This is the third time he ___ late this week!",
+                                                  "topic": "Passive Voice",
+                                                  "text": "The suspect ___ by the police yesterday evening.",
                                                   "options": [
-                                                            "is",
-                                                            "was",
-                                                            "has been",
-                                                            "had been"
+                                                            "arrested",
+                                                            "was arrested",
+                                                            "was arresting",
+                                                            "has arrested"
                                                   ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect con 'it's the third time...': questa struttura richiede sempre il Present Perfect."
+                                                  "answer": 1,
+                                                  "explanation": "Past Simple passive: was/were + past participle."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "The lights are on, so someone ___ be at home.",
                                                   "options": [
                                                             "should",
@@ -4792,7 +5464,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect negativa con 'yet' alla fine. 'Yet' in frasi negative = ancora."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "Non devi gridare in biblioteca — è contro le regole.",
                                                   "answer": "You mustn't shout in the library — it's against the rules",
                                                   "alternatives": [
@@ -4847,13 +5519,13 @@ const grammarData = {
                                                   "explanation": "Present Perfect interrogativa per esperienze. 'Been to' = essere andati e tornati."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "text": "Non devi portare i soldi — ci penso io a pagare.",
-                                                  "answer": "You don't have to bring any money — I'll pay",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                                                  "text": "Devono aver sbagliato indirizzo.",
+                                                  "answer": "They must have got the wrong address",
                                                   "alternatives": [
-                                                            "You don't have to bring money — I will pay for it"
+                                                            "They must have gotten the wrong address"
                                                   ],
-                                                  "explanation": "Don't have to = non è necessario (non è un divieto)."
+                                                  "explanation": "Must have + participio passato per deduzione quasi certa su un evento passato."
                                         },
                                         {
                                                   "topic": "The Future System",
@@ -4902,7 +5574,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect (Simple o Continuous) con 'for' per una situazione iniziata nel passato che continua ora."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "Non può essere lui alla porta — è in vacanza all'estero.",
                                                   "answer": "It can't be him at the door — he's on holiday abroad",
                                                   "alternatives": [
@@ -4957,7 +5629,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'it's the third time...' per contare azioni ripetute in un periodo ancora in corso."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "text": "Dovresti fare più esercizio — fa bene alla salute.",
                                                   "answer": "You should do more exercise — it's good for your health",
                                                   "alternatives": [
@@ -5004,31 +5676,29 @@ const grammarData = {
                                                   "explanation": "Past Perfect nel discorso indiretto con 'told me': il verbo si arretra al Past Perfect."
                                         },
                                         {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "Hanno appena annunciato i risultati delle elezioni.",
-                                                  "answer": "They have just announced the election results",
+                                                  "topic": "Passive Voice",
+                                                  "text": "I risultati delle elezioni sono stati annunciati poco fa.",
+                                                  "answer": "The election results have just been announced",
                                                   "alternatives": [
-                                                            "They have just announced the results of the election"
+                                                            "The results of the election have just been announced"
                                                   ],
-                                                  "explanation": "Present Perfect con 'just' per un'azione appena completata."
+                                                  "explanation": "Present Perfect passive: have/has been + past participle."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "text": "Puoi parcheggiare qui gratuitamente il sabato.",
-                                                  "answer": "You can park here for free on Saturdays",
-                                                  "alternatives": [
-                                                            "You can park here free of charge on Saturdays"
-                                                  ],
-                                                  "explanation": "Can per permesso: è consentito parcheggiare qui il sabato."
+                                                  "topic": "Passive Voice",
+                                                  "text": "Il paziente è stato operato ieri mattina.",
+                                                  "answer": "The patient was operated on yesterday morning",
+                                                  "alternatives": [],
+                                                  "explanation": "Past Simple passive con verbo/preposizione: operated on."
                                         },
                                         {
-                                                  "topic": "The Future System",
-                                                  "text": "Andrò in palestra domani mattina — l'ho già pianificato.",
-                                                  "answer": "I'm going to go to the gym tomorrow morning — I've already planned it",
+                                                  "topic": "Passive Voice",
+                                                  "text": "Il nuovo teatro sarà inaugurato il mese prossimo.",
+                                                  "answer": "The new theatre will be opened next month",
                                                   "alternatives": [
-                                                            "I'm going to the gym tomorrow morning — I've already planned it"
+                                                            "The new theater will be opened next month"
                                                   ],
-                                                  "explanation": "Going to per un piano già deciso in precedenza (confermato da 'l'ho già pianificato')."
+                                                  "explanation": "Future passive: will be + past participle."
                                         },
                                         {
                                                   "topic": "Conditionals",
@@ -5058,13 +5728,13 @@ const grammarData = {
                                                   "explanation": "Past Perfect Continuous con 'for': durata dell'attesa prima che iniziasse a piovere."
                                         },
                                         {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "Era il film più divertente che avessero mai visto.",
-                                                  "answer": "It was the funniest film they had ever seen",
+                                                  "topic": "Passive Voice",
+                                                  "text": "Era il miglior progetto che fosse mai stato presentato.",
+                                                  "answer": "It was the best project that had ever been presented",
                                                   "alternatives": [
-                                                            "It was the most entertaining film they had ever seen"
+                                                            "It was the best project ever presented"
                                                   ],
-                                                  "explanation": "Past Perfect con superlativo + ever: 'the funniest...they had ever seen' è la struttura standard."
+                                                  "explanation": "Past Perfect passive con superlativo: had ever been presented."
                                         }
                               ]
                     },
@@ -5435,7 +6105,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect con 'never' per un'esperienza mai fatta. 'This is my first time' → 'I have never been to...'"
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "first_sentence": "It's against the rules to use your phone during the exam.",
                                                   "keyword": "MUSTN'T",
                                                   "second_sentence_start": "You",
@@ -5449,18 +6119,16 @@ const grammarData = {
                                                   "explanation": "Mustn't per esprimere un divieto: è proibito usare il telefono durante l'esame."
                                         },
                                         {
-                                                  "topic": "The Future System",
-                                                  "first_sentence": "I have decided to take a gap year before university.",
-                                                  "keyword": "GOING",
-                                                  "second_sentence_start": "I am",
-                                                  "second_sentence_end": "university.",
-                                                  "answer": "going to take a gap year before",
-                                                  "alternatives": [
-                                                            "going to have a gap year before"
-                                                  ],
+                                                  "topic": "Passive Voice",
+                                                  "first_sentence": "They are going to announce the winner tomorrow.",
+                                                  "keyword": "BE",
+                                                  "second_sentence_start": "The winner",
+                                                  "second_sentence_end": "tomorrow.",
+                                                  "answer": "is going to be announced",
+                                                  "alternatives": [],
                                                   "min_words": 5,
-                                                  "max_words": 6,
-                                                  "explanation": "Going to per un piano già deciso in precedenza ('ho deciso' → piano preesistente)."
+                                                  "max_words": 5,
+                                                  "explanation": "Going to passive: is going to be + past participle."
                                         },
                                         {
                                                   "topic": "Conditionals",
@@ -5518,7 +6186,7 @@ const grammarData = {
                                                   "explanation": "Present Perfect Continuous con 'for': azione iniziata nel passato che continua nel presente."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "first_sentence": "I'm absolutely certain that she passed the test — she studied so hard.",
                                                   "keyword": "MUST",
                                                   "second_sentence_start": "She",
@@ -5582,21 +6250,19 @@ const grammarData = {
                                                   "explanation": "Discorso indiretto: 'told me' al passato → Present Perfect → Past Perfect, 'haven't' → 'hadn't'."
                                         },
                                         {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "first_sentence": "The last time they saw each other was in 2021.",
-                                                  "keyword": "SINCE",
-                                                  "second_sentence_start": "They",
-                                                  "second_sentence_end": "2021.",
-                                                  "answer": "haven't seen each other since",
-                                                  "alternatives": [
-                                                            "have not seen each other since"
-                                                  ],
+                                                  "topic": "Passive Voice",
+                                                  "first_sentence": "Someone has just cleaned the classroom.",
+                                                  "keyword": "BEEN",
+                                                  "second_sentence_start": "The classroom",
+                                                  "second_sentence_end": ".",
+                                                  "answer": "has just been cleaned",
+                                                  "alternatives": [],
                                                   "min_words": 4,
-                                                  "max_words": 5,
-                                                  "explanation": "Present Perfect negativa con 'since': non si vedono dal 2021."
+                                                  "max_words": 4,
+                                                  "explanation": "Present Perfect passive: has/have been + past participle."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "first_sentence": "I'm sure that's not the right answer — it's impossible.",
                                                   "keyword": "CAN'T",
                                                   "second_sentence_start": "That",
@@ -5674,16 +6340,16 @@ const grammarData = {
                                                   "explanation": "Since + punto nel tempo (January 2020) con Present Perfect per indicare da quando dura un'azione."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
-                                                  "first_sentence": "It's not necessary to book a table — we can walk in.",
-                                                  "keyword": "HAVE",
-                                                  "second_sentence_start": "You don't",
-                                                  "second_sentence_end": "— we can walk in.",
-                                                  "answer": "have to book a table",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                                                  "first_sentence": "It's possible that she forgot the meeting.",
+                                                  "keyword": "MIGHT",
+                                                  "second_sentence_start": "She",
+                                                  "second_sentence_end": "the meeting.",
+                                                  "answer": "might have forgotten",
                                                   "alternatives": [],
-                                                  "min_words": 4,
-                                                  "max_words": 4,
-                                                  "explanation": "Don't have to = not necessary. Riscrittura di 'it's not necessary to' con 'don't have to'."
+                                                  "min_words": 3,
+                                                  "max_words": 3,
+                                                  "explanation": "Might have + past participle per una deduzione possibile sul passato."
                                         },
                                         {
                                                   "topic": "The Future System",
@@ -5728,18 +6394,16 @@ const grammarData = {
                                                   "explanation": "When nelle relative clauses con espressioni di tempo per indicare un momento specifico."
                                         },
                                         {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "first_sentence": "She had been jogging for an hour. Then she stopped for a rest.",
-                                                  "keyword": "AFTER",
-                                                  "second_sentence_start": "She stopped for a rest",
-                                                  "second_sentence_end": "for an hour.",
-                                                  "answer": "after she had been jogging",
-                                                  "alternatives": [
-                                                            "after jogging"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 5,
-                                                  "explanation": "Past Perfect Continuous con 'after': l'azione in corso (jogging) è avvenuta prima della pausa."
+                                                  "topic": "Passive Voice",
+                                                  "first_sentence": "Someone had stolen her bike before the police arrived.",
+                                                  "keyword": "BEEN",
+                                                  "second_sentence_start": "Her bike",
+                                                  "second_sentence_end": "the police arrived.",
+                                                  "answer": "had been stolen before",
+                                                  "alternatives": [],
+                                                  "min_words": 4,
+                                                  "max_words": 4,
+                                                  "explanation": "Past Perfect passive: had been + past participle."
                                         },
                                         {
                                                   "topic": "Present Perfect vs Past Simple",
@@ -5756,7 +6420,7 @@ const grammarData = {
                                                   "explanation": "Past Perfect con 'never...before': equivalente di 'it was my first time'."
                                         },
                                         {
-                                                  "topic": "Modal Verbs: Obligation & Prohibition",
+                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
                                                   "first_sentence": "I advise you not to trust him — he has lied before.",
                                                   "keyword": "SHOULD",
                                                   "second_sentence_start": "You",
@@ -5782,18 +6446,16 @@ const grammarData = {
                                                   "explanation": "Will per orari futuri (accettabile come alternativa al Present Simple per orari fissi)."
                                         },
                                         {
-                                                  "topic": "Conditionals",
+                                                  "topic": "Passive Voice",
                                                   "first_sentence": "Only registered users can access the premium content.",
-                                                  "keyword": "UNLESS",
-                                                  "second_sentence_start": "You can't access the premium content",
-                                                  "second_sentence_end": "registered.",
-                                                  "answer": "unless you are",
-                                                  "alternatives": [
-                                                            "unless you're"
-                                                  ],
-                                                  "min_words": 2,
-                                                  "max_words": 3,
-                                                  "explanation": "Unless = if not: 'unless you are registered' = 'if you are not registered'."
+                                                  "keyword": "ACCESSED",
+                                                  "second_sentence_start": "The premium content",
+                                                  "second_sentence_end": "by registered users.",
+                                                  "answer": "can only be accessed",
+                                                  "alternatives": [],
+                                                  "min_words": 4,
+                                                  "max_words": 4,
+                                                  "explanation": "Modal passive: can + be + past participle."
                                         },
                                         {
                                                   "topic": "Relative Clauses",
