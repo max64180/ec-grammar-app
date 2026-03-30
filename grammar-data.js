@@ -8,12 +8,12 @@ const grammarData = {
                 "difficulty": 3,
                 "questions": [
                     {
-                        "text": "I ___ (watch) a movie last night.",
+                        "text": "I ___ (watch) a series yesterday evening.",
                         "answer": "watched",
-                        "explanation": "Si usa il Past Simple perché 'last night' è un tempo completamente terminato."
+                        "explanation": "Si usa il Past Simple perché 'yesterday evening' è un tempo completamente terminato."
                     },
                     {
-                        "text": "I ___ (see) that movie before.",
+                        "text": "I ___ (see) that series before.",
                         "answer": "have seen",
                         "explanation": "Si usa il Present Perfect perché non specifichiamo quando, è un'esperienza di vita."
                     },
@@ -68,7 +68,7 @@ const grammarData = {
                         "explanation": "Past Simple perché la domanda con 'when' richiede un tempo specifico."
                     },
                     {
-                        "text": "___ you ever ___ (visit) Paris?",
+                        "text": "___ you ever ___ (visit) Madrid?",
                         "answer": "Have you ever visited",
                         "explanation": "Present Perfect con 'ever' per chiedere di esperienze di vita senza tempo specifico."
                     },
@@ -78,9 +78,9 @@ const grammarData = {
                         "explanation": "Present Perfect Continuous per enfatizzare la durata di un'azione ancora in corso."
                     },
                     {
-                        "text": "I ___ (meet) him at the party last Saturday.",
+                        "text": "I ___ (meet) him at the event last weekend.",
                         "answer": "met",
-                        "explanation": "Past Simple perché 'last Saturday' è un tempo completamente concluso."
+                        "explanation": "Past Simple perché 'last weekend' è un tempo completamente concluso."
                     },
                     {
                         "text": "They ___ (not/call) me yet.",
@@ -93,9 +93,9 @@ const grammarData = {
                         "explanation": "Present Perfect perché l'amicizia iniziata nel passato continua nel presente."
                     },
                     {
-                        "text": "I ___ (see) her three times this week.",
+                        "text": "I ___ (see) her three times this month.",
                         "answer": "have seen",
-                        "explanation": "Present Perfect perché 'this week' è un periodo ancora aperto (non finito)."
+                        "explanation": "Present Perfect perché 'this month' è un periodo ancora aperto (non finito)."
                     },
                     {
                         "text": "He ___ (break) his leg last month.",
@@ -158,7 +158,7 @@ const grammarData = {
                         "explanation": "Con 'when' si usa il Past Simple perché chiediamo un momento specifico nel passato."
                     },
                     {
-                        "text": "___ you ever ___ to New York?",
+                        "text": "___ you ever ___ to Toronto?",
                         "options": [
                             "Have / been",
                             "Did / go",
@@ -224,7 +224,7 @@ const grammarData = {
                         "explanation": "Past Simple perché 'an hour ago' è un marcatore temporale specifico e concluso."
                     },
                     {
-                        "text": "We ___ to move house next year.",
+                        "text": "We ___ to move house next term.",
                         "options": [
                             "decided",
                             "are deciding",
@@ -257,7 +257,7 @@ const grammarData = {
                         "explanation": "Past Simple per azioni abituali in un periodo del passato ormai concluso."
                     },
                     {
-                        "text": "How many times ___ you ___ that movie?",
+                        "text": "How many times ___ you ___ that series?",
                         "options": [
                             "are / watching",
                             "have / watched",
@@ -340,13 +340,13 @@ const grammarData = {
                 "difficulty": 4,
                 "questions": [
                     {
-                        "text": "Ho visto quel film la settimana scorsa.",
-                        "answer": "I saw that film last week",
+                        "text": "Ho visto quel series la mese scorsa.",
+                        "answer": "I saw that series last week",
                         "alternatives": [
                             "I watched that film last week",
                             "I saw that movie last week"
                         ],
-                        "explanation": "Past Simple perché 'la settimana scorsa' (last week) è un tempo concluso. 'Saw' o 'watched' sono entrambi corretti."
+                        "explanation": "Past Simple perché 'la mese scorsa' (last week) è un tempo concluso. 'Saw' o 'watched' sono entrambi corretti."
                     },
                     {
                         "text": "Non ho mai mangiato cibo giapponese.",
@@ -401,8 +401,8 @@ const grammarData = {
                         "explanation": "Present Perfect con 'just' per azioni appena completate con rilevanza presente."
                     },
                     {
-                        "text": "Hai mai visitato Londra?",
-                        "answer": "Have you ever visited London",
+                        "text": "Hai mai visitato Dublino?",
+                        "answer": "Have you ever visited Dublin",
                         "alternatives": [
                             "Have you ever been to London"
                         ],
@@ -430,7 +430,7 @@ const grammarData = {
             {
                 "type": "cloze-test",
                 "difficulty": 4,
-                "context": "Dear Sarah,\n\nI hope you're well! I'm writing to tell you about my recent experiences. I (1) ......... in London for three months now, and I absolutely love it! When I first (2) ......... here in September, I (3) ......... very nervous because I (4) ......... never ......... abroad before.\n\nSince then, so much (5) .........! I (6) ......... a great job at a marketing company, and I (7) ......... there for two months already. My colleagues are fantastic – yesterday we (8) ......... out for dinner to celebrate a successful project.\n\nI (9) ......... also ......... some amazing places around the city. Last weekend, I (10) ......... the British Museum, and I (11) ......... to the theatre twice this month. I can't believe how much I (12) ......... in such a short time!\n\nHow about you? (13) ......... you ......... any news lately?\n\nWrite back soon!\nEmma",
+                "context": "Dear Sarah,\n\nI hope you're well! I'm writing to tell you about my recent experiences. I (1) ......... in Dublin for three months now, and I absolutely love it! When I first (2) ......... here in September, I (3) ......... very nervous because I (4) ......... never ......... abroad before.\n\nSince then, so much (5) .........! I (6) ......... a great job at a marketing company, and I (7) ......... there for two months already. My colleagues are fantastic – yesterday we (8) ......... out for dinner to celebrate a successful project.\n\nI (9) ......... also ......... some amazing places around the city. Last weekend, I (10) ......... the British Gallery, and I (11) ......... to the theatre twice this month. I can't believe how much I (12) ......... in such a short time!\n\nHow about you? (13) ......... you ......... any news lately?\n\nWrite back soon!\nEmma",
                 "questions": [
                     {
                         "blank_number": 1,
@@ -474,7 +474,7 @@ const grammarData = {
                             "D) was / living"
                         ],
                         "answer": 1,
-                        "explanation": "Past Perfect perché l'azione (mai vissuto all'estero) è precedente a un altro momento nel passato (l'arrivo a Londra)."
+                        "explanation": "Past Perfect perché l'azione (mai vissuto all'estero) è precedente a un altro momento nel passato (l'arrivo a Dublino)."
                     },
                     {
                         "blank_number": 5,
@@ -587,18 +587,22 @@ const grammarData = {
                         "second_sentence_start": "I",
                         "second_sentence_end": "two years.",
                         "answer": "have been working here for",
-                        "alternatives": ["have worked here for"],
+                        "alternatives": [
+                            "have worked here for"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione da Past Simple con tempo definito (two years ago) a Present Perfect/Continuous con 'for' per indicare durata."
                     },
                     {
-                        "first_sentence": "This is my first visit to Paris.",
+                        "first_sentence": "This is my first visit to Madrid.",
                         "keyword": "never",
                         "second_sentence_start": "I",
-                        "second_sentence_end": "Paris before.",
+                        "second_sentence_end": "Madrid before.",
                         "answer": "have never been to",
-                        "alternatives": ["have never visited"],
+                        "alternatives": [
+                            "have never visited"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione da forma affermativa a Present Perfect negativo con 'never' per indicare esperienza mai avvenuta."
@@ -609,7 +613,9 @@ const grammarData = {
                         "second_sentence_start": "How",
                         "second_sentence_end": "your car?",
                         "answer": "long have you had",
-                        "alternatives": ["long have you owned"],
+                        "alternatives": [
+                            "long have you owned"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione da domanda con 'when' (Past Simple) a domanda con 'How long' (Present Perfect) per chiedere durata."
@@ -626,12 +632,14 @@ const grammarData = {
                         "explanation": "Trasformazione da Past Simple affermativo a Present Perfect negativo con 'since' per indicare periodo di tempo."
                     },
                     {
-                        "first_sentence": "She moved to London three months ago and she still lives there.",
+                        "first_sentence": "She moved to Dublin three months ago and she still lives there.",
                         "keyword": "living",
                         "second_sentence_start": "She",
                         "second_sentence_end": "three months.",
                         "answer": "has been living there for",
-                        "alternatives": ["has been living in London for"],
+                        "alternatives": [
+                            "has been living in London for"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione che unisce due frasi usando Present Perfect Continuous per indicare azione iniziata nel passato e ancora in corso."
@@ -642,7 +650,9 @@ const grammarData = {
                         "second_sentence_start": "This is the",
                         "second_sentence_end": "sushi.",
                         "answer": "first time I have eaten",
-                        "alternatives": ["first time I've eaten"],
+                        "alternatives": [
+                            "first time I've eaten"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione da Present Perfect negativo alla struttura 'This is the first time' + Present Perfect."
@@ -1336,7 +1346,9 @@ const grammarData = {
                         "second_sentence_start": "You",
                         "second_sentence_end": "pay taxes.",
                         "answer": "must",
-                        "alternatives": ["have to"],
+                        "alternatives": [
+                            "have to"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione di 'compulsory' in 'must' per obbligo."
@@ -1358,7 +1370,9 @@ const grammarData = {
                         "second_sentence_start": "I",
                         "second_sentence_end": "attend the meeting.",
                         "answer": "must",
-                        "alternatives": ["have to"],
+                        "alternatives": [
+                            "have to"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione mantenendo l'obbligo con 'must' o 'have to'."
@@ -1369,7 +1383,9 @@ const grammarData = {
                         "second_sentence_start": "You",
                         "second_sentence_end": "in the museum.",
                         "answer": "mustn't take photographs",
-                        "alternatives": ["mustn't take photos"],
+                        "alternatives": [
+                            "mustn't take photos"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Trasformazione di 'prohibited' in 'mustn't' con il verbo appropriato."
@@ -1398,12 +1414,12 @@ const grammarData = {
                 "difficulty": 3,
                 "questions": [
                     {
-                        "text": "The film ___ (start) at 9 PM.",
+                        "text": "The series ___ (start) at 9 PM.",
                         "answer": "starts",
                         "explanation": "Present Simple per orari fissi e programmati ufficialmente."
                     },
                     {
-                        "text": "I ___ (fly) to New York on Monday. I have the ticket.",
+                        "text": "I ___ (fly) to Toronto on Monday. I have the ticket.",
                         "answer": "am flying",
                         "explanation": "Present Continuous per arrangiamenti già organizzati (ho il biglietto)."
                     },
@@ -1413,7 +1429,7 @@ const grammarData = {
                         "explanation": "Be going to per previsioni basate su evidenza visibile (vedo che sta per cadere)."
                     },
                     {
-                        "text": "I think it ___ (be) a great party.",
+                        "text": "I think it ___ (be) a great event.",
                         "answer": "will be",
                         "explanation": "Will per previsioni/opinioni personali (I think)."
                     },
@@ -1423,17 +1439,17 @@ const grammarData = {
                         "explanation": "Will per decisioni spontanee prese al momento."
                     },
                     {
-                        "text": "I ___ (study) medicine next year.",
+                        "text": "I ___ (study) medicine next term.",
                         "answer": "am going to study",
                         "explanation": "Be going to per intenzioni decise ma non ancora organizzate nei dettagli."
                     },
                     {
-                        "text": "What time ___ the train ___ (leave)?",
+                        "text": "What time ___ the bus ___ (leave)?",
                         "answer": "does / leave",
                         "explanation": "Present Simple per orari di trasporti pubblici."
                     },
                     {
-                        "text": "We ___ (have) dinner with Mark tonight. We arranged it yesterday.",
+                        "text": "We ___ (have) dinner with Luca tonight. We arranged it yesterday.",
                         "answer": "are having",
                         "explanation": "Present Continuous per piani già organizzati con altre persone."
                     },
@@ -1453,7 +1469,7 @@ const grammarData = {
                         "explanation": "Present Simple per eventi programmati con orario fisso."
                     },
                     {
-                        "text": "I ___ (meet) Sarah at the airport. She arrives at 3.",
+                        "text": "I ___ (meet) Sarah at the station. She arrives at 3.",
                         "answer": "am meeting",
                         "explanation": "Present Continuous per appuntamenti fissi già organizzati."
                     },
@@ -1463,7 +1479,7 @@ const grammarData = {
                         "explanation": "Will per previsioni basate su opinioni (I'm sure)."
                     },
                     {
-                        "text": "I ___ (not/go) to the party. I've decided.",
+                        "text": "I ___ (not/go) to the event. I've decided.",
                         "answer": "am not going",
                         "explanation": "Be going to per intenzioni/decisioni già prese."
                     },
@@ -1515,7 +1531,7 @@ const grammarData = {
                         "explanation": "Will si usa per decisioni spontanee prese mentre si parla."
                     },
                     {
-                        "text": "The train ___ at 6 PM every day.",
+                        "text": "The bus ___ at 6 PM every day.",
                         "options": [
                             "will leave",
                             "leaves",
@@ -1559,7 +1575,7 @@ const grammarData = {
                         "explanation": "Will per opinioni e previsioni personali (I think)."
                     },
                     {
-                        "text": "What time ___ the film ___?",
+                        "text": "What time ___ the series ___?",
                         "options": [
                             "is / going to start",
                             "will / start",
@@ -1603,7 +1619,7 @@ const grammarData = {
                         "explanation": "Be going to per eventi futuri certi basati su evidenza presente."
                     },
                     {
-                        "text": "I ___ fly to Paris next Monday. Here's my boarding pass.",
+                        "text": "I ___ fly to Madrid next Monday. Here's my boarding pass.",
                         "options": [
                             "will",
                             "fly",
@@ -1669,7 +1685,7 @@ const grammarData = {
                         "explanation": "Be going to per previsioni basate su evidenza visibile."
                     },
                     {
-                        "text": "We ___ dinner with John tonight. We booked the restaurant.",
+                        "text": "We ___ dinner with Marco tonight. We booked the bistro.",
                         "options": [
                             "are having",
                             "will have",
@@ -1730,8 +1746,8 @@ const grammarData = {
                 "difficulty": 4,
                 "questions": [
                     {
-                        "text": "Il film inizia alle 9.",
-                        "answer": "The film starts at 9",
+                        "text": "Il series inizia alle 9.",
+                        "answer": "The series starts at 9",
                         "alternatives": [
                             "The movie starts at 9",
                             "The film begins at 9"
@@ -1739,8 +1755,8 @@ const grammarData = {
                         "explanation": "Present Simple per orari fissi programmati."
                     },
                     {
-                        "text": "Sto volando a New York lunedì.",
-                        "answer": "I am flying to New York on Monday",
+                        "text": "Sto volando a Toronto lunedì.",
+                        "answer": "I am flying to Toronto on Monday",
                         "alternatives": [
                             "I'm flying to New York on Monday"
                         ],
@@ -1756,8 +1772,8 @@ const grammarData = {
                         "explanation": "Be going to per previsioni basate su evidenza immediata."
                     },
                     {
-                        "text": "Penso che sarà una grande festa.",
-                        "answer": "I think it will be a great party",
+                        "text": "Penso che sarà una grande evento.",
+                        "answer": "I think it will be a great event",
                         "alternatives": [
                             "I think it'll be a great party"
                         ],
@@ -1773,23 +1789,23 @@ const grammarData = {
                     },
                     {
                         "text": "Studierò medicina il prossimo anno.",
-                        "answer": "I am going to study medicine next year",
+                        "answer": "I am going to study medicine next term",
                         "alternatives": [
                             "I'm going to study medicine next year"
                         ],
                         "explanation": "Be going to per intenzioni decise ma non ancora organizzate."
                     },
                     {
-                        "text": "A che ora parte il treno?",
-                        "answer": "What time does the train leave",
+                        "text": "A che ora parte il bus?",
+                        "answer": "What time does the bus leave",
                         "alternatives": [
                             "What time does the train depart"
                         ],
                         "explanation": "Present Simple per orari di trasporti pubblici."
                     },
                     {
-                        "text": "Ceniamo con Mark stasera.",
-                        "answer": "We are having dinner with Mark tonight",
+                        "text": "Ceniamo con Luca stasera.",
+                        "answer": "We are having dinner with Luca tonight",
                         "alternatives": [
                             "We're having dinner with Mark tonight"
                         ],
@@ -1817,7 +1833,7 @@ const grammarData = {
             {
                 "type": "cloze-test",
                 "difficulty": 4,
-                "context": "Hi Emma!\n\nI'm so excited about next week! Our flight to Barcelona (1) ......... at 7:30 AM on Monday – I've checked the airport website. I (2) ......... there early to avoid any problems. I (3) ......... a taxi right now to book it for 5 AM.\n\nWhen we (4) ......... in Barcelona, we (5) ......... our hotel first. I (6) ......... the reservation online last night, so everything is ready. Then I think we (7) ......... lunch somewhere nice – what do you think?\n\nLook at the weather forecast! It says it (8) ......... sunny all week. Perfect! On Tuesday, we (9) ......... a tour of the Gothic Quarter – I (10) ......... the tickets yesterday. The tour (11) ......... at 10 AM.\n\nI'm not sure about Wednesday yet. Maybe we (12) ......... to the beach, or we could visit some museums. We (13) ......... decide when we're there!\n\nSee you Monday!\nSarah",
+                "context": "Hi Emma!\n\nI'm so excited about next week! Our flight to Barcelona (1) ......... at 7:30 AM on Monday – I've checked the station website. I (2) ......... there early to avoid any problems. I (3) ......... a taxi right now to book it for 5 AM.\n\nWhen we (4) ......... in Barcelona, we (5) ......... our hotel first. I (6) ......... the reservation online yesterday evening, so everything is ready. Then I think we (7) ......... lunch somewhere nice – what do you think?\n\nLook at the weather forecast! It says it (8) ......... sunny all week. Perfect! On Tuesday, we (9) ......... a tour of the Gothic Quarter – I (10) ......... the tickets yesterday. The tour (11) ......... at 10 AM.\n\nI'm not sure about Wednesday yet. Maybe we (12) ......... to the beach, or we could visit some museums. We (13) ......... decide when we're there!\n\nSee you Monday!\nSarah",
                 "questions": [
                     {
                         "blank_number": 1,
@@ -1883,7 +1899,7 @@ const grammarData = {
                             "D) am going to make"
                         ],
                         "answer": 2,
-                        "explanation": "Past Simple perché l'azione è già avvenuta (last night)."
+                        "explanation": "Past Simple perché l'azione è già avvenuta (yesterday evening)."
                     },
                     {
                         "blank_number": 7,
@@ -1969,9 +1985,9 @@ const grammarData = {
                 "difficulty": 5,
                 "questions": [
                     {
-                        "first_sentence": "The train departs at 6 PM.",
+                        "first_sentence": "The bus departs at 6 PM.",
                         "keyword": "leave",
-                        "second_sentence_start": "The train",
+                        "second_sentence_start": "The bus",
                         "second_sentence_end": "at 6 PM.",
                         "answer": "leaves",
                         "alternatives": [],
@@ -2018,7 +2034,9 @@ const grammarData = {
                         "second_sentence_start": "It",
                         "second_sentence_end": "it's going to rain.",
                         "answer": "looks like",
-                        "alternatives": ["looks as if"],
+                        "alternatives": [
+                            "looks as if"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Espressione alternativa per previsione basata su evidenza."
@@ -2141,7 +2159,7 @@ const grammarData = {
                         "explanation": "Zero Conditional per processi fisici certi."
                     },
                     {
-                        "text": "If they ___ (invite) me, I ___ (go) to the party.",
+                        "text": "If they ___ (invite) me, I ___ (go) to the event.",
                         "answer": "invite / will go",
                         "explanation": "First Conditional per situazioni future possibili."
                     },
@@ -2274,7 +2292,7 @@ const grammarData = {
                         "explanation": "Zero Conditional (Present Simple) per verità biologiche."
                     },
                     {
-                        "text": "If we ___ more time, we ___ the museum.",
+                        "text": "If we ___ more time, we ___ the gallery.",
                         "options": [
                             "had / would visit",
                             "would have / visited",
@@ -2691,7 +2709,9 @@ const grammarData = {
                         "second_sentence_start": "If I",
                         "second_sentence_end": "to work.",
                         "answer": "had a car I would drive",
-                        "alternatives": ["had a car I could drive"],
+                        "alternatives": [
+                            "had a car I could drive"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Second Conditional per situazione ipotetica (non ho la macchina)."
@@ -2713,7 +2733,9 @@ const grammarData = {
                         "second_sentence_start": "I",
                         "second_sentence_end": "rich, I could buy a yacht.",
                         "answer": "would buy a yacht if I were",
-                        "alternatives": ["could buy a yacht if I were"],
+                        "alternatives": [
+                            "could buy a yacht if I were"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Second Conditional per situazione irreale presente."
@@ -2790,7 +2812,10 @@ const grammarData = {
                         "second_sentence_start": "I wouldn't succeed",
                         "second_sentence_end": "help me.",
                         "answer": "if you didn't",
-                        "alternatives": ["if you wouldn't", "unless you"],
+                        "alternatives": [
+                            "if you wouldn't",
+                            "unless you"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Second Conditional: 'without' = 'if... not'."
@@ -2860,17 +2885,17 @@ const grammarData = {
                         "explanation": "Who o that per persone in defining clauses generali."
                     },
                     {
-                        "text": "My brother, ___ lives in London, is a doctor.",
+                        "text": "My brother, ___ lives in Dublin, is a doctor.",
                         "answer": "who",
                         "explanation": "Who (non that!) in non-defining clause (informazione extra su mio fratello)."
                     },
                     {
-                        "text": "The restaurant ___ we went to was excellent.",
+                        "text": "The bistro ___ we went to was excellent.",
                         "answer": "which",
                         "alternatives": [
                             "that"
                         ],
-                        "explanation": "Which o that per luoghi. Si può anche omettere (The restaurant we went to)."
+                        "explanation": "Which o that per luoghi. Si può anche omettere (The bistro we went to)."
                     },
                     {
                         "text": "The woman ___ house burnt down is homeless now.",
@@ -2886,7 +2911,7 @@ const grammarData = {
                         "explanation": "Who o that per persone quando il pronome è soggetto."
                     },
                     {
-                        "text": "Paris, ___ is the capital of France, is beautiful.",
+                        "text": "Madrid, ___ is the capital of France, is beautiful.",
                         "answer": "which",
                         "explanation": "Which (non that!) in non-defining clause con informazione già nota."
                     },
@@ -3064,7 +3089,7 @@ const grammarData = {
                             "My boss, who called earlier, wants to see you."
                         ],
                         "answer": 3,
-                        "explanation": "Non-defining clause ha virgole e aggiunge info extra (già sappiamo chi è il capo)."
+                        "explanation": "Non-defining clause ha virgole e aggiunge info extra (già sappiamo chi è il responsabile)."
                     },
                     {
                         "text": "The artist ___ paintings are expensive is famous.",
@@ -3089,7 +3114,7 @@ const grammarData = {
                         "explanation": "Where per luoghi (il posto dove ci siamo incontrati)."
                     },
                     {
-                        "text": "The film, ___ I saw last night, was boring.",
+                        "text": "The series, ___ I saw yesterday evening, was boring.",
                         "options": [
                             "whose",
                             "which",
@@ -3225,14 +3250,14 @@ const grammarData = {
                         "explanation": "Who o that per persone in defining clauses generali."
                     },
                     {
-                        "text": "Mio fratello, che vive a Londra, è un dottore.",
-                        "answer": "My brother, who lives in London, is a doctor",
+                        "text": "Mio fratello, che vive a Dublino, è un dottore.",
+                        "answer": "My brother, who lives in Dublin, is a doctor",
                         "alternatives": [],
                         "explanation": "Who (non that) in non-defining clause."
                     },
                     {
-                        "text": "Parigi, che è la capitale della Francia, è bellissima.",
-                        "answer": "Paris, which is the capital of France, is beautiful",
+                        "text": "Madrid, che è la capitale della Francia, è bellissima.",
+                        "answer": "Madrid, which is the capital of France, is beautiful",
                         "alternatives": [],
                         "explanation": "Which (non that) in non-defining clause con informazione nota."
                     },
@@ -3247,7 +3272,7 @@ const grammarData = {
             {
                 "type": "cloze-test",
                 "difficulty": 4,
-                "context": "A Day in London\n\nYesterday I visited the British Museum, (1) ......... is one of the most famous museums in the world. The building, (2) ......... was designed in the 19th century, is absolutely magnificent.\n\nI met a guide (3) ......... showed me around. She was a woman (4) ......... knowledge of ancient Egypt was incredible. She showed me an artifact (5) ......... dates back to 3000 BC. The room (6) ......... we saw it was full of tourists.\n\nLater, I had lunch at a café (7) ......... my friend had recommended. The waitress, (8) ......... name I can't remember, was very friendly. She served me a dish (9) ......... I'd never tried before.\n\nIn the afternoon, I went to Camden Market. I bought a vintage jacket from a seller (10) ......... had amazing taste. The jacket, (11) ......... cost only £20, looks fantastic!\n\nI also met a street musician (12) ......... was playing the violin. The music (13) ......... he played was beautiful. It was a day (14) ......... I'll never forget!",
+                "context": "A Day in Dublin\n\nYesterday I visited the British Gallery, (1) ......... is one of the most famous museums in the world. The building, (2) ......... was designed in the 19th century, is absolutely magnificent.\n\nI met a guide (3) ......... showed me around. She was a woman (4) ......... knowledge of ancient Egypt was incredible. She showed me an artifact (5) ......... dates back to 3000 BC. The room (6) ......... we saw it was full of tourists.\n\nLater, I had lunch at a café (7) ......... my friend had recommended. The waitress, (8) ......... name I can't remember, was very friendly. She served me a dish (9) ......... I'd never tried before.\n\nIn the afternoon, I went to Camden Market. I bought a vintage jacket from a seller (10) ......... had amazing taste. The jacket, (11) ......... cost only £20, looks fantastic!\n\nI also met a street musician (12) ......... was playing the violin. The music (13) ......... he played was beautiful. It was a day (14) ......... I'll never forget!",
                 "questions": [
                     {
                         "blank_number": 1,
@@ -3448,7 +3473,9 @@ const grammarData = {
                         "second_sentence_start": "The book",
                         "second_sentence_end": "is on the table.",
                         "answer": "which I bought yesterday",
-                        "alternatives": ["that I bought yesterday"],
+                        "alternatives": [
+                            "that I bought yesterday"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Defining relative clause con which/that per cose."
@@ -3476,12 +3503,14 @@ const grammarData = {
                         "explanation": "Whose per esprimere possesso (il figlio della donna)."
                     },
                     {
-                        "first_sentence": "This is the restaurant. I told you about it.",
+                        "first_sentence": "This is the bistro. I told you about it.",
                         "keyword": "that",
-                        "second_sentence_start": "This is the restaurant",
+                        "second_sentence_start": "This is the bistro",
                         "second_sentence_end": "you about.",
                         "answer": "that I told",
-                        "alternatives": ["which I told"],
+                        "alternatives": [
+                            "which I told"
+                        ],
                         "min_words": 2,
                         "max_words": 5,
                         "explanation": "Defining clause con that/which come oggetto."
@@ -3532,7 +3561,7 @@ const grammarData = {
                 "difficulty": 3,
                 "questions": [
                     {
-                        "text": "By the time we arrived at the airport, the plane ___ (already / take off).",
+                        "text": "By the time we arrived at the station, the plane ___ (already / take off).",
                         "answer": "had already taken off",
                         "explanation": "'By the time' richiede il Past Perfect. 'Already' conferma che l'azione era completata prima dell'arrivo."
                     },
@@ -3542,7 +3571,7 @@ const grammarData = {
                         "explanation": "Past Perfect Continuous: enfatizza la durata dell'azione (tutta la mattina) che giustifica la stanchezza."
                     },
                     {
-                        "text": "The manager ___ (wait) for the report since Monday morning when I finally sent it.",
+                        "text": "The supervisor ___ (wait) for the report since Monday morning when I finally sent it.",
                         "answer": "had been waiting",
                         "explanation": "Past Perfect Continuous: azione di durata (since Monday morning) in corso prima di un evento. 'Since' + verbo di azione → Continuous."
                     },
@@ -3577,9 +3606,9 @@ const grammarData = {
                         "explanation": "'Know' è verbo di stato → Past Perfect Simple con 'since'. I verbi di stato non si usano mai al Continuous."
                     },
                     {
-                        "text": "The athlete ___ (train) intensively for six months before the competition.",
+                        "text": "The athlete ___ (bus) intensively for six months before the competition.",
                         "answer": "had been training",
-                        "explanation": "Past Perfect Continuous: 'train' è verbo di azione. Durata (six months) prima di un evento (competition)."
+                        "explanation": "Past Perfect Continuous: 'bus' è verbo di azione. Durata (six months) prima di un evento (competition)."
                     },
                     {
                         "text": "___ you ever ___ (visit) that island before last summer?",
@@ -3612,7 +3641,7 @@ const grammarData = {
                         "explanation": "Discorso indiretto al passato: 'Where did you buy it?' → 'She asked where I had bought it'."
                     },
                     {
-                        "text": "The restaurant ___ (already / close) when we got there at midnight.",
+                        "text": "The bistro ___ (already / close) when we got there at midnight.",
                         "answer": "had already closed",
                         "explanation": "'Close' è un verbo di azione puntuale → Past Perfect Simple. 'Already' conferma l'anteriorità."
                     },
@@ -3638,7 +3667,7 @@ const grammarData = {
                 "difficulty": 2,
                 "questions": [
                     {
-                        "text": "When I got to the party, almost everyone ___.",
+                        "text": "When I got to the event, almost everyone ___.",
                         "options": [
                             "has already left",
                             "already left",
@@ -3671,7 +3700,7 @@ const grammarData = {
                         "explanation": "'It was the second time' richiede obbligatoriamente il Past Perfect Simple."
                     },
                     {
-                        "text": "He told us he ___ that film three times already.",
+                        "text": "He told us he ___ that series three times already.",
                         "options": [
                             "saw",
                             "has seen",
@@ -3759,7 +3788,7 @@ const grammarData = {
                         "explanation": "Past Perfect Simple negativo: 'think' è un verbo di stato/azione mentale, non si usa il Continuous."
                     },
                     {
-                        "text": "She asked me if I ___ the new Italian restaurant.",
+                        "text": "She asked me if I ___ the new Italian bistro.",
                         "options": [
                             "tried",
                             "have tried",
@@ -3864,13 +3893,13 @@ const grammarData = {
                 "difficulty": 4,
                 "questions": [
                     {
-                        "text": "Quando sono arrivato alla stazione, il treno era già partito.",
-                        "answer": "When I arrived at the station, the train had already left.",
+                        "text": "Quando sono arrivato alla stazione, il bus era già partito.",
+                        "answer": "When I arrived at the station, the bus had already left.",
                         "alternatives": [
                             "By the time I arrived at the station, the train had already left.",
                             "When I got to the station, the train had already departed."
                         ],
-                        "explanation": "Past Perfect Simple: 'leave' è verbo di azione puntuale. Sequenza: treno parte → io arrivo."
+                        "explanation": "Past Perfect Simple: 'leave' è verbo di azione puntuale. Sequenza: bus parte → io arrivo."
                     },
                     {
                         "text": "Lavorava in quella startup da marzo quando l'azienda chiuse improvvisamente.",
@@ -4112,7 +4141,9 @@ const grammarData = {
                         "second_sentence_start": "By the time we entered the venue,",
                         "second_sentence_end": ".",
                         "answer": "the concert had already started",
-                        "alternatives": ["the concert had already begun"],
+                        "alternatives": [
+                            "the concert had already begun"
+                        ],
                         "min_words": 4,
                         "max_words": 5,
                         "explanation": "'By the time' sostituisce 'when' per indicare che un'azione era già avvenuta prima di un'altra."
@@ -4123,7 +4154,9 @@ const grammarData = {
                         "second_sentence_start": "She had been",
                         "second_sentence_end": "when the guests arrived.",
                         "answer": "studying for two hours",
-                        "alternatives": ["studying for 2 hours"],
+                        "alternatives": [
+                            "studying for 2 hours"
+                        ],
                         "min_words": 3,
                         "max_words": 4,
                         "explanation": "Past Perfect Continuous con 'been': enfatizza la durata (two hours) dell'azione in corso prima dell'evento."
@@ -4134,18 +4167,24 @@ const grammarData = {
                         "second_sentence_start": "I had",
                         "second_sentence_end": "such a challenging hike before.",
                         "answer": "never done",
-                        "alternatives": ["never attempted", "never completed"],
+                        "alternatives": [
+                            "never attempted",
+                            "never completed"
+                        ],
                         "min_words": 2,
                         "max_words": 3,
                         "explanation": "Superlativo → Past Perfect Simple con 'never': 'the most...ever' ↔ 'had never...before'."
                     },
                     {
-                        "first_sentence": "'I have already booked the restaurant,' she said.",
+                        "first_sentence": "'I have already booked the bistro,' she said.",
                         "keyword": "TOLD",
                         "second_sentence_start": "She told",
-                        "second_sentence_end": "the restaurant.",
+                        "second_sentence_end": "the bistro.",
                         "answer": "us she had already booked",
-                        "alternatives": ["me she had already booked", "him she had already booked"],
+                        "alternatives": [
+                            "me she had already booked",
+                            "him she had already booked"
+                        ],
                         "min_words": 4,
                         "max_words": 5,
                         "explanation": "Discorso indiretto: Present Perfect → Past Perfect Simple. 'I have booked' → 'she had booked'."
@@ -4156,21 +4195,23 @@ const grammarData = {
                         "second_sentence_start": "It was the first time",
                         "second_sentence_end": "in a professional kitchen.",
                         "answer": "I had cooked",
-                        "alternatives": ["I had ever cooked"],
+                        "alternatives": [
+                            "I had ever cooked"
+                        ],
                         "min_words": 2,
                         "max_words": 3,
                         "explanation": "'It was the first time' richiede Past Perfect Simple."
                     },
                     {
-                        "first_sentence": "He started working at 6 AM. The boss arrived at 10 AM.",
+                        "first_sentence": "He started working at 6 AM. The supervisor arrived at 10 AM.",
                         "keyword": "HAD",
-                        "second_sentence_start": "By the time the boss arrived, he",
+                        "second_sentence_start": "By the time the supervisor arrived, he",
                         "second_sentence_end": "for four hours.",
                         "answer": "had been working",
                         "alternatives": [],
                         "min_words": 3,
                         "max_words": 3,
-                        "explanation": "Past Perfect Continuous: durata dell'azione in corso (four hours) prima dell'arrivo del capo."
+                        "explanation": "Past Perfect Continuous: durata dell'azione in corso (four hours) prima dell'arrivo del responsabile."
                     },
                     {
                         "first_sentence": "They bought their flat in 2010 and sold it in 2022.",
@@ -4178,7 +4219,9 @@ const grammarData = {
                         "second_sentence_start": "They had owned their flat",
                         "second_sentence_end": "when they sold it.",
                         "answer": "for twelve years",
-                        "alternatives": ["for 12 years"],
+                        "alternatives": [
+                            "for 12 years"
+                        ],
                         "min_words": 3,
                         "max_words": 3,
                         "explanation": "'Own' è verbo di stato → Past Perfect Simple con 'for'. Durata = 2022 - 2010 = 12 anni."
@@ -4189,7 +4232,10 @@ const grammarData = {
                         "second_sentence_start": "The journalist asked if",
                         "second_sentence_end": "a politician before.",
                         "answer": "I had ever interviewed",
-                        "alternatives": ["she had ever interviewed", "he had ever interviewed"],
+                        "alternatives": [
+                            "she had ever interviewed",
+                            "he had ever interviewed"
+                        ],
                         "min_words": 3,
                         "max_words": 4,
                         "explanation": "Discorso indiretto: 'Have you ever...?' → 'if I had ever...' Past Perfect Simple."
@@ -4203,7 +4249,7 @@ const grammarData = {
                         "alternatives": [],
                         "min_words": 2,
                         "max_words": 2,
-                        "explanation": "Past Perfect Continuous con 'since': verbo di azione (train) + punto di partenza (January)."
+                        "explanation": "Past Perfect Continuous con 'since': verbo di azione (bus) + punto di partenza (January)."
                     },
                     {
                         "first_sentence": "The flight had been delayed, so the passengers were exhausted when they finally boarded.",
@@ -4211,7 +4257,9 @@ const grammarData = {
                         "second_sentence_start": "The passengers had",
                         "second_sentence_end": "hours before they finally boarded.",
                         "answer": "already been waiting for",
-                        "alternatives": ["already waited for"],
+                        "alternatives": [
+                            "already waited for"
+                        ],
                         "min_words": 3,
                         "max_words": 4,
                         "explanation": "Past Perfect Continuous con 'already been': durata dell'attesa prima dell'imbarco. 'Already' sottolinea che l'attesa era già in corso."
@@ -4919,7 +4967,9 @@ const grammarData = {
                     {
                         "text": "Please ___ out the form before the interview.",
                         "answer": "fill",
-                        "alternatives": ["fill in"],
+                        "alternatives": [
+                            "fill in"
+                        ],
                         "explanation": "Phrasal verb: fill out/fill in a form."
                     },
                     {
@@ -4930,7 +4980,9 @@ const grammarData = {
                     {
                         "text": "If you don't understand, ___ up the word in a dictionary.",
                         "answer": "look",
-                        "alternatives": ["look up"],
+                        "alternatives": [
+                            "look up"
+                        ],
                         "explanation": "Phrasal verb: look up a word."
                     },
                     {
@@ -4941,13 +4993,17 @@ const grammarData = {
                     {
                         "text": "She is very ___ and always helps her classmates. (CARE)",
                         "answer": "caring",
-                        "alternatives": ["careful"],
+                        "alternatives": [
+                            "careful"
+                        ],
                         "explanation": "Caring descrive una persona premurosa."
                     },
                     {
                         "text": "I can't come tonight because I have to ___ after my little brother.",
                         "answer": "look",
-                        "alternatives": ["look after"],
+                        "alternatives": [
+                            "look after"
+                        ],
                         "explanation": "Phrasal verb: look after = prendersi cura di."
                     },
                     {
@@ -5426,7 +5482,9 @@ const grammarData = {
                         "topic": "Vocabulary",
                         "text": "Please ___ up this word in the dictionary.",
                         "answer": "look",
-                        "alternatives": ["look up"],
+                        "alternatives": [
+                            "look up"
+                        ],
                         "explanation": "Phrasal verb: look up."
                     },
                     {
@@ -5457,7 +5515,9 @@ const grammarData = {
                         "topic": "Vocabulary",
                         "text": "I can't ___ up with this noise anymore.",
                         "answer": "put",
-                        "alternatives": ["put up"],
+                        "alternatives": [
+                            "put up"
+                        ],
                         "explanation": "Put up with = tollerare."
                     }
                 ]
@@ -6077,1598 +6137,1598 @@ const grammarData = {
         ]
     },
     "all-mixed": {
-          "title": "ALL - Mixed Practice",
-          "description": "Esercizi misti su tutti gli argomenti: Present Perfect, Modals, Future, Conditionals, Relative Clauses, Past Perfect, Passive Voice",
-          "exercises": [
+        "title": "ALL - Mixed Practice",
+        "description": "Esercizi misti su tutti gli argomenti: Present Perfect, Modals, Future, Conditionals, Relative Clauses, Past Perfect, Passive Voice",
+        "exercises": [
+            {
+                "type": "fill-blank",
+                "difficulty": 3,
+                "questions": [
                     {
-                              "type": "fill-blank",
-                              "difficulty": 3,
-                              "questions": [
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "I ___ (never / try) sushi before, so last night was a new experience.",
-                                                  "answer": "have never tried",
-                                                  "explanation": "Present Perfect con 'never' per un'esperienza di vita. L'avverbio 'never' si inserisce tra have e il participio."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "You ___ (not / park) here — it's a bus stop.",
-                                                  "answer": "mustn't",
-                                                  "explanation": "Mustn't esprime un divieto assoluto: è proibito parcheggiare qui."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "Look at those clouds! It ___ (rain) any minute now.",
-                                                  "answer": "is going to rain",
-                                                  "explanation": "Going to per previsione con prova evidente (le nuvole) visibile nel momento presente."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "If water ___ (reach) 0°C, it ___ (freeze).",
-                                                  "answer": "reaches / freezes",
-                                                  "explanation": "Zero Conditional (Present Simple + Present Simple) per fatti scientifici sempre veri."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "The doctor ___ treated me last year has moved to another city.",
-                                                  "answer": "who",
-                                                  "explanation": "Who si usa per le persone nelle relative clauses (defining). 'That' è ugualmente accettabile."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "By the time the ambulance arrived, the patient ___ (already / lose) consciousness.",
-                                                  "answer": "had already lost",
-                                                  "explanation": "Past Perfect con 'already': la perdita di coscienza è avvenuta prima dell'arrivo dell'ambulanza."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "She ___ (already / send) the application, so there's nothing more to do.",
-                                                  "answer": "has already sent",
-                                                  "explanation": "Present Perfect con 'already' per un'azione appena completata con effetto sul presente."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "She looks pale. She ___ (be) ill — let's call the doctor.",
-                                                  "answer": "must be",
-                                                  "explanation": "Must per deduzione logica positiva basata sull'evidenza (il pallore)."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "The conference ___ (start) at 9 a.m. and ___ (finish) at 6 p.m.",
-                                                  "answer": "starts / finishes",
-                                                  "explanation": "Present Simple per orari di programmi ufficiali fissi nel futuro."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "If she ___ (study) harder, she ___ (pass) the exam next week.",
-                                                  "answer": "studies / will pass",
-                                                  "explanation": "First Conditional (if + Present Simple, will + inf.) per situazione reale e probabile nel futuro."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "This is the novel ___ won the Booker Prize last year.",
-                                                  "answer": "that",
-                                                  "explanation": "That (o which) per cose nelle defining relative clauses."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "He was nervous at the interview because he ___ (not / prepare) properly.",
-                                                  "answer": "hadn't prepared",
-                                                  "explanation": "Past Perfect negativo: la mancata preparazione è avvenuta prima del colloquio e ne spiega la causa."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "They ___ (live) in that neighbourhood since they got married.",
-                                                  "answer": "have lived",
-                                                  "explanation": "Present Perfect con 'since' per una situazione che è iniziata nel passato e continua nel presente."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "You ___ (not / wear) a tie at the office — it's very informal here.",
-                                                  "answer": "don't have to",
-                                                  "explanation": "Don't have to = non è necessario (non è un divieto, solo non è obbligatorio)."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "I ___ (call) you back in five minutes — I'm in a meeting right now.",
-                                                  "answer": "will call",
-                                                  "explanation": "Will per una decisione presa spontaneamente nel momento in cui si parla."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "If I ___ (be) you, I ___ (not / accept) that offer.",
-                                                  "answer": "were / wouldn't accept",
-                                                  "explanation": "Second Conditional con 'were' per tutti i soggetti. Usato per dare consigli in situazioni ipotetiche."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "My neighbour, ___ dog barks all night, has finally moved out.",
-                                                  "answer": "whose",
-                                                  "explanation": "Whose nelle non-defining relative clauses per il possesso (il cane del vicino)."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "She was exhausted because she ___ (work) on the project all weekend.",
-                                                  "answer": "had been working",
-                                                  "explanation": "Past Perfect Continuous: enfasi sulla durata (tutto il weekend) che spiega la stanchezza."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "___ you ever ___ (meet) a famous actor in person?",
-                                                  "answer": "Have / met",
-                                                  "explanation": "Present Perfect interrogativa con 'ever'. Forma: Have + soggetto + ever + past participle."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "Five languages ___ (speak) in this company.",
-                                                  "answer": "are spoken",
-                                                  "explanation": "Present Simple passive: am/is/are + past participle."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "We ___ (have) dinner with the Rossis on Saturday — they booked the restaurant.",
-                                                  "answer": "are having",
-                                                  "explanation": "Present Continuous per un arrangiamento personale già organizzato per il futuro."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "Prague, ___ I visited for the first time last spring, is a beautiful city.",
-                                                  "answer": "which",
-                                                  "explanation": "Which nelle non-defining relative clauses per cose/luoghi. 'That' non si usa nelle non-defining."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "It was the best concert I ___ (ever / attend).",
-                                                  "answer": "had ever attended",
-                                                  "explanation": "Past Perfect con superlativo + ever per descrivere la migliore esperienza fino a quel momento."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "The old bridge ___ (repair) at the moment, so the road is closed.",
-                                                  "answer": "is being repaired",
-                                                  "explanation": "Present Continuous passive: am/is/are being + past participle."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "He isn't in the office and his car is gone. He ___ (be) at home.",
-                                                  "answer": "might be",
-                                                  "explanation": "Might be per deduzione possibile (ipotesi plausibile ma non certa)."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "The results ___ (announce) tomorrow morning.",
-                                                  "answer": "will be announced",
-                                                  "explanation": "Future passive: will be + past participle."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "The children ___ (play) football for over an hour when it started raining.",
-                                                  "answer": "had been playing",
-                                                  "explanation": "Past Perfect Continuous con 'for': durata dell'azione in corso prima che iniziasse a piovere."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "He ___ (write) three novels so far, and he's working on a fourth.",
-                                                  "answer": "has written",
-                                                  "explanation": "Present Perfect con 'so far' per azioni completate fino ad ora, con possibilità che continuino."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "That ___ (be) the postman — I heard the letterbox.",
-                                                  "answer": "must be",
-                                                  "explanation": "Must per deduzione logica basata su un'evidenza (il rumore della cassetta delle lettere)."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "By the time we arrived, all the tickets ___ (sell).",
-                                                  "answer": "had been sold",
-                                                  "explanation": "Past Perfect passive: had been + past participle."
-                                        }
-                              ]
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "I ___ (never / try) sushi before, so yesterday evening was a new experience.",
+                        "answer": "have never tried",
+                        "explanation": "Present Perfect con 'never' per un'esperienza di vita. L'avverbio 'never' si inserisce tra have e il participio."
                     },
                     {
-                              "type": "multiple-choice",
-                              "difficulty": 2,
-                              "questions": [
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "We ___ in this company for over fifteen years.",
-                                                  "options": [
-                                                            "work",
-                                                            "worked",
-                                                            "have worked",
-                                                            "are working"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect con 'for' per un'azione iniziata nel passato che continua nel presente."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "You ___ smoke in here — it's a hospital.",
-                                                  "options": [
-                                                            "don't have to",
-                                                            "shouldn't",
-                                                            "mustn't",
-                                                            "couldn't"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Mustn't per divieto assoluto. 'Don't have to' significherebbe solo che non è necessario."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "Don't worry — I ___ help you move the furniture this weekend.",
-                                                  "options": [
-                                                            "am going to",
-                                                            "will",
-                                                            "am helping",
-                                                            "help"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Will per una decisione/offerta presa spontaneamente nel momento in cui si parla."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "If you ___ ice cream at room temperature, it melts.",
-                                                  "options": [
-                                                            "leave",
-                                                            "will leave",
-                                                            "would leave",
-                                                            "left"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Zero Conditional (Present Simple + Present Simple): fatto fisico universalmente vero."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "The student ___ essay won first prize has transferred to another school.",
-                                                  "options": [
-                                                            "who",
-                                                            "which",
-                                                            "whose",
-                                                            "that"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Whose per il possesso (l'elaborato dello studente). Non 'who' perché è legato all'essay."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "When I got to the cinema, the film ___.",
-                                                  "options": [
-                                                            "already started",
-                                                            "has already started",
-                                                            "had already started",
-                                                            "was already starting"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect: il film era già iniziato prima del mio arrivo. Due eventi nel passato, il più lontano al Past Perfect."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "I can't find my passport. I think I ___ it somewhere.",
-                                                  "options": [
-                                                            "lose",
-                                                            "lost",
-                                                            "have lost",
-                                                            "was losing"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect per un evento passato con effetto rilevante nel presente (non riesco a trovarlo ora)."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "He's not answering the phone. He ___ be in a meeting.",
-                                                  "options": [
-                                                            "must",
-                                                            "should",
-                                                            "has to",
-                                                            "would"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Must per deduzione logica: in base all'evidenza (non risponde) deduciamo che è in riunione."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "We ___ a new employee next month — we've already posted the job advert.",
-                                                  "options": [
-                                                            "will hire",
-                                                            "hire",
-                                                            "are going to hire",
-                                                            "are hiring"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Going to per una decisione già presa (il piano era già in atto: hanno già pubblicato l'annuncio)."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "If she ___ to bed earlier, she ___ less tired in the mornings.",
-                                                  "options": [
-                                                            "goes / will feel",
-                                                            "went / would feel",
-                                                            "will go / feels",
-                                                            "goes / would feel"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Second Conditional (if + Past Simple, would + inf.): ipotetico — implica che non va a letto presto."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "The village ___ we spent our honeymoon has changed a lot.",
-                                                  "options": [
-                                                            "which",
-                                                            "that",
-                                                            "where",
-                                                            "when"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Where si usa per i luoghi nelle relative clauses (alternativa: 'in which')."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "The athlete ___ for the marathon for six months when he injured his knee.",
-                                                  "options": [
-                                                            "trained",
-                                                            "has been training",
-                                                            "had been training",
-                                                            "was training"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect Continuous: durata dell'allenamento (6 mesi) prima dell'infortunio."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "___ you ever ___ to a live opera?",
-                                                  "options": [
-                                                            "Did / go",
-                                                            "Have / been",
-                                                            "Were / going",
-                                                            "Are / going"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Present Perfect interrogativa con 'ever' per esperienze di vita. 'Been to' = essere andati e tornati."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "Students ___ bring a dictionary — there will be one at each desk.",
-                                                  "options": [
-                                                            "mustn't",
-                                                            "can't",
-                                                            "don't have to",
-                                                            "shouldn't"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Don't have to: non è necessario portare il dizionario (ce ne sarà uno disponibile)."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "The next ferry ___ at 3:45 pm according to the timetable.",
-                                                  "options": [
-                                                            "will leave",
-                                                            "is going to leave",
-                                                            "leaves",
-                                                            "is leaving"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Simple per orari ufficiali e programmi fissi di trasporti pubblici."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "Unless you ___ your homework, you won't be allowed to go out.",
-                                                  "options": [
-                                                            "finish",
-                                                            "finished",
-                                                            "will finish",
-                                                            "would finish"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Unless = if not. First Conditional: Unless + Present Simple, will. Situazione reale e possibile."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "Mt. Everest, ___ is the highest mountain in the world, attracts thousands of climbers each year.",
-                                                  "options": [
-                                                            "that",
-                                                            "which",
-                                                            "who",
-                                                            "whose"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Which nelle non-defining relative clauses (con virgole). 'That' NON si usa nelle non-defining."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "She said that she ___ the report but hadn't printed it yet.",
-                                                  "options": [
-                                                            "writes",
-                                                            "has written",
-                                                            "had written",
-                                                            "wrote"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect nel discorso indiretto: 'said' al passato → Present Perfect si trasforma in Past Perfect."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "The new stadium ___ yet, so matches are played elsewhere.",
-                                                  "options": [
-                                                            "hasn't completed",
-                                                            "hasn't been completed",
-                                                            "wasn't completed",
-                                                            "isn't completing"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Present Perfect passive: has not been + past participle."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "Choose the correct sentence:",
-                                                  "options": [
-                                                            "A new bridge is being built near the station.",
-                                                            "A new bridge is building near the station.",
-                                                            "A new bridge being built near the station.",
-                                                            "A new bridge is builted near the station."
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Present Continuous passive corretto: is being built."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "The invitations ___ before Friday.",
-                                                  "options": [
-                                                            "will send",
-                                                            "will be sent",
-                                                            "are sending",
-                                                            "will been sent"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Future passive: will be + past participle."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "If I ___ a million euros, I ___ travel the world.",
-                                                  "options": [
-                                                            "had / would",
-                                                            "have / will",
-                                                            "had / will",
-                                                            "would have / would"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Second Conditional: if + Past Simple, would + infinitivo. Situazione ipotetica (non ho un milione)."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "I remember the day ___ I first learnt to ride a bike.",
-                                                  "options": [
-                                                            "which",
-                                                            "that",
-                                                            "when",
-                                                            "where"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "When si usa con espressioni di tempo nelle relative clauses (alternativa: 'on which')."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "That was the most thrilling match we ___ ever ___.",
-                                                  "options": [
-                                                            "have / seen",
-                                                            "had / seen",
-                                                            "were / seeing",
-                                                            "did / see"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Past Perfect con superlativo + ever: 'the most...we had ever seen' è la struttura standard."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "She ___ her driving test twice, but she hasn't passed yet.",
-                                                  "options": [
-                                                            "takes",
-                                                            "took",
-                                                            "has taken",
-                                                            "is taking"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect: azioni ripetute in un periodo ancora non concluso, con 'yet' nella seconda frase."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "He got 1 out of 100. He ___ have studied much.",
-                                                  "options": [
-                                                            "must",
-                                                            "might",
-                                                            "can't",
-                                                            "should"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Can't have + participio passato per deduzione negativa su un evento passato."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "If you don't leave now, you ___ the bus.",
-                                                  "options": [
-                                                            "miss",
-                                                            "are missing",
-                                                            "would miss",
-                                                            "will miss"
-                                                  ],
-                                                  "answer": 3,
-                                                  "explanation": "Will miss nel main clause del First Conditional: conseguenza reale se non parti ora."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "They ___ for the bus for forty minutes when a taxi finally appeared.",
-                                                  "options": [
-                                                            "waited",
-                                                            "have been waiting",
-                                                            "had been waiting",
-                                                            "were waiting"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect Continuous con 'for': durata dell'attesa (40 minuti) prima dell'arrivo del taxi."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "The suspect ___ by the police yesterday evening.",
-                                                  "options": [
-                                                            "arrested",
-                                                            "was arrested",
-                                                            "was arresting",
-                                                            "has arrested"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Past Simple passive: was/were + past participle."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "The lights are on, so someone ___ be at home.",
-                                                  "options": [
-                                                            "should",
-                                                            "must",
-                                                            "can",
-                                                            "would"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Must per deduzione logica positiva: le luci accese sono la prova che c'è qualcuno in casa."
-                                        }
-                              ]
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "You ___ (not / park) here — it's a bus stop.",
+                        "answer": "mustn't",
+                        "explanation": "Mustn't esprime un divieto assoluto: è proibito parcheggiare qui."
                     },
                     {
-                              "type": "translation",
-                              "difficulty": 4,
-                              "questions": [
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "Non ho ancora visto l'ultimo film di quel regista.",
-                                                  "answer": "I haven't seen the latest film by that director yet",
-                                                  "alternatives": [
-                                                            "I haven't seen that director's latest film yet",
-                                                            "I have not yet seen the latest film by that director"
-                                                  ],
-                                                  "explanation": "Present Perfect negativa con 'yet' alla fine. 'Yet' in frasi negative = ancora."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "Non devi gridare in biblioteca — è contro le regole.",
-                                                  "answer": "You mustn't shout in the library — it's against the rules",
-                                                  "alternatives": [
-                                                            "You must not shout in the library — it is against the rules"
-                                                  ],
-                                                  "explanation": "Mustn't per divieto assoluto in un luogo pubblico."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "Guarda quelle nuvole nere! Sta per piovere.",
-                                                  "answer": "Look at those black clouds! It's going to rain",
-                                                  "alternatives": [
-                                                            "Look at those dark clouds! It is going to rain"
-                                                  ],
-                                                  "explanation": "Going to per previsione con prova visibile (le nuvole nere visibili in quel momento)."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "Se non ti sbrighi, perderai il treno.",
-                                                  "answer": "If you don't hurry, you will miss the train",
-                                                  "alternatives": [
-                                                            "If you don't hurry up, you'll miss the train"
-                                                  ],
-                                                  "explanation": "First Conditional: if + Present Simple, will + infinitivo. Situazione reale e probabile."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "Il libro che mi hai prestato è davvero interessante.",
-                                                  "answer": "The book that you lent me is really interesting",
-                                                  "alternatives": [
-                                                            "The book which you lent me is really interesting",
-                                                            "The book you lent me is really interesting"
-                                                  ],
-                                                  "explanation": "Defining relative clause: that/which per cose. Il pronome può essere omesso quando è oggetto."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "Quando siamo arrivati alla stazione, il treno era già partito.",
-                                                  "answer": "When we arrived at the station, the train had already left",
-                                                  "alternatives": [
-                                                            "By the time we arrived at the station, the train had already departed"
-                                                  ],
-                                                  "explanation": "Past Perfect per la partenza del treno (evento più lontano) rispetto all'arrivo (Past Simple)."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "Quante volte sei stato a Londra?",
-                                                  "answer": "How many times have you been to London",
-                                                  "alternatives": [
-                                                            "How many times have you visited London"
-                                                  ],
-                                                  "explanation": "Present Perfect interrogativa per esperienze. 'Been to' = essere andati e tornati."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "Devono aver sbagliato indirizzo.",
-                                                  "answer": "They must have got the wrong address",
-                                                  "alternatives": [
-                                                            "They must have gotten the wrong address"
-                                                  ],
-                                                  "explanation": "Must have + participio passato per deduzione quasi certa su un evento passato."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "Il treno delle 8:30 arriva a Milano alle 10:15.",
-                                                  "answer": "The 8:30 train arrives in Milan at 10:15",
-                                                  "alternatives": [
-                                                            "The 8:30 train gets to Milan at 10:15"
-                                                  ],
-                                                  "explanation": "Present Simple per orari di trasporti pubblici fissi."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "Se fossi in te, non accetterei quell'offerta di lavoro.",
-                                                  "answer": "If I were you, I wouldn't accept that job offer",
-                                                  "alternatives": [
-                                                            "If I were you, I wouldn't take that job offer"
-                                                  ],
-                                                  "explanation": "Second Conditional per dare consigli. 'Were' per tutti i soggetti nella if-clause."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "Mia sorella, che vive a Berlino, parla tre lingue.",
-                                                  "answer": "My sister, who lives in Berlin, speaks three languages",
-                                                  "alternatives": [
-                                                            "My sister, who lives in Berlin, can speak three languages"
-                                                  ],
-                                                  "explanation": "Non-defining relative clause (virgole). Who per persone. 'That' non si usa nelle non-defining."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "Era stanco perché aveva lavorato in giardino tutto il giorno.",
-                                                  "answer": "He was tired because he had been working in the garden all day",
-                                                  "alternatives": [
-                                                            "She was tired because she had been working in the garden all day"
-                                                  ],
-                                                  "explanation": "Past Perfect Continuous: 'all day' enfatizza la durata e spiega la causa della stanchezza."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "Lavora per quella società da più di dieci anni.",
-                                                  "answer": "She has been working for that company for more than ten years",
-                                                  "alternatives": [
-                                                            "He has been working for that company for over ten years",
-                                                            "She has worked for that company for more than ten years"
-                                                  ],
-                                                  "explanation": "Present Perfect (Simple o Continuous) con 'for' per una situazione iniziata nel passato che continua ora."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "Non può essere lui alla porta — è in vacanza all'estero.",
-                                                  "answer": "It can't be him at the door — he's on holiday abroad",
-                                                  "alternatives": [
-                                                            "It can't be her at the door — she's on holiday abroad"
-                                                  ],
-                                                  "explanation": "Can't per deduzione negativa (impossibilità): abbiamo una prova che rende impossibile quella conclusione."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "Ci vediamo domani — ti chiamerò per confermare l'ora.",
-                                                  "answer": "See you tomorrow — I'll call you to confirm the time",
-                                                  "alternatives": [
-                                                            "See you tomorrow — I will ring you to confirm the time"
-                                                  ],
-                                                  "explanation": "Will per una decisione/promessa presa spontaneamente nel momento della conversazione."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "Se avessi più tempo libero, imparerei a suonare la chitarra.",
-                                                  "answer": "If I had more free time, I would learn to play the guitar",
-                                                  "alternatives": [
-                                                            "If I had more free time, I'd learn to play the guitar"
-                                                  ],
-                                                  "explanation": "Second Conditional: situazione ipotetica attuale (in realtà non ho tempo libero)."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "L'anno in cui mi sono laureata è stato il più bello della mia vita.",
-                                                  "answer": "The year when I graduated was the best of my life",
-                                                  "alternatives": [
-                                                            "The year in which I graduated was the best of my life"
-                                                  ],
-                                                  "explanation": "When si usa con espressioni di tempo nelle relative clauses (alternativa: 'in which')."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "Era la prima volta che visitava New York.",
-                                                  "answer": "It was the first time he had visited New York",
-                                                  "alternatives": [
-                                                            "It was the first time she had ever visited New York",
-                                                            "It was the first time they had visited New York"
-                                                  ],
-                                                  "explanation": "Struttura 'it was the first time + Past Perfect': il Past Perfect è obbligatorio con questa costruzione."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "text": "È la terza volta che quel cane abbaia stanotte.",
-                                                  "answer": "It's the third time that dog has barked tonight",
-                                                  "alternatives": [
-                                                            "That dog has barked three times tonight"
-                                                  ],
-                                                  "explanation": "Present Perfect con 'it's the third time...' per contare azioni ripetute in un periodo ancora in corso."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "text": "Dovresti fare più esercizio — fa bene alla salute.",
-                                                  "answer": "You should do more exercise — it's good for your health",
-                                                  "alternatives": [
-                                                            "You should exercise more — it is good for your health"
-                                                  ],
-                                                  "explanation": "Should per dare un consiglio salutare (non un obbligo)."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "text": "Stiamo organizzando una festa a sorpresa per il suo compleanno il prossimo sabato.",
-                                                  "answer": "We are organising a surprise party for her birthday next Saturday",
-                                                  "alternatives": [
-                                                            "We're organizing a surprise party for his birthday next Saturday"
-                                                  ],
-                                                  "explanation": "Present Continuous per un arrangiamento già organizzato per il futuro."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "A meno che non si scusi, non le parlerò più.",
-                                                  "answer": "Unless she apologises, I won't talk to her again",
-                                                  "alternatives": [
-                                                            "Unless she apologizes, I will not speak to her again"
-                                                  ],
-                                                  "explanation": "Unless + Present Simple (= If...not). First Conditional con condizione reale."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "Il quartiere dove sono cresciuto è molto cambiato.",
-                                                  "answer": "The neighbourhood where I grew up has changed a lot",
-                                                  "alternatives": [
-                                                            "The neighbourhood in which I grew up has changed a lot",
-                                                            "The area where I grew up has changed a lot"
-                                                  ],
-                                                  "explanation": "Where per luoghi nelle relative clauses (alternativa: 'in which')."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "Mi disse che aveva già prenotato il ristorante.",
-                                                  "answer": "He told me he had already booked the restaurant",
-                                                  "alternatives": [
-                                                            "She told me she had already booked the restaurant",
-                                                            "He told me that he had already reserved the restaurant"
-                                                  ],
-                                                  "explanation": "Past Perfect nel discorso indiretto con 'told me': il verbo si arretra al Past Perfect."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "I risultati delle elezioni sono stati annunciati poco fa.",
-                                                  "answer": "The election results have just been announced",
-                                                  "alternatives": [
-                                                            "The results of the election have just been announced"
-                                                  ],
-                                                  "explanation": "Present Perfect passive: have/has been + past participle."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "Il paziente è stato operato ieri mattina.",
-                                                  "answer": "The patient was operated on yesterday morning",
-                                                  "alternatives": [],
-                                                  "explanation": "Past Simple passive con verbo/preposizione: operated on."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "Il nuovo teatro sarà inaugurato il mese prossimo.",
-                                                  "answer": "The new theatre will be opened next month",
-                                                  "alternatives": [
-                                                            "The new theater will be opened next month"
-                                                  ],
-                                                  "explanation": "Future passive: will be + past participle."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "text": "Se scaldate il ghiaccio, si scioglie.",
-                                                  "answer": "If you heat ice, it melts",
-                                                  "alternatives": [
-                                                            "If you heat ice, it turns into water"
-                                                  ],
-                                                  "explanation": "Zero Conditional (Present Simple + Present Simple): fatto scientifico sempre vero."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "text": "Lo studente il cui progetto ha vinto il premio ha ricevuto una borsa di studio.",
-                                                  "answer": "The student whose project won the prize received a scholarship",
-                                                  "alternatives": [
-                                                            "The student whose project won the award received a scholarship"
-                                                  ],
-                                                  "explanation": "Whose per il possesso nelle relative clauses: il progetto dello studente."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "text": "Stavano aspettando il bus da mezz'ora quando iniziò a piovere.",
-                                                  "answer": "They had been waiting for the bus for half an hour when it started raining",
-                                                  "alternatives": [
-                                                            "They had been waiting for the bus for thirty minutes when it started to rain"
-                                                  ],
-                                                  "explanation": "Past Perfect Continuous con 'for': durata dell'attesa prima che iniziasse a piovere."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "text": "Era il miglior progetto che fosse mai stato presentato.",
-                                                  "answer": "It was the best project that had ever been presented",
-                                                  "alternatives": [
-                                                            "It was the best project ever presented"
-                                                  ],
-                                                  "explanation": "Past Perfect passive con superlativo: had ever been presented."
-                                        }
-                              ]
+                        "topic": "The Future System",
+                        "text": "Look at those clouds! It ___ (rain) any minute now.",
+                        "answer": "is going to rain",
+                        "explanation": "Going to per previsione con prova evidente (le nuvole) visibile nel momento presente."
                     },
                     {
-                              "type": "cloze-test",
-                              "difficulty": 4,
-                              "context": "A YEAR ABROAD: FROM CHAOS TO CONFIDENCE\n\nLast September, Emma packed her bags and moved to Edinburgh for a year abroad. She (1) ......... Scottish culture since she was a teenager, and she (2) ......... to visit Scotland one day. The day she finally arrived, she felt a mix of excitement and nerves — it was the first time she (3) ......... so far from home alone.\n\nHer flat in Edinburgh was small but cosy. She (4) ......... to share it with two other international students, Marco from Italy and Yuki from Japan. They (5) ......... already arrived when Emma rang the doorbell, and they welcomed her warmly. By the end of that first evening, the three of them (6) ......... talking for hours and (7) ......... a bottle of local whisky together.\n\nThe next morning, Emma had to register at the university. The office (8) ......... at 9 a.m., so she arrived early. While she was waiting in the queue, she met a student called Daniel. He told her that he (9) ......... in Edinburgh for two months already, and that he (10) ......... the city extremely helpful and welcoming.\n\nAs the months passed, Emma grew in confidence. By December, she (11) ......... many new friends and (12) ......... her English considerably. She discovered that if you (13) ......... yourself new challenges, you (14) ......... a lot. She also learnt that she (15) ......... be afraid to ask for help — in fact, most people were more than happy to assist.\n\nLooking back now, Emma says it was the most transformative year she (16) ......... ever experienced. She (17) ......... back to Italy next month, but she (18) ......... return to Scotland — she has already planned a trip for next summer.\n\nOne thing is certain: the Emma who (19) ......... home that September is not the same Emma who (20) ......... today. She (21) ......... her perspective, broadened her horizons, and most importantly, she (22) ......... that she (23) ......... anything she sets her mind to. And if anyone (24) ......... her what single piece of advice she (25) ......... give, she (26) ......... : 'Say yes to every new experience. You (27) ......... regret it — I promise.' She (28) ......... this motto throughout the year, and it (29) ......... her in good stead. Now she (30) ......... forward to a bright future, armed with memories, new friends, and a Scottish accent that Marco still (31) ......... perfectly.",
-                              "questions": [
-                                        {
-                                                  "blank_number": 1,
-                                                  "options": [
-                                                            "A) loves",
-                                                            "B) has loved",
-                                                            "C) loved",
-                                                            "D) was loving"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Present Perfect con 'since': azione iniziata nel passato (da adolescente) che continua nel presente."
-                                        },
-                                        {
-                                                  "blank_number": 2,
-                                                  "options": [
-                                                            "A) has always wanted",
-                                                            "B) always wanted",
-                                                            "C) always wants",
-                                                            "D) had always wanted"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Present Perfect con 'always': desiderio che ha sempre avuto e che continua nel presente."
-                                        },
-                                        {
-                                                  "blank_number": 3,
-                                                  "options": [
-                                                            "A) is",
-                                                            "B) has been",
-                                                            "C) was",
-                                                            "D) had been"
-                                                  ],
-                                                  "answer": 3,
-                                                  "explanation": "Past Perfect con 'it was the first time': struttura che richiede il Past Perfect."
-                                        },
-                                        {
-                                                  "blank_number": 4,
-                                                  "options": [
-                                                            "A) was going",
-                                                            "B) is going",
-                                                            "C) will go",
-                                                            "D) was going to"
-                                                  ],
-                                                  "answer": 3,
-                                                  "explanation": "Was going to: piano già deciso nel passato (futuro nel passato). Era stato già deciso che avrebbe condiviso il flat."
-                                        },
-                                        {
-                                                  "blank_number": 5,
-                                                  "options": [
-                                                            "A) arrived",
-                                                            "B) were arriving",
-                                                            "C) had arrived",
-                                                            "D) have arrived"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect: Marco e Yuki erano già arrivati prima che Emma suonasse il campanello."
-                                        },
-                                        {
-                                                  "blank_number": 6,
-                                                  "options": [
-                                                            "A) were",
-                                                            "B) had been",
-                                                            "C) have been",
-                                                            "D) are"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Past Perfect Continuous: enfasi sulla durata della conversazione (ore) prima di un momento nel passato."
-                                        },
-                                        {
-                                                  "blank_number": 7,
-                                                  "options": [
-                                                            "A) shared",
-                                                            "B) were sharing",
-                                                            "C) had shared",
-                                                            "D) have shared"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect: azione completata (bere la bottiglia) prima di un riferimento nel passato."
-                                        },
-                                        {
-                                                  "blank_number": 8,
-                                                  "options": [
-                                                            "A) opens",
-                                                            "B) will open",
-                                                            "C) is opening",
-                                                            "D) is going to open"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Present Simple per orari ufficiali e programmi fissi (l'ufficio apre alle 9: orario stabilito)."
-                                        },
-                                        {
-                                                  "blank_number": 9,
-                                                  "options": [
-                                                            "A) has been living",
-                                                            "B) is living",
-                                                            "C) had been living",
-                                                            "D) was living"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect Continuous nel discorso indiretto: Daniel era stato a Edimburgo da due mesi prima del momento narrato."
-                                        },
-                                        {
-                                                  "blank_number": 10,
-                                                  "options": [
-                                                            "A) finds",
-                                                            "B) found",
-                                                            "C) has found",
-                                                            "D) had found"
-                                                  ],
-                                                  "answer": 3,
-                                                  "explanation": "Past Perfect nel discorso indiretto (dopo 'told her that'): l'esperienza è avvenuta prima del momento del racconto."
-                                        },
-                                        {
-                                                  "blank_number": 11,
-                                                  "options": [
-                                                            "A) made",
-                                                            "B) has made",
-                                                            "C) had made",
-                                                            "D) was making"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Past Perfect: per dicembre aveva già fatto molti amici (azione completata prima di 'by December')."
-                                        },
-                                        {
-                                                  "blank_number": 12,
-                                                  "options": [
-                                                            "A) improved",
-                                                            "B) has improved",
-                                                            "C) improves",
-                                                            "D) had improved"
-                                                  ],
-                                                  "answer": 3,
-                                                  "explanation": "Past Perfect: il miglioramento dell'inglese era avvenuto nel periodo precedente a dicembre."
-                                        },
-                                        {
-                                                  "blank_number": 13,
-                                                  "options": [
-                                                            "A) set",
-                                                            "B) will set",
-                                                            "C) would set",
-                                                            "D) sets"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Zero Conditional con 'if' + Present Simple: verità generale su come funziona l'apprendimento."
-                                        },
-                                        {
-                                                  "blank_number": 14,
-                                                  "options": [
-                                                            "A) learn",
-                                                            "B) will learn",
-                                                            "C) would learn",
-                                                            "D) learned"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Zero Conditional: Present Simple anche nel main clause per esprimere una verità generale."
-                                        },
-                                        {
-                                                  "blank_number": 15,
-                                                  "options": [
-                                                            "A) doesn't have to",
-                                                            "B) mustn't",
-                                                            "C) shouldn't",
-                                                            "D) can't"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Mustn't: è sbagliato avere paura di chiedere aiuto (divieto di un comportamento limitante)."
-                                        },
-                                        {
-                                                  "blank_number": 16,
-                                                  "options": [
-                                                            "A) has",
-                                                            "B) had",
-                                                            "C) was",
-                                                            "D) would"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Past Perfect con superlativo + ever: 'the most transformative year she had ever experienced'."
-                                        },
-                                        {
-                                                  "blank_number": 17,
-                                                  "options": [
-                                                            "A) will travel",
-                                                            "B) travels",
-                                                            "C) is travelling",
-                                                            "D) is going to travel"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Continuous per un arrangiamento futuro già pianificato (il ritorno in Italia il mese prossimo)."
-                                        },
-                                        {
-                                                  "blank_number": 18,
-                                                  "options": [
-                                                            "A) is going to",
-                                                            "B) will",
-                                                            "C) would",
-                                                            "D) must"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Going to: piano già deciso e confermato ('ha già pianificato un viaggio per l'estate')."
-                                        },
-                                        {
-                                                  "blank_number": 19,
-                                                  "options": [
-                                                            "A) left",
-                                                            "B) has left",
-                                                            "C) had left",
-                                                            "D) was leaving"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Past Simple: evento singolo e definito nel passato (quello settembre specifico)."
-                                        },
-                                        {
-                                                  "blank_number": 20,
-                                                  "options": [
-                                                            "A) is standing",
-                                                            "B) stands",
-                                                            "C) stood",
-                                                            "D) has stood"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Present Continuous per descrivere la situazione attuale nel momento di cui si parla."
-                                        },
-                                        {
-                                                  "blank_number": 21,
-                                                  "options": [
-                                                            "A) changes",
-                                                            "B) changed",
-                                                            "C) has changed",
-                                                            "D) had changed"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect: il cambiamento di prospettiva è avvenuto in passato con effetto rilevante nel presente."
-                                        },
-                                        {
-                                                  "blank_number": 22,
-                                                  "options": [
-                                                            "A) discovers",
-                                                            "B) discovered",
-                                                            "C) has discovered",
-                                                            "D) had discovered"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect: la scoperta fatta durante l'anno è rilevante nel momento attuale (le sue parole di oggi)."
-                                        },
-                                        {
-                                                  "blank_number": 23,
-                                                  "options": [
-                                                            "A) achieves",
-                                                            "B) can achieve",
-                                                            "C) could achieve",
-                                                            "D) achieved"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Can per abilità/possibilità nel presente: la capacità di raggiungere qualsiasi cosa si prefigga."
-                                        },
-                                        {
-                                                  "blank_number": 24,
-                                                  "options": [
-                                                            "A) asks",
-                                                            "B) will ask",
-                                                            "C) would ask",
-                                                            "D) asked"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "First Conditional: if + Present Simple nella if-clause per una situazione ipotetica ma possibile."
-                                        },
-                                        {
-                                                  "blank_number": 25,
-                                                  "options": [
-                                                            "A) will",
-                                                            "B) would",
-                                                            "C) should",
-                                                            "D) could"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Would nel main clause del conditional (variante riflessiva per consigli ipotetici)."
-                                        },
-                                        {
-                                                  "blank_number": 26,
-                                                  "options": [
-                                                            "A) says",
-                                                            "B) would say",
-                                                            "C) will say",
-                                                            "D) said"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Would say: risposta ipotetica al conditional del blank precedente."
-                                        },
-                                        {
-                                                  "blank_number": 27,
-                                                  "options": [
-                                                            "A) won't",
-                                                            "B) don't",
-                                                            "C) mustn't",
-                                                            "D) shouldn't"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Won't (will not) per una previsione/promessa nel futuro: non te ne pentirai."
-                                        },
-                                        {
-                                                  "blank_number": 28,
-                                                  "options": [
-                                                            "A) follows",
-                                                            "B) followed",
-                                                            "C) has followed",
-                                                            "D) had followed"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect: ha seguito questo motto per tutta la durata dell'anno con effetto rilevante nel presente."
-                                        },
-                                        {
-                                                  "blank_number": 29,
-                                                  "options": [
-                                                            "A) serves",
-                                                            "B) served",
-                                                            "C) has served",
-                                                            "D) had served"
-                                                  ],
-                                                  "answer": 2,
-                                                  "explanation": "Present Perfect: l'effetto positivo del motto si sente ancora nel presente."
-                                        },
-                                        {
-                                                  "blank_number": 30,
-                                                  "options": [
-                                                            "A) looks",
-                                                            "B) is looking",
-                                                            "C) has looked",
-                                                            "D) will look"
-                                                  ],
-                                                  "answer": 1,
-                                                  "explanation": "Present Continuous: 'is looking forward to' esprime uno stato emotivo in atto nel presente."
-                                        },
-                                        {
-                                                  "blank_number": 31,
-                                                  "options": [
-                                                            "A) imitates",
-                                                            "B) is imitating",
-                                                            "C) has imitated",
-                                                            "D) imitated"
-                                                  ],
-                                                  "answer": 0,
-                                                  "explanation": "Present Simple per un'abitudine ricorrente (Marco imita sempre perfettamente l'accento)."
-                                        }
-                              ]
+                        "topic": "Conditionals",
+                        "text": "If water ___ (reach) 0°C, it ___ (freeze).",
+                        "answer": "reaches / freezes",
+                        "explanation": "Zero Conditional (Present Simple + Present Simple) per fatti scientifici sempre veri."
                     },
                     {
-                              "type": "key-word-transformation",
-                              "difficulty": 5,
-                              "questions": [
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "first_sentence": "This is my first time in New York.",
-                                                  "keyword": "NEVER",
-                                                  "second_sentence_start": "I",
-                                                  "second_sentence_end": "before.",
-                                                  "answer": "have never been to New York",
-                                                  "alternatives": [
-                                                            "have never visited New York"
-                                                  ],
-                                                  "min_words": 4,
-                                                  "max_words": 6,
-                                                  "explanation": "Present Perfect con 'never' per un'esperienza mai fatta. 'This is my first time' → 'I have never been to...'"
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "first_sentence": "It's against the rules to use your phone during the exam.",
-                                                  "keyword": "MUSTN'T",
-                                                  "second_sentence_start": "You",
-                                                  "second_sentence_end": "the exam.",
-                                                  "answer": "mustn't use your phone during",
-                                                  "alternatives": [
-                                                            "mustn't use a phone during"
-                                                  ],
-                                                  "min_words": 4,
-                                                  "max_words": 5,
-                                                  "explanation": "Mustn't per esprimere un divieto: è proibito usare il telefono durante l'esame."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "first_sentence": "They are going to announce the winner tomorrow.",
-                                                  "keyword": "BE",
-                                                  "second_sentence_start": "The winner",
-                                                  "second_sentence_end": "tomorrow.",
-                                                  "answer": "is going to be announced",
-                                                  "alternatives": [],
-                                                  "min_words": 5,
-                                                  "max_words": 5,
-                                                  "explanation": "Going to passive: is going to be + past participle."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "first_sentence": "He doesn't exercise, so he feels tired all the time.",
-                                                  "keyword": "WOULD",
-                                                  "second_sentence_start": "If he exercised,",
-                                                  "second_sentence_end": "all the time.",
-                                                  "answer": "he wouldn't feel tired",
-                                                  "alternatives": [
-                                                            "he would not feel tired"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Second Conditional negativa: se facesse esercizio (ma non lo fa), non si sentirebbe stanco."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "first_sentence": "I bought a new laptop. Its battery lasts for twelve hours.",
-                                                  "keyword": "WHOSE",
-                                                  "second_sentence_start": "I bought a new laptop",
-                                                  "second_sentence_end": "twelve hours.",
-                                                  "answer": "whose battery lasts for",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Whose unisce le due frasi esprimendo possesso (la batteria del laptop)."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "first_sentence": "We arrived at the party late. All the food was gone.",
-                                                  "keyword": "EATEN",
-                                                  "second_sentence_start": "By the time we arrived,",
-                                                  "second_sentence_end": "all the food.",
-                                                  "answer": "everyone had already eaten",
-                                                  "alternatives": [
-                                                            "they had already eaten",
-                                                            "people had already eaten"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Past Perfect con 'by the time' + 'already': il cibo era già stato mangiato prima del nostro arrivo."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "first_sentence": "She started learning Spanish three years ago and she still studies it.",
-                                                  "keyword": "FOR",
-                                                  "second_sentence_start": "She",
-                                                  "second_sentence_end": "three years.",
-                                                  "answer": "has been learning Spanish for",
-                                                  "alternatives": [
-                                                            "has studied Spanish for"
-                                                  ],
-                                                  "min_words": 4,
-                                                  "max_words": 5,
-                                                  "explanation": "Present Perfect Continuous con 'for': azione iniziata nel passato che continua nel presente."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "first_sentence": "I'm absolutely certain that she passed the test — she studied so hard.",
-                                                  "keyword": "MUST",
-                                                  "second_sentence_start": "She",
-                                                  "second_sentence_end": "the test.",
-                                                  "answer": "must have passed",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 3,
-                                                  "explanation": "Must have + past participle per deduzione logica su un evento passato."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "first_sentence": "She has a meeting with her supervisor at 11 o'clock.",
-                                                  "keyword": "MEETING",
-                                                  "second_sentence_start": "She is",
-                                                  "second_sentence_end": "at 11 o'clock.",
-                                                  "answer": "meeting her supervisor",
-                                                  "alternatives": [
-                                                            "meeting with her supervisor"
-                                                  ],
-                                                  "min_words": 2,
-                                                  "max_words": 3,
-                                                  "explanation": "Present Continuous per arrangiamenti personali già fissati in agenda."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "first_sentence": "Study hard or you won't pass the exam.",
-                                                  "keyword": "UNLESS",
-                                                  "second_sentence_start": "You won't pass the exam",
-                                                  "second_sentence_end": "hard.",
-                                                  "answer": "unless you study",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 3,
-                                                  "explanation": "Unless = if not. 'Unless you study hard' = 'if you don't study hard'."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "first_sentence": "She grew up in a small village. The village no longer exists.",
-                                                  "keyword": "WHERE",
-                                                  "second_sentence_start": "The small village",
-                                                  "second_sentence_end": "no longer exists.",
-                                                  "answer": "where she grew up",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Where nelle relative clauses per indicare un luogo (alternativa: 'in which')."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "first_sentence": "She said: 'I haven't finished the report yet.'",
-                                                  "keyword": "TOLD",
-                                                  "second_sentence_start": "She told me",
-                                                  "second_sentence_end": "the report yet.",
-                                                  "answer": "she hadn't finished",
-                                                  "alternatives": [
-                                                            "that she hadn't finished"
-                                                  ],
-                                                  "min_words": 2,
-                                                  "max_words": 3,
-                                                  "explanation": "Discorso indiretto: 'told me' al passato → Present Perfect → Past Perfect, 'haven't' → 'hadn't'."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "first_sentence": "Someone has just cleaned the classroom.",
-                                                  "keyword": "BEEN",
-                                                  "second_sentence_start": "The classroom",
-                                                  "second_sentence_end": ".",
-                                                  "answer": "has just been cleaned",
-                                                  "alternatives": [],
-                                                  "min_words": 4,
-                                                  "max_words": 4,
-                                                  "explanation": "Present Perfect passive: has/have been + past participle."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "first_sentence": "I'm sure that's not the right answer — it's impossible.",
-                                                  "keyword": "CAN'T",
-                                                  "second_sentence_start": "That",
-                                                  "second_sentence_end": "answer.",
-                                                  "answer": "can't be the right",
-                                                  "alternatives": [
-                                                            "can't be the correct"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Can't per deduzione negativa (impossibilità)."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "first_sentence": "I predict it will be a very hot summer.",
-                                                  "keyword": "GOING",
-                                                  "second_sentence_start": "According to forecasts, it",
-                                                  "second_sentence_end": "a very hot summer.",
-                                                  "answer": "is going to be",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 3,
-                                                  "explanation": "Going to per previsioni basate su prove o evidenze (previsioni meteo)."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "first_sentence": "I don't have a car, so I can't drive you to the airport.",
-                                                  "keyword": "WOULD",
-                                                  "second_sentence_start": "If I had a car,",
-                                                  "second_sentence_end": "to the airport.",
-                                                  "answer": "I would drive you",
-                                                  "alternatives": [
-                                                            "I could drive you"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Second Conditional: if + Past Simple (had), would + infinitivo. Situazione ipotetica."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "first_sentence": "I spoke to a colleague. She knows the director personally.",
-                                                  "keyword": "WHO",
-                                                  "second_sentence_start": "I spoke to a colleague",
-                                                  "second_sentence_end": "personally.",
-                                                  "answer": "who knows the director",
-                                                  "alternatives": [
-                                                            "who knows him"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Who nelle relative clauses per persone (defining). La clausola identifica quale collega."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "first_sentence": "It was the most beautiful sunset I ever saw.",
-                                                  "keyword": "HAD",
-                                                  "second_sentence_start": "It was the most beautiful sunset",
-                                                  "second_sentence_end": "seen.",
-                                                  "answer": "I had ever",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 3,
-                                                  "explanation": "Past Perfect con superlativo + ever: 'the most beautiful...I had ever seen' è la struttura corretta."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "first_sentence": "He started working here in January 2020 and he still works here.",
-                                                  "keyword": "SINCE",
-                                                  "second_sentence_start": "He has been working here",
-                                                  "second_sentence_end": "January 2020.",
-                                                  "answer": "since",
-                                                  "alternatives": [],
-                                                  "min_words": 1,
-                                                  "max_words": 1,
-                                                  "explanation": "Since + punto nel tempo (January 2020) con Present Perfect per indicare da quando dura un'azione."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "first_sentence": "It's possible that she forgot the meeting.",
-                                                  "keyword": "MIGHT",
-                                                  "second_sentence_start": "She",
-                                                  "second_sentence_end": "the meeting.",
-                                                  "answer": "might have forgotten",
-                                                  "alternatives": [],
-                                                  "min_words": 3,
-                                                  "max_words": 3,
-                                                  "explanation": "Might have + past participle per una deduzione possibile sul passato."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "first_sentence": "Her flight is at 7 am — she decided to book it last week.",
-                                                  "keyword": "TAKING",
-                                                  "second_sentence_start": "She is",
-                                                  "second_sentence_end": "at 7 am — she decided to book it last week.",
-                                                  "answer": "taking a flight",
-                                                  "alternatives": [
-                                                            "taking the flight"
-                                                  ],
-                                                  "min_words": 2,
-                                                  "max_words": 3,
-                                                  "explanation": "Present Continuous per un arrangiamento futuro già pianificato (ha prenotato la settimana scorsa)."
-                                        },
-                                        {
-                                                  "topic": "Conditionals",
-                                                  "first_sentence": "Mixing red and blue paint produces purple.",
-                                                  "keyword": "MIX",
-                                                  "second_sentence_start": "If you",
-                                                  "second_sentence_end": "purple.",
-                                                  "answer": "mix red and blue paint, you get",
-                                                  "alternatives": [
-                                                            "mix red and blue, you get"
-                                                  ],
-                                                  "min_words": 5,
-                                                  "max_words": 6,
-                                                  "explanation": "Zero Conditional (if + Present Simple, Present Simple): fatto universalmente vero sulla combinazione dei colori."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "first_sentence": "2003 was a year. A lot of important things happened that year.",
-                                                  "keyword": "WHEN",
-                                                  "second_sentence_start": "2003 was the year",
-                                                  "second_sentence_end": "happened.",
-                                                  "answer": "when a lot of important things",
-                                                  "alternatives": [
-                                                            "when many important things"
-                                                  ],
-                                                  "min_words": 4,
-                                                  "max_words": 5,
-                                                  "explanation": "When nelle relative clauses con espressioni di tempo per indicare un momento specifico."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "first_sentence": "Someone had stolen her bike before the police arrived.",
-                                                  "keyword": "BEEN",
-                                                  "second_sentence_start": "Her bike",
-                                                  "second_sentence_end": "the police arrived.",
-                                                  "answer": "had been stolen before",
-                                                  "alternatives": [],
-                                                  "min_words": 4,
-                                                  "max_words": 4,
-                                                  "explanation": "Past Perfect passive: had been + past participle."
-                                        },
-                                        {
-                                                  "topic": "Present Perfect vs Past Simple",
-                                                  "first_sentence": "I visited Rome for the first time last summer.",
-                                                  "keyword": "BEFORE",
-                                                  "second_sentence_start": "I had never",
-                                                  "second_sentence_end": "last summer.",
-                                                  "answer": "been to Rome before",
-                                                  "alternatives": [
-                                                            "visited Rome before"
-                                                  ],
-                                                  "min_words": 3,
-                                                  "max_words": 4,
-                                                  "explanation": "Past Perfect con 'never...before': equivalente di 'it was my first time'."
-                                        },
-                                        {
-                                                  "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
-                                                  "first_sentence": "I advise you not to trust him — he has lied before.",
-                                                  "keyword": "SHOULD",
-                                                  "second_sentence_start": "You",
-                                                  "second_sentence_end": "him — he has lied before.",
-                                                  "answer": "shouldn't trust",
-                                                  "alternatives": [
-                                                            "should not trust"
-                                                  ],
-                                                  "min_words": 2,
-                                                  "max_words": 2,
-                                                  "explanation": "Shouldn't per dare un consiglio negativo (è meglio non fidarsi)."
-                                        },
-                                        {
-                                                  "topic": "The Future System",
-                                                  "first_sentence": "The shop closes at 9 pm every day, including tomorrow.",
-                                                  "keyword": "WILL",
-                                                  "second_sentence_start": "The shop",
-                                                  "second_sentence_end": "at 9 pm tomorrow.",
-                                                  "answer": "will close",
-                                                  "alternatives": [],
-                                                  "min_words": 2,
-                                                  "max_words": 2,
-                                                  "explanation": "Will per orari futuri (accettabile come alternativa al Present Simple per orari fissi)."
-                                        },
-                                        {
-                                                  "topic": "Passive Voice",
-                                                  "first_sentence": "Only registered users can access the premium content.",
-                                                  "keyword": "ACCESSED",
-                                                  "second_sentence_start": "The premium content",
-                                                  "second_sentence_end": "by registered users.",
-                                                  "answer": "can only be accessed",
-                                                  "alternatives": [],
-                                                  "min_words": 4,
-                                                  "max_words": 4,
-                                                  "explanation": "Modal passive: can + be + past participle."
-                                        },
-                                        {
-                                                  "topic": "Relative Clauses",
-                                                  "first_sentence": "I met a scientist. Her research could change medicine forever.",
-                                                  "keyword": "WHOSE",
-                                                  "second_sentence_start": "I met a scientist",
-                                                  "second_sentence_end": "could change medicine forever.",
-                                                  "answer": "whose research",
-                                                  "alternatives": [],
-                                                  "min_words": 2,
-                                                  "max_words": 2,
-                                                  "explanation": "Whose nelle relative clauses per il possesso: la ricerca della scienziata."
-                                        },
-                                        {
-                                                  "topic": "Past Perfect Simple & Continuous",
-                                                  "first_sentence": "The team lost because they hadn't trained properly.",
-                                                  "keyword": "PROPERLY",
-                                                  "second_sentence_start": "If the team had trained",
-                                                  "second_sentence_end": "the match.",
-                                                  "answer": "properly, they might have won",
-                                                  "alternatives": [
-                                                            "properly, they would have won",
-                                                            "properly, they could have won"
-                                                  ],
-                                                  "min_words": 4,
-                                                  "max_words": 5,
-                                                  "explanation": "Third Conditional: if + Past Perfect, would/might have + past participle. Situazione ipotetica nel passato."
-                                        }
-                              ]
+                        "topic": "Relative Clauses",
+                        "text": "The doctor ___ treated me last year has moved to another city.",
+                        "answer": "who",
+                        "explanation": "Who si usa per le persone nelle relative clauses (defining). 'That' è ugualmente accettabile."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "By the time the ambulance arrived, the patient ___ (already / lose) consciousness.",
+                        "answer": "had already lost",
+                        "explanation": "Past Perfect con 'already': la perdita di coscienza è avvenuta prima dell'arrivo dell'ambulanza."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "She ___ (already / send) the application, so there's nothing more to do.",
+                        "answer": "has already sent",
+                        "explanation": "Present Perfect con 'already' per un'azione appena completata con effetto sul presente."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "She looks pale. She ___ (be) ill — let's call the doctor.",
+                        "answer": "must be",
+                        "explanation": "Must per deduzione logica positiva basata sull'evidenza (il pallore)."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "The conference ___ (start) at 9 a.m. and ___ (finish) at 6 p.m.",
+                        "answer": "starts / finishes",
+                        "explanation": "Present Simple per orari di programmi ufficiali fissi nel futuro."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If she ___ (study) harder, she ___ (pass) the exam next week.",
+                        "answer": "studies / will pass",
+                        "explanation": "First Conditional (if + Present Simple, will + inf.) per situazione reale e probabile nel futuro."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "This is the novel ___ won the Booker Prize last year.",
+                        "answer": "that",
+                        "explanation": "That (o which) per cose nelle defining relative clauses."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "He was nervous at the interview because he ___ (not / prepare) properly.",
+                        "answer": "hadn't prepared",
+                        "explanation": "Past Perfect negativo: la mancata preparazione è avvenuta prima del colloquio e ne spiega la causa."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "They ___ (live) in that neighbourhood since they got married.",
+                        "answer": "have lived",
+                        "explanation": "Present Perfect con 'since' per una situazione che è iniziata nel passato e continua nel presente."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "You ___ (not / wear) a tie at the office — it's very informal here.",
+                        "answer": "don't have to",
+                        "explanation": "Don't have to = non è necessario (non è un divieto, solo non è obbligatorio)."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "I ___ (call) you back in five minutes — I'm in a meeting right now.",
+                        "answer": "will call",
+                        "explanation": "Will per una decisione presa spontaneamente nel momento in cui si parla."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If I ___ (be) you, I ___ (not / accept) that offer.",
+                        "answer": "were / wouldn't accept",
+                        "explanation": "Second Conditional con 'were' per tutti i soggetti. Usato per dare consigli in situazioni ipotetiche."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "My neighbour, ___ dog barks all night, has finally moved out.",
+                        "answer": "whose",
+                        "explanation": "Whose nelle non-defining relative clauses per il possesso (il cane del vicino)."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "She was exhausted because she ___ (work) on the project all weekend.",
+                        "answer": "had been working",
+                        "explanation": "Past Perfect Continuous: enfasi sulla durata (tutto il weekend) che spiega la stanchezza."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "___ you ever ___ (meet) a famous actor in person?",
+                        "answer": "Have / met",
+                        "explanation": "Present Perfect interrogativa con 'ever'. Forma: Have + soggetto + ever + past participle."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "Five languages ___ (speak) in this company.",
+                        "answer": "are spoken",
+                        "explanation": "Present Simple passive: am/is/are + past participle."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "We ___ (have) dinner with the Rossis on Saturday — they booked the bistro.",
+                        "answer": "are having",
+                        "explanation": "Present Continuous per un arrangiamento personale già organizzato per il futuro."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "Prague, ___ I visited for the first time last spring, is a beautiful city.",
+                        "answer": "which",
+                        "explanation": "Which nelle non-defining relative clauses per cose/luoghi. 'That' non si usa nelle non-defining."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "It was the best concert I ___ (ever / attend).",
+                        "answer": "had ever attended",
+                        "explanation": "Past Perfect con superlativo + ever per descrivere la migliore esperienza fino a quel momento."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The old bridge ___ (repair) at the moment, so the road is closed.",
+                        "answer": "is being repaired",
+                        "explanation": "Present Continuous passive: am/is/are being + past participle."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "He isn't in the office and his car is gone. He ___ (be) at home.",
+                        "answer": "might be",
+                        "explanation": "Might be per deduzione possibile (ipotesi plausibile ma non certa)."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The results ___ (announce) tomorrow morning.",
+                        "answer": "will be announced",
+                        "explanation": "Future passive: will be + past participle."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "The children ___ (play) football for over an hour when it started raining.",
+                        "answer": "had been playing",
+                        "explanation": "Past Perfect Continuous con 'for': durata dell'azione in corso prima che iniziasse a piovere."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "He ___ (write) three novels so far, and he's working on a fourth.",
+                        "answer": "has written",
+                        "explanation": "Present Perfect con 'so far' per azioni completate fino ad ora, con possibilità che continuino."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "That ___ (be) the postman — I heard the letterbox.",
+                        "answer": "must be",
+                        "explanation": "Must per deduzione logica basata su un'evidenza (il rumore della cassetta delle lettere)."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "By the time we arrived, all the tickets ___ (sell).",
+                        "answer": "had been sold",
+                        "explanation": "Past Perfect passive: had been + past participle."
                     }
-          ]
-}
+                ]
+            },
+            {
+                "type": "multiple-choice",
+                "difficulty": 2,
+                "questions": [
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "We ___ in this company for over fifteen years.",
+                        "options": [
+                            "work",
+                            "worked",
+                            "have worked",
+                            "are working"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect con 'for' per un'azione iniziata nel passato che continua nel presente."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "You ___ smoke in here — it's a hospital.",
+                        "options": [
+                            "don't have to",
+                            "shouldn't",
+                            "mustn't",
+                            "couldn't"
+                        ],
+                        "answer": 2,
+                        "explanation": "Mustn't per divieto assoluto. 'Don't have to' significherebbe solo che non è necessario."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "Don't worry — I ___ help you move the furniture this weekend.",
+                        "options": [
+                            "am going to",
+                            "will",
+                            "am helping",
+                            "help"
+                        ],
+                        "answer": 1,
+                        "explanation": "Will per una decisione/offerta presa spontaneamente nel momento in cui si parla."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If you ___ ice cream at room temperature, it melts.",
+                        "options": [
+                            "leave",
+                            "will leave",
+                            "would leave",
+                            "left"
+                        ],
+                        "answer": 0,
+                        "explanation": "Zero Conditional (Present Simple + Present Simple): fatto fisico universalmente vero."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "The student ___ essay won first prize has transferred to another school.",
+                        "options": [
+                            "who",
+                            "which",
+                            "whose",
+                            "that"
+                        ],
+                        "answer": 2,
+                        "explanation": "Whose per il possesso (l'elaborato dello studente). Non 'who' perché è legato all'essay."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "When I got to the cinema, the series ___.",
+                        "options": [
+                            "already started",
+                            "has already started",
+                            "had already started",
+                            "was already starting"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect: il series era già iniziato prima del mio arrivo. Due eventi nel passato, il più lontano al Past Perfect."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "I can't find my passport. I think I ___ it somewhere.",
+                        "options": [
+                            "lose",
+                            "lost",
+                            "have lost",
+                            "was losing"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect per un evento passato con effetto rilevante nel presente (non riesco a trovarlo ora)."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "He's not answering the phone. He ___ be in a meeting.",
+                        "options": [
+                            "must",
+                            "should",
+                            "has to",
+                            "would"
+                        ],
+                        "answer": 0,
+                        "explanation": "Must per deduzione logica: in base all'evidenza (non risponde) deduciamo che è in riunione."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "We ___ a new employee next month — we've already posted the job advert.",
+                        "options": [
+                            "will hire",
+                            "hire",
+                            "are going to hire",
+                            "are hiring"
+                        ],
+                        "answer": 2,
+                        "explanation": "Going to per una decisione già presa (il piano era già in atto: hanno già pubblicato l'annuncio)."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If she ___ to bed earlier, she ___ less tired in the mornings.",
+                        "options": [
+                            "goes / will feel",
+                            "went / would feel",
+                            "will go / feels",
+                            "goes / would feel"
+                        ],
+                        "answer": 1,
+                        "explanation": "Second Conditional (if + Past Simple, would + inf.): ipotetico — implica che non va a letto presto."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "The village ___ we spent our honeymoon has changed a lot.",
+                        "options": [
+                            "which",
+                            "that",
+                            "where",
+                            "when"
+                        ],
+                        "answer": 2,
+                        "explanation": "Where si usa per i luoghi nelle relative clauses (alternativa: 'in which')."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "The athlete ___ for the marathon for six months when he injured his knee.",
+                        "options": [
+                            "trained",
+                            "has been training",
+                            "had been training",
+                            "was training"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect Continuous: durata dell'allenamento (6 mesi) prima dell'infortunio."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "___ you ever ___ to a live opera?",
+                        "options": [
+                            "Did / go",
+                            "Have / been",
+                            "Were / going",
+                            "Are / going"
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Perfect interrogativa con 'ever' per esperienze di vita. 'Been to' = essere andati e tornati."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "Students ___ bring a dictionary — there will be one at each desk.",
+                        "options": [
+                            "mustn't",
+                            "can't",
+                            "don't have to",
+                            "shouldn't"
+                        ],
+                        "answer": 2,
+                        "explanation": "Don't have to: non è necessario portare il dizionario (ce ne sarà uno disponibile)."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "The next ferry ___ at 3:45 pm according to the timetable.",
+                        "options": [
+                            "will leave",
+                            "is going to leave",
+                            "leaves",
+                            "is leaving"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Simple per orari ufficiali e programmi fissi di trasporti pubblici."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "Unless you ___ your homework, you won't be allowed to go out.",
+                        "options": [
+                            "finish",
+                            "finished",
+                            "will finish",
+                            "would finish"
+                        ],
+                        "answer": 0,
+                        "explanation": "Unless = if not. First Conditional: Unless + Present Simple, will. Situazione reale e possibile."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "Mt. Everest, ___ is the highest mountain in the world, attracts thousands of climbers each year.",
+                        "options": [
+                            "that",
+                            "which",
+                            "who",
+                            "whose"
+                        ],
+                        "answer": 1,
+                        "explanation": "Which nelle non-defining relative clauses (con virgole). 'That' NON si usa nelle non-defining."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "She said that she ___ the report but hadn't printed it yet.",
+                        "options": [
+                            "writes",
+                            "has written",
+                            "had written",
+                            "wrote"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect nel discorso indiretto: 'said' al passato → Present Perfect si trasforma in Past Perfect."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The new stadium ___ yet, so matches are played elsewhere.",
+                        "options": [
+                            "hasn't completed",
+                            "hasn't been completed",
+                            "wasn't completed",
+                            "isn't completing"
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Perfect passive: has not been + past participle."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "Choose the correct sentence:",
+                        "options": [
+                            "A new bridge is being built near the station.",
+                            "A new bridge is building near the station.",
+                            "A new bridge being built near the station.",
+                            "A new bridge is builted near the station."
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Continuous passive corretto: is being built."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The invitations ___ before Friday.",
+                        "options": [
+                            "will send",
+                            "will be sent",
+                            "are sending",
+                            "will been sent"
+                        ],
+                        "answer": 1,
+                        "explanation": "Future passive: will be + past participle."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "If I ___ a million euros, I ___ travel the world.",
+                        "options": [
+                            "had / would",
+                            "have / will",
+                            "had / will",
+                            "would have / would"
+                        ],
+                        "answer": 0,
+                        "explanation": "Second Conditional: if + Past Simple, would + infinitivo. Situazione ipotetica (non ho un milione)."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "I remember the day ___ I first learnt to ride a bike.",
+                        "options": [
+                            "which",
+                            "that",
+                            "when",
+                            "where"
+                        ],
+                        "answer": 2,
+                        "explanation": "When si usa con espressioni di tempo nelle relative clauses (alternativa: 'on which')."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "That was the most thrilling match we ___ ever ___.",
+                        "options": [
+                            "have / seen",
+                            "had / seen",
+                            "were / seeing",
+                            "did / see"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Perfect con superlativo + ever: 'the most...we had ever seen' è la struttura standard."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "She ___ her driving test twice, but she hasn't passed yet.",
+                        "options": [
+                            "takes",
+                            "took",
+                            "has taken",
+                            "is taking"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect: azioni ripetute in un periodo ancora non concluso, con 'yet' nella seconda frase."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "He got 1 out of 100. He ___ have studied much.",
+                        "options": [
+                            "must",
+                            "might",
+                            "can't",
+                            "should"
+                        ],
+                        "answer": 2,
+                        "explanation": "Can't have + participio passato per deduzione negativa su un evento passato."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "If you don't leave now, you ___ the bus.",
+                        "options": [
+                            "miss",
+                            "are missing",
+                            "would miss",
+                            "will miss"
+                        ],
+                        "answer": 3,
+                        "explanation": "Will miss nel main clause del First Conditional: conseguenza reale se non parti ora."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "They ___ for the bus for forty minutes when a taxi finally appeared.",
+                        "options": [
+                            "waited",
+                            "have been waiting",
+                            "had been waiting",
+                            "were waiting"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect Continuous con 'for': durata dell'attesa (40 minuti) prima dell'arrivo del taxi."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "The suspect ___ by the police yesterday evening.",
+                        "options": [
+                            "arrested",
+                            "was arrested",
+                            "was arresting",
+                            "has arrested"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Simple passive: was/were + past participle."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "The lights are on, so someone ___ be at home.",
+                        "options": [
+                            "should",
+                            "must",
+                            "can",
+                            "would"
+                        ],
+                        "answer": 1,
+                        "explanation": "Must per deduzione logica positiva: le luci accese sono la prova che c'è qualcuno in casa."
+                    }
+                ]
+            },
+            {
+                "type": "translation",
+                "difficulty": 4,
+                "questions": [
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "Non ho ancora visto l'ultimo series di quel regista.",
+                        "answer": "I haven't seen the latest series by that director yet",
+                        "alternatives": [
+                            "I haven't seen that director's latest film yet",
+                            "I have not yet seen the latest film by that director"
+                        ],
+                        "explanation": "Present Perfect negativa con 'yet' alla fine. 'Yet' in frasi negative = ancora."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "Non devi gridare in biblioteca — è contro le regole.",
+                        "answer": "You mustn't shout in the library — it's against the rules",
+                        "alternatives": [
+                            "You must not shout in the library — it is against the rules"
+                        ],
+                        "explanation": "Mustn't per divieto assoluto in un luogo pubblico."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "Guarda quelle nuvole nere! Sta per piovere.",
+                        "answer": "Look at those black clouds! It's going to rain",
+                        "alternatives": [
+                            "Look at those dark clouds! It is going to rain"
+                        ],
+                        "explanation": "Going to per previsione con prova visibile (le nuvole nere visibili in quel momento)."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "Se non ti sbrighi, perderai il bus.",
+                        "answer": "If you don't hurry, you will miss the bus",
+                        "alternatives": [
+                            "If you don't hurry up, you'll miss the train"
+                        ],
+                        "explanation": "First Conditional: if + Present Simple, will + infinitivo. Situazione reale e probabile."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "Il libro che mi hai prestato è davvero interessante.",
+                        "answer": "The book that you lent me is really interesting",
+                        "alternatives": [
+                            "The book which you lent me is really interesting",
+                            "The book you lent me is really interesting"
+                        ],
+                        "explanation": "Defining relative clause: that/which per cose. Il pronome può essere omesso quando è oggetto."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "Quando siamo arrivati alla stazione, il bus era già partito.",
+                        "answer": "When we arrived at the station, the bus had already left",
+                        "alternatives": [
+                            "By the time we arrived at the station, the train had already departed"
+                        ],
+                        "explanation": "Past Perfect per la partenza del bus (evento più lontano) rispetto all'arrivo (Past Simple)."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "Quante volte sei stato a Dublino?",
+                        "answer": "How many times have you been to Dublin",
+                        "alternatives": [
+                            "How many times have you visited London"
+                        ],
+                        "explanation": "Present Perfect interrogativa per esperienze. 'Been to' = essere andati e tornati."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "Devono aver sbagliato indirizzo.",
+                        "answer": "They must have got the wrong address",
+                        "alternatives": [
+                            "They must have gotten the wrong address"
+                        ],
+                        "explanation": "Must have + participio passato per deduzione quasi certa su un evento passato."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "Il bus delle 8:30 arriva a Milano alle 10:15.",
+                        "answer": "The 8:30 bus arrives in Milan at 10:15",
+                        "alternatives": [
+                            "The 8:30 train gets to Milan at 10:15"
+                        ],
+                        "explanation": "Present Simple per orari di trasporti pubblici fissi."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "Se fossi in te, non accetterei quell'offerta di lavoro.",
+                        "answer": "If I were you, I wouldn't accept that job offer",
+                        "alternatives": [
+                            "If I were you, I wouldn't take that job offer"
+                        ],
+                        "explanation": "Second Conditional per dare consigli. 'Were' per tutti i soggetti nella if-clause."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "Mia sorella, che vive a Berlino, parla tre lingue.",
+                        "answer": "My sister, who lives in Berlin, speaks three languages",
+                        "alternatives": [
+                            "My sister, who lives in Berlin, can speak three languages"
+                        ],
+                        "explanation": "Non-defining relative clause (virgole). Who per persone. 'That' non si usa nelle non-defining."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "Era stanco perché aveva lavorato in giardino tutto il giorno.",
+                        "answer": "He was tired because he had been working in the garden all day",
+                        "alternatives": [
+                            "She was tired because she had been working in the garden all day"
+                        ],
+                        "explanation": "Past Perfect Continuous: 'all day' enfatizza la durata e spiega la causa della stanchezza."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "Lavora per quella società da più di dieci anni.",
+                        "answer": "She has been working for that company for more than ten years",
+                        "alternatives": [
+                            "He has been working for that company for over ten years",
+                            "She has worked for that company for more than ten years"
+                        ],
+                        "explanation": "Present Perfect (Simple o Continuous) con 'for' per una situazione iniziata nel passato che continua ora."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "Non può essere lui alla porta — è in vacanza all'estero.",
+                        "answer": "It can't be him at the door — he's on holiday abroad",
+                        "alternatives": [
+                            "It can't be her at the door — she's on holiday abroad"
+                        ],
+                        "explanation": "Can't per deduzione negativa (impossibilità): abbiamo una prova che rende impossibile quella conclusione."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "Ci vediamo domani — ti chiamerò per confermare l'ora.",
+                        "answer": "See you tomorrow — I'll call you to confirm the time",
+                        "alternatives": [
+                            "See you tomorrow — I will ring you to confirm the time"
+                        ],
+                        "explanation": "Will per una decisione/promessa presa spontaneamente nel momento della conversazione."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "Se avessi più tempo libero, imparerei a suonare la chitarra.",
+                        "answer": "If I had more free time, I would learn to play the guitar",
+                        "alternatives": [
+                            "If I had more free time, I'd learn to play the guitar"
+                        ],
+                        "explanation": "Second Conditional: situazione ipotetica attuale (in realtà non ho tempo libero)."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "L'anno in cui mi sono laureata è stato il più bello della mia vita.",
+                        "answer": "The year when I graduated was the best of my life",
+                        "alternatives": [
+                            "The year in which I graduated was the best of my life"
+                        ],
+                        "explanation": "When si usa con espressioni di tempo nelle relative clauses (alternativa: 'in which')."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "Era la prima volta che visitava Toronto.",
+                        "answer": "It was the first time he had visited Toronto",
+                        "alternatives": [
+                            "It was the first time she had ever visited New York",
+                            "It was the first time they had visited New York"
+                        ],
+                        "explanation": "Struttura 'it was the first time + Past Perfect': il Past Perfect è obbligatorio con questa costruzione."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "text": "È la terza volta che quel cane abbaia stanotte.",
+                        "answer": "It's the third time that dog has barked tonight",
+                        "alternatives": [
+                            "That dog has barked three times tonight"
+                        ],
+                        "explanation": "Present Perfect con 'it's the third time...' per contare azioni ripetute in un periodo ancora in corso."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "text": "Dovresti fare più esercizio — fa bene alla salute.",
+                        "answer": "You should do more exercise — it's good for your health",
+                        "alternatives": [
+                            "You should exercise more — it is good for your health"
+                        ],
+                        "explanation": "Should per dare un consiglio salutare (non un obbligo)."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "text": "Stiamo organizzando una evento a sorpresa per il suo compleanno il prossimo sabato.",
+                        "answer": "We are organising a surprise event for her birthday next Saturday",
+                        "alternatives": [
+                            "We're organizing a surprise party for his birthday next Saturday"
+                        ],
+                        "explanation": "Present Continuous per un arrangiamento già organizzato per il futuro."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "A meno che non si scusi, non le parlerò più.",
+                        "answer": "Unless she apologises, I won't talk to her again",
+                        "alternatives": [
+                            "Unless she apologizes, I will not speak to her again"
+                        ],
+                        "explanation": "Unless + Present Simple (= If...not). First Conditional con condizione reale."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "Il quartiere dove sono cresciuto è molto cambiato.",
+                        "answer": "The neighbourhood where I grew up has changed a lot",
+                        "alternatives": [
+                            "The neighbourhood in which I grew up has changed a lot",
+                            "The area where I grew up has changed a lot"
+                        ],
+                        "explanation": "Where per luoghi nelle relative clauses (alternativa: 'in which')."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "Mi disse che aveva già prenotato il bistrot.",
+                        "answer": "He told me he had already booked the bistro",
+                        "alternatives": [
+                            "She told me she had already booked the restaurant",
+                            "He told me that he had already reserved the restaurant"
+                        ],
+                        "explanation": "Past Perfect nel discorso indiretto con 'told me': il verbo si arretra al Past Perfect."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "I risultati delle elezioni sono stati annunciati poco fa.",
+                        "answer": "The election results have just been announced",
+                        "alternatives": [
+                            "The results of the election have just been announced"
+                        ],
+                        "explanation": "Present Perfect passive: have/has been + past participle."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "Il paziente è stato operato ieri mattina.",
+                        "answer": "The patient was operated on yesterday morning",
+                        "alternatives": [],
+                        "explanation": "Past Simple passive con verbo/preposizione: operated on."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "Il nuovo teatro sarà inaugurato il mese prossimo.",
+                        "answer": "The new theatre will be opened next month",
+                        "alternatives": [
+                            "The new theater will be opened next month"
+                        ],
+                        "explanation": "Future passive: will be + past participle."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "text": "Se scaldate il ghiaccio, si scioglie.",
+                        "answer": "If you heat ice, it melts",
+                        "alternatives": [
+                            "If you heat ice, it turns into water"
+                        ],
+                        "explanation": "Zero Conditional (Present Simple + Present Simple): fatto scientifico sempre vero."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "text": "Lo studente il cui progetto ha vinto il premio ha ricevuto una borsa di studio.",
+                        "answer": "The student whose project won the prize received a scholarship",
+                        "alternatives": [
+                            "The student whose project won the award received a scholarship"
+                        ],
+                        "explanation": "Whose per il possesso nelle relative clauses: il progetto dello studente."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "text": "Stavano aspettando il bus da mezz'ora quando iniziò a piovere.",
+                        "answer": "They had been waiting for the bus for half an hour when it started raining",
+                        "alternatives": [
+                            "They had been waiting for the bus for thirty minutes when it started to rain"
+                        ],
+                        "explanation": "Past Perfect Continuous con 'for': durata dell'attesa prima che iniziasse a piovere."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "text": "Era il miglior progetto che fosse mai stato presentato.",
+                        "answer": "It was the best project that had ever been presented",
+                        "alternatives": [
+                            "It was the best project ever presented"
+                        ],
+                        "explanation": "Past Perfect passive con superlativo: had ever been presented."
+                    }
+                ]
+            },
+            {
+                "type": "cloze-test",
+                "difficulty": 4,
+                "context": "A YEAR ABROAD: FROM CHAOS TO CONFIDENCE\n\nLast September, Emma packed her bags and moved to Edinburgh for a year abroad. She (1) ......... Scottish culture since she was a teenager, and she (2) ......... to visit Scotland one day. The day she finally arrived, she felt a mix of excitement and nerves — it was the first time she (3) ......... so far from home alone.\n\nHer flat in Edinburgh was small but cosy. She (4) ......... to share it with two other international students, Marco from Italy and Yuki from Japan. They (5) ......... already arrived when Emma rang the doorbell, and they welcomed her warmly. By the end of that first evening, the three of them (6) ......... talking for hours and (7) ......... a bottle of local whisky together.\n\nThe next morning, Emma had to register at the university. The office (8) ......... at 9 a.m., so she arrived early. While she was waiting in the queue, she met a student called Daniel. He told her that he (9) ......... in Edinburgh for two months already, and that he (10) ......... the city extremely helpful and welcoming.\n\nAs the months passed, Emma grew in confidence. By December, she (11) ......... many new friends and (12) ......... her English considerably. She discovered that if you (13) ......... yourself new challenges, you (14) ......... a lot. She also learnt that she (15) ......... be afraid to ask for help — in fact, most people were more than happy to assist.\n\nLooking back now, Emma says it was the most transformative year she (16) ......... ever experienced. She (17) ......... back to Italy next month, but she (18) ......... return to Scotland — she has already planned a trip for next summer.\n\nOne thing is certain: the Emma who (19) ......... home that September is not the same Emma who (20) ......... today. She (21) ......... her perspective, broadened her horizons, and most importantly, she (22) ......... that she (23) ......... anything she sets her mind to. And if anyone (24) ......... her what single piece of advice she (25) ......... give, she (26) ......... : 'Say yes to every new experience. You (27) ......... regret it — I promise.' She (28) ......... this motto throughout the year, and it (29) ......... her in good stead. Now she (30) ......... forward to a bright future, armed with memories, new friends, and a Scottish accent that Marco still (31) ......... perfectly.",
+                "questions": [
+                    {
+                        "blank_number": 1,
+                        "options": [
+                            "A) loves",
+                            "B) has loved",
+                            "C) loved",
+                            "D) was loving"
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Perfect con 'since': azione iniziata nel passato (da adolescente) che continua nel presente."
+                    },
+                    {
+                        "blank_number": 2,
+                        "options": [
+                            "A) has always wanted",
+                            "B) always wanted",
+                            "C) always wants",
+                            "D) had always wanted"
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Perfect con 'always': desiderio che ha sempre avuto e che continua nel presente."
+                    },
+                    {
+                        "blank_number": 3,
+                        "options": [
+                            "A) is",
+                            "B) has been",
+                            "C) was",
+                            "D) had been"
+                        ],
+                        "answer": 3,
+                        "explanation": "Past Perfect con 'it was the first time': struttura che richiede il Past Perfect."
+                    },
+                    {
+                        "blank_number": 4,
+                        "options": [
+                            "A) was going",
+                            "B) is going",
+                            "C) will go",
+                            "D) was going to"
+                        ],
+                        "answer": 3,
+                        "explanation": "Was going to: piano già deciso nel passato (futuro nel passato). Era stato già deciso che avrebbe condiviso il flat."
+                    },
+                    {
+                        "blank_number": 5,
+                        "options": [
+                            "A) arrived",
+                            "B) were arriving",
+                            "C) had arrived",
+                            "D) have arrived"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect: Marco e Yuki erano già arrivati prima che Emma suonasse il campanello."
+                    },
+                    {
+                        "blank_number": 6,
+                        "options": [
+                            "A) were",
+                            "B) had been",
+                            "C) have been",
+                            "D) are"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Perfect Continuous: enfasi sulla durata della conversazione (ore) prima di un momento nel passato."
+                    },
+                    {
+                        "blank_number": 7,
+                        "options": [
+                            "A) shared",
+                            "B) were sharing",
+                            "C) had shared",
+                            "D) have shared"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect: azione completata (bere la bottiglia) prima di un riferimento nel passato."
+                    },
+                    {
+                        "blank_number": 8,
+                        "options": [
+                            "A) opens",
+                            "B) will open",
+                            "C) is opening",
+                            "D) is going to open"
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Simple per orari ufficiali e programmi fissi (l'ufficio apre alle 9: orario stabilito)."
+                    },
+                    {
+                        "blank_number": 9,
+                        "options": [
+                            "A) has been living",
+                            "B) is living",
+                            "C) had been living",
+                            "D) was living"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect Continuous nel discorso indiretto: Daniel era stato a Edimburgo da due mesi prima del momento narrato."
+                    },
+                    {
+                        "blank_number": 10,
+                        "options": [
+                            "A) finds",
+                            "B) found",
+                            "C) has found",
+                            "D) had found"
+                        ],
+                        "answer": 3,
+                        "explanation": "Past Perfect nel discorso indiretto (dopo 'told her that'): l'esperienza è avvenuta prima del momento del racconto."
+                    },
+                    {
+                        "blank_number": 11,
+                        "options": [
+                            "A) made",
+                            "B) has made",
+                            "C) had made",
+                            "D) was making"
+                        ],
+                        "answer": 2,
+                        "explanation": "Past Perfect: per dicembre aveva già fatto molti amici (azione completata prima di 'by December')."
+                    },
+                    {
+                        "blank_number": 12,
+                        "options": [
+                            "A) improved",
+                            "B) has improved",
+                            "C) improves",
+                            "D) had improved"
+                        ],
+                        "answer": 3,
+                        "explanation": "Past Perfect: il miglioramento dell'inglese era avvenuto nel periodo precedente a dicembre."
+                    },
+                    {
+                        "blank_number": 13,
+                        "options": [
+                            "A) set",
+                            "B) will set",
+                            "C) would set",
+                            "D) sets"
+                        ],
+                        "answer": 0,
+                        "explanation": "Zero Conditional con 'if' + Present Simple: verità generale su come funziona l'apprendimento."
+                    },
+                    {
+                        "blank_number": 14,
+                        "options": [
+                            "A) learn",
+                            "B) will learn",
+                            "C) would learn",
+                            "D) learned"
+                        ],
+                        "answer": 0,
+                        "explanation": "Zero Conditional: Present Simple anche nel main clause per esprimere una verità generale."
+                    },
+                    {
+                        "blank_number": 15,
+                        "options": [
+                            "A) doesn't have to",
+                            "B) mustn't",
+                            "C) shouldn't",
+                            "D) can't"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mustn't: è sbagliato avere paura di chiedere aiuto (divieto di un comportamento limitante)."
+                    },
+                    {
+                        "blank_number": 16,
+                        "options": [
+                            "A) has",
+                            "B) had",
+                            "C) was",
+                            "D) would"
+                        ],
+                        "answer": 1,
+                        "explanation": "Past Perfect con superlativo + ever: 'the most transformative year she had ever experienced'."
+                    },
+                    {
+                        "blank_number": 17,
+                        "options": [
+                            "A) will travel",
+                            "B) travels",
+                            "C) is travelling",
+                            "D) is going to travel"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Continuous per un arrangiamento futuro già pianificato (il ritorno in Italia il mese prossimo)."
+                    },
+                    {
+                        "blank_number": 18,
+                        "options": [
+                            "A) is going to",
+                            "B) will",
+                            "C) would",
+                            "D) must"
+                        ],
+                        "answer": 0,
+                        "explanation": "Going to: piano già deciso e confermato ('ha già pianificato un viaggio per l'estate')."
+                    },
+                    {
+                        "blank_number": 19,
+                        "options": [
+                            "A) left",
+                            "B) has left",
+                            "C) had left",
+                            "D) was leaving"
+                        ],
+                        "answer": 0,
+                        "explanation": "Past Simple: evento singolo e definito nel passato (quello settembre specifico)."
+                    },
+                    {
+                        "blank_number": 20,
+                        "options": [
+                            "A) is standing",
+                            "B) stands",
+                            "C) stood",
+                            "D) has stood"
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Continuous per descrivere la situazione attuale nel momento di cui si parla."
+                    },
+                    {
+                        "blank_number": 21,
+                        "options": [
+                            "A) changes",
+                            "B) changed",
+                            "C) has changed",
+                            "D) had changed"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect: il cambiamento di prospettiva è avvenuto in passato con effetto rilevante nel presente."
+                    },
+                    {
+                        "blank_number": 22,
+                        "options": [
+                            "A) discovers",
+                            "B) discovered",
+                            "C) has discovered",
+                            "D) had discovered"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect: la scoperta fatta durante l'anno è rilevante nel momento attuale (le sue parole di oggi)."
+                    },
+                    {
+                        "blank_number": 23,
+                        "options": [
+                            "A) achieves",
+                            "B) can achieve",
+                            "C) could achieve",
+                            "D) achieved"
+                        ],
+                        "answer": 1,
+                        "explanation": "Can per abilità/possibilità nel presente: la capacità di raggiungere qualsiasi cosa si prefigga."
+                    },
+                    {
+                        "blank_number": 24,
+                        "options": [
+                            "A) asks",
+                            "B) will ask",
+                            "C) would ask",
+                            "D) asked"
+                        ],
+                        "answer": 0,
+                        "explanation": "First Conditional: if + Present Simple nella if-clause per una situazione ipotetica ma possibile."
+                    },
+                    {
+                        "blank_number": 25,
+                        "options": [
+                            "A) will",
+                            "B) would",
+                            "C) should",
+                            "D) could"
+                        ],
+                        "answer": 1,
+                        "explanation": "Would nel main clause del conditional (variante riflessiva per consigli ipotetici)."
+                    },
+                    {
+                        "blank_number": 26,
+                        "options": [
+                            "A) says",
+                            "B) would say",
+                            "C) will say",
+                            "D) said"
+                        ],
+                        "answer": 1,
+                        "explanation": "Would say: risposta ipotetica al conditional del blank precedente."
+                    },
+                    {
+                        "blank_number": 27,
+                        "options": [
+                            "A) won't",
+                            "B) don't",
+                            "C) mustn't",
+                            "D) shouldn't"
+                        ],
+                        "answer": 0,
+                        "explanation": "Won't (will not) per una previsione/promessa nel futuro: non te ne pentirai."
+                    },
+                    {
+                        "blank_number": 28,
+                        "options": [
+                            "A) follows",
+                            "B) followed",
+                            "C) has followed",
+                            "D) had followed"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect: ha seguito questo motto per tutta la durata dell'anno con effetto rilevante nel presente."
+                    },
+                    {
+                        "blank_number": 29,
+                        "options": [
+                            "A) serves",
+                            "B) served",
+                            "C) has served",
+                            "D) had served"
+                        ],
+                        "answer": 2,
+                        "explanation": "Present Perfect: l'effetto positivo del motto si sente ancora nel presente."
+                    },
+                    {
+                        "blank_number": 30,
+                        "options": [
+                            "A) looks",
+                            "B) is looking",
+                            "C) has looked",
+                            "D) will look"
+                        ],
+                        "answer": 1,
+                        "explanation": "Present Continuous: 'is looking forward to' esprime uno stato emotivo in atto nel presente."
+                    },
+                    {
+                        "blank_number": 31,
+                        "options": [
+                            "A) imitates",
+                            "B) is imitating",
+                            "C) has imitated",
+                            "D) imitated"
+                        ],
+                        "answer": 0,
+                        "explanation": "Present Simple per un'abitudine ricorrente (Marco imita sempre perfettamente l'accento)."
+                    }
+                ]
+            },
+            {
+                "type": "key-word-transformation",
+                "difficulty": 5,
+                "questions": [
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "first_sentence": "This is my first time in Toronto.",
+                        "keyword": "NEVER",
+                        "second_sentence_start": "I",
+                        "second_sentence_end": "before.",
+                        "answer": "have never been to Toronto",
+                        "alternatives": [
+                            "have never visited New York"
+                        ],
+                        "min_words": 4,
+                        "max_words": 6,
+                        "explanation": "Present Perfect con 'never' per un'esperienza mai fatta. 'This is my first time' → 'I have never been to...'"
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "first_sentence": "It's against the rules to use your phone during the exam.",
+                        "keyword": "MUSTN'T",
+                        "second_sentence_start": "You",
+                        "second_sentence_end": "the exam.",
+                        "answer": "mustn't use your phone during",
+                        "alternatives": [
+                            "mustn't use a phone during"
+                        ],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "Mustn't per esprimere un divieto: è proibito usare il telefono durante l'esame."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "first_sentence": "They are going to announce the winner tomorrow.",
+                        "keyword": "BE",
+                        "second_sentence_start": "The winner",
+                        "second_sentence_end": "tomorrow.",
+                        "answer": "is going to be announced",
+                        "alternatives": [],
+                        "min_words": 5,
+                        "max_words": 5,
+                        "explanation": "Going to passive: is going to be + past participle."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "first_sentence": "He doesn't exercise, so he feels tired all the time.",
+                        "keyword": "WOULD",
+                        "second_sentence_start": "If he exercised,",
+                        "second_sentence_end": "all the time.",
+                        "answer": "he wouldn't feel tired",
+                        "alternatives": [
+                            "he would not feel tired"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Second Conditional negativa: se facesse esercizio (ma non lo fa), non si sentirebbe stanco."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "first_sentence": "I bought a new laptop. Its battery lasts for twelve hours.",
+                        "keyword": "WHOSE",
+                        "second_sentence_start": "I bought a new laptop",
+                        "second_sentence_end": "twelve hours.",
+                        "answer": "whose battery lasts for",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Whose unisce le due frasi esprimendo possesso (la batteria del laptop)."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "first_sentence": "We arrived at the event late. All the food was gone.",
+                        "keyword": "EATEN",
+                        "second_sentence_start": "By the time we arrived,",
+                        "second_sentence_end": "all the food.",
+                        "answer": "everyone had already eaten",
+                        "alternatives": [
+                            "they had already eaten",
+                            "people had already eaten"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Past Perfect con 'by the time' + 'already': il cibo era già stato mangiato prima del nostro arrivo."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "first_sentence": "She started learning Spanish three years ago and she still studies it.",
+                        "keyword": "FOR",
+                        "second_sentence_start": "She",
+                        "second_sentence_end": "three years.",
+                        "answer": "has been learning Spanish for",
+                        "alternatives": [
+                            "has studied Spanish for"
+                        ],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "Present Perfect Continuous con 'for': azione iniziata nel passato che continua nel presente."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "first_sentence": "I'm absolutely certain that she passed the test — she studied so hard.",
+                        "keyword": "MUST",
+                        "second_sentence_start": "She",
+                        "second_sentence_end": "the test.",
+                        "answer": "must have passed",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Must have + past participle per deduzione logica su un evento passato."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "first_sentence": "She has a meeting with her supervisor at 11 o'clock.",
+                        "keyword": "MEETING",
+                        "second_sentence_start": "She is",
+                        "second_sentence_end": "at 11 o'clock.",
+                        "answer": "meeting her supervisor",
+                        "alternatives": [
+                            "meeting with her supervisor"
+                        ],
+                        "min_words": 2,
+                        "max_words": 3,
+                        "explanation": "Present Continuous per arrangiamenti personali già fissati in agenda."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "first_sentence": "Study hard or you won't pass the exam.",
+                        "keyword": "UNLESS",
+                        "second_sentence_start": "You won't pass the exam",
+                        "second_sentence_end": "hard.",
+                        "answer": "unless you study",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Unless = if not. 'Unless you study hard' = 'if you don't study hard'."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "first_sentence": "She grew up in a small village. The village no longer exists.",
+                        "keyword": "WHERE",
+                        "second_sentence_start": "The small village",
+                        "second_sentence_end": "no longer exists.",
+                        "answer": "where she grew up",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Where nelle relative clauses per indicare un luogo (alternativa: 'in which')."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "first_sentence": "She said: 'I haven't finished the report yet.'",
+                        "keyword": "TOLD",
+                        "second_sentence_start": "She told me",
+                        "second_sentence_end": "the report yet.",
+                        "answer": "she hadn't finished",
+                        "alternatives": [
+                            "that she hadn't finished"
+                        ],
+                        "min_words": 2,
+                        "max_words": 3,
+                        "explanation": "Discorso indiretto: 'told me' al passato → Present Perfect → Past Perfect, 'haven't' → 'hadn't'."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "first_sentence": "Someone has just cleaned the classroom.",
+                        "keyword": "BEEN",
+                        "second_sentence_start": "The classroom",
+                        "second_sentence_end": ".",
+                        "answer": "has just been cleaned",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Present Perfect passive: has/have been + past participle."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "first_sentence": "I'm sure that's not the right answer — it's impossible.",
+                        "keyword": "CAN'T",
+                        "second_sentence_start": "That",
+                        "second_sentence_end": "answer.",
+                        "answer": "can't be the right",
+                        "alternatives": [
+                            "can't be the correct"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Can't per deduzione negativa (impossibilità)."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "first_sentence": "I predict it will be a very hot summer.",
+                        "keyword": "GOING",
+                        "second_sentence_start": "According to forecasts, it",
+                        "second_sentence_end": "a very hot summer.",
+                        "answer": "is going to be",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Going to per previsioni basate su prove o evidenze (previsioni meteo)."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "first_sentence": "I don't have a car, so I can't drive you to the station.",
+                        "keyword": "WOULD",
+                        "second_sentence_start": "If I had a car,",
+                        "second_sentence_end": "to the station.",
+                        "answer": "I would drive you",
+                        "alternatives": [
+                            "I could drive you"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Second Conditional: if + Past Simple (had), would + infinitivo. Situazione ipotetica."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "first_sentence": "I spoke to a colleague. She knows the director personally.",
+                        "keyword": "WHO",
+                        "second_sentence_start": "I spoke to a colleague",
+                        "second_sentence_end": "personally.",
+                        "answer": "who knows the director",
+                        "alternatives": [
+                            "who knows him"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Who nelle relative clauses per persone (defining). La clausola identifica quale collega."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "first_sentence": "It was the most beautiful sunset I ever saw.",
+                        "keyword": "HAD",
+                        "second_sentence_start": "It was the most beautiful sunset",
+                        "second_sentence_end": "seen.",
+                        "answer": "I had ever",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Past Perfect con superlativo + ever: 'the most beautiful...I had ever seen' è la struttura corretta."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "first_sentence": "He started working here in January 2020 and he still works here.",
+                        "keyword": "SINCE",
+                        "second_sentence_start": "He has been working here",
+                        "second_sentence_end": "January 2020.",
+                        "answer": "since",
+                        "alternatives": [],
+                        "min_words": 1,
+                        "max_words": 1,
+                        "explanation": "Since + punto nel tempo (January 2020) con Present Perfect per indicare da quando dura un'azione."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "first_sentence": "It's possible that she forgot the meeting.",
+                        "keyword": "MIGHT",
+                        "second_sentence_start": "She",
+                        "second_sentence_end": "the meeting.",
+                        "answer": "might have forgotten",
+                        "alternatives": [],
+                        "min_words": 3,
+                        "max_words": 3,
+                        "explanation": "Might have + past participle per una deduzione possibile sul passato."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "first_sentence": "Her flight is at 7 am — she decided to book it last week.",
+                        "keyword": "TAKING",
+                        "second_sentence_start": "She is",
+                        "second_sentence_end": "at 7 am — she decided to book it last week.",
+                        "answer": "taking a flight",
+                        "alternatives": [
+                            "taking the flight"
+                        ],
+                        "min_words": 2,
+                        "max_words": 3,
+                        "explanation": "Present Continuous per un arrangiamento futuro già pianificato (ha prenotato la mese scorsa)."
+                    },
+                    {
+                        "topic": "Conditionals",
+                        "first_sentence": "Mixing red and blue paint produces purple.",
+                        "keyword": "MIX",
+                        "second_sentence_start": "If you",
+                        "second_sentence_end": "purple.",
+                        "answer": "mix red and blue paint, you get",
+                        "alternatives": [
+                            "mix red and blue, you get"
+                        ],
+                        "min_words": 5,
+                        "max_words": 6,
+                        "explanation": "Zero Conditional (if + Present Simple, Present Simple): fatto universalmente vero sulla combinazione dei colori."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "first_sentence": "2003 was a year. A lot of important things happened that year.",
+                        "keyword": "WHEN",
+                        "second_sentence_start": "2003 was the year",
+                        "second_sentence_end": "happened.",
+                        "answer": "when a lot of important things",
+                        "alternatives": [
+                            "when many important things"
+                        ],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "When nelle relative clauses con espressioni di tempo per indicare un momento specifico."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "first_sentence": "Someone had stolen her bike before the police arrived.",
+                        "keyword": "BEEN",
+                        "second_sentence_start": "Her bike",
+                        "second_sentence_end": "the police arrived.",
+                        "answer": "had been stolen before",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Past Perfect passive: had been + past participle."
+                    },
+                    {
+                        "topic": "Present Perfect vs Past Simple",
+                        "first_sentence": "I visited Rome for the first time last summer.",
+                        "keyword": "BEFORE",
+                        "second_sentence_start": "I had never",
+                        "second_sentence_end": "last summer.",
+                        "answer": "been to Rome before",
+                        "alternatives": [
+                            "visited Rome before"
+                        ],
+                        "min_words": 3,
+                        "max_words": 4,
+                        "explanation": "Past Perfect con 'never...before': equivalente di 'it was my first time'."
+                    },
+                    {
+                        "topic": "Modal Verbs: Obligation, Prohibition & Deduction",
+                        "first_sentence": "I advise you not to trust him — he has lied before.",
+                        "keyword": "SHOULD",
+                        "second_sentence_start": "You",
+                        "second_sentence_end": "him — he has lied before.",
+                        "answer": "shouldn't trust",
+                        "alternatives": [
+                            "should not trust"
+                        ],
+                        "min_words": 2,
+                        "max_words": 2,
+                        "explanation": "Shouldn't per dare un consiglio negativo (è meglio non fidarsi)."
+                    },
+                    {
+                        "topic": "The Future System",
+                        "first_sentence": "The shop closes at 9 pm every day, including tomorrow.",
+                        "keyword": "WILL",
+                        "second_sentence_start": "The shop",
+                        "second_sentence_end": "at 9 pm tomorrow.",
+                        "answer": "will close",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 2,
+                        "explanation": "Will per orari futuri (accettabile come alternativa al Present Simple per orari fissi)."
+                    },
+                    {
+                        "topic": "Passive Voice",
+                        "first_sentence": "Only registered users can access the premium content.",
+                        "keyword": "ACCESSED",
+                        "second_sentence_start": "The premium content",
+                        "second_sentence_end": "by registered users.",
+                        "answer": "can only be accessed",
+                        "alternatives": [],
+                        "min_words": 4,
+                        "max_words": 4,
+                        "explanation": "Modal passive: can + be + past participle."
+                    },
+                    {
+                        "topic": "Relative Clauses",
+                        "first_sentence": "I met a scientist. Her research could change medicine forever.",
+                        "keyword": "WHOSE",
+                        "second_sentence_start": "I met a scientist",
+                        "second_sentence_end": "could change medicine forever.",
+                        "answer": "whose research",
+                        "alternatives": [],
+                        "min_words": 2,
+                        "max_words": 2,
+                        "explanation": "Whose nelle relative clauses per il possesso: la ricerca della scienziata."
+                    },
+                    {
+                        "topic": "Past Perfect Simple & Continuous",
+                        "first_sentence": "The team lost because they hadn't trained properly.",
+                        "keyword": "PROPERLY",
+                        "second_sentence_start": "If the team had trained",
+                        "second_sentence_end": "the match.",
+                        "answer": "properly, they might have won",
+                        "alternatives": [
+                            "properly, they would have won",
+                            "properly, they could have won"
+                        ],
+                        "min_words": 4,
+                        "max_words": 5,
+                        "explanation": "Third Conditional: if + Past Perfect, would/might have + past participle. Situazione ipotetica nel passato."
+                    }
+                ]
+            }
+        ]
+    }
 };
